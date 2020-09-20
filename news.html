@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<!--News Section -->
+
+<div class="w3-content w3-justify w3-text-grey" id="news">
+    <h2 class="w3-text-grey">News</h2>
+    <hr class="w3-opacity">
+    {% for news in site.data.news %}
+    <ul>
+      <li>
+        <span class="title">{{ news.date }}</span>
+        <span class="news-subtitle">{{ news.description }}</span>
+        {% if news.attachments %}
+        <p>{{ news.attachments }}</p>
+        {% endif %}
+      </li>
+    </ul>
+    {% endfor %}
+</div>

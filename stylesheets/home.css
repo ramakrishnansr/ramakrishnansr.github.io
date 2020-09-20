@@ -116,3 +116,18 @@ h3{
 
 .title { display: block; margin: 0 0 3px 0; color:black;}
 
+.home {
+  background-color: #ddd;
+}
+
+.collaborator {
+  font-size: 75%;
+}
+
+.newstitle {
+  display: block; margin: 0 0 3px 0;
+}
+
+.news-subtitle {
+  font-size: 85%;
+}

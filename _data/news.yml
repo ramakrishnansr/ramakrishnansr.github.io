@@ -1,0 +1,47 @@
+- key:  news11                                                                                                                                                                   
+  date: 11 August 2020
+  description: 'I attended <a href="https://www.usenix.org/conference/foci20" target="_blank">FOCI 2020</a> and <a href="https://www.usenix.org/conference/usenixsecurity20/" target="_blank">Usenix Security 2020<a> funded by the student grant.'
+- key:  news10                                                                                                                                                                   
+  date: 26 June 2020
+  description: 'I gave a live-streamed talk about the <a href="https://censoredplanet.org/observatory" target="_blank">Censored Planet Observatory</a> at the <a href="https://ooni.org/post/2020-internet-measurement-village/" target="_blank">OONI Internet Measurement Village</a>.'
+  attachments: '<iframe style="margin-left:20%;" width="560" height="315" src="https://www.youtube-nocookie.com/embed/5IgnvR42cMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  home: 'true'
+- key:  news9                                                                                                                                                                   
+  date: 24 June 2020
+  description: 'I became a PhD candidate! 🎉'
+  home: 'true'
+- key:  news8                                                                                                                                                                   
+  date: 24 February 2020 
+  description: 'My first first-author <a href="https://www.censoredplanet.org/assets/filtermap.pdf" target="_blank">research paper</a> studying the proliferation of network censorship filters in the world. 🎉'
+  attachments: '<a href="https://www.censoredplanet.org/filtermap" target="_blank"><img src="images/filtermap_1.png" alt="FilterMap 1" style="width:37%; margin-left: 10%;  "></img></a>
+    <a href="https://cse.engin.umich.edu/stories/real-time-monitor-tracks-the-growing-use-of-network-filters-for-censorship" target="_blank"><img src="images/filtermap_2.png" alt="FilterMap 2" style="width:37%; margin-left: 5%; margin-right: 5%;  "></img></a>
+    <iframe  style="margin-left:20%;" width="560" height="315" src="https://www.youtube.com/embed/R8VlHOwakQk"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+- key:  news7                                                                                                                                                                   
+  date: 6 November 2019  
+  description: 'Excited to announce a <a href="https://www.censoredplanet.org/assets/russia.pdf" target="_blank">research paper</a> studying information control in depth in Russia.'
+  attachments: '<a href="https://www.censoredplanet.org/russia" target="_blank"><img src="images/russia_1.png" alt="Russia 1" style="width:37%; margin-left: 10%;  "></img></a>
+    <a href="https://www.nytimes.com/aponline/2019/11/06/us/politics/ap-us-russia-internet-censorship.html" target="_blank"><img src="images/russia_2.png" alt="Russia 2" style="width:37%; margin-left: 5%; margin-right: 5%;  "></img></a>'
+- key: news6                                                                                                                                                                       
+  date: 29 October 2019
+  description: '<a href="https://ooni.torproject.org" target="_blank">OONI</a> released a <a href="https://ooni.torproject.org/post/2019-blocking-abortion-rights-websites-women-on-waves-web/" target="_blank">blog post</a> on the blocking of abortion rights websites on the web, to which I contributed using data from the <a href="https://www.censoredplanet.org/observatory" target="_blank" title="Go to the CensoredPlanet Observatory">Censored Planet Observatory</a>.'
+  attachments: '<a href="https://ooni.torproject.org/post/2019-blocking-abortion-rights-websites-women-on-waves-web/" target="_blank"><img src="images/ooni_1.png" alt="OONI 1" style="width:40%; margin-left: 30%; margin-right: 30%;"></img></a>'
+- key: news5                                                                                                                                                                       
+  date: 31 July 2019
+  description: 'I attended and hosted a session in the <a href="https://citizenlab.ca/summerinstitute-2019/" target="_blank">Citizen Lab Summer Institute 2019</a> in Toronto, Canada facilitated by Citizen Labs travel grant.'
+- key: news4                                                                                                                                                                       
+  date: 23 July 2019
+  description: 'I led an investigation into the interception of HTTPS connections of Internet users in Kazakhstan. A blog post about our work is here: <a href="https://censoredplanet.org/kazakhstan" target="_blank:">https://censoredplanet.org/kazakhstan</a>'
+  attachments: '<a href="https://www.censoredplanet.org/kazakhstan" target="_blank"><img src="images/kazak_1.png" alt="Kazakhstan 1" style="width:37%; margin-left: 10%;  "></img></a>
+    <a href="https://blog.mozilla.org/blog/2019/08/21/mozilla-takes-action-to-protect-users-in-kazakhstan/" target="_blank"><img src="images/kazak_2.png" alt="Kazakhstan 2" style="width:37%; margin-left: 5%; margin-right: 5%;  "></img></a>'
+- key: news3                                                                                                                                                                       
+  date: 20 May 2019
+  description: 'I attended <a href="https://www.ieee-security.org/TC/SP2019/" target="_blank">IEEE S&amp;P 2019</a> in San Fransisco, California'
+- key: news2                                                                                                                                                                       
+  date: 13 May 2019
+  description: 'I attended the <a href="https://www.midwestsecurityworkshop.com/2019/" target="_blank">Midwest Security Workshop 7</a> in Chicago, Illinois'
+- key: news1                                                                                                                                                                       
+  date: 14 August 2018
+  description: 'I gave a <a href="https://censoredplanet.org/assets/CP_lightning_talk.pdf" target="_blank">Lightining Talk</a> about the <a href="https://www.censoredplanet.org/observatory" target="_blank">Censored Planet Observatory</a> at <a href="https://www.usenix.org/conference/foci18" target="_blank">FOCI 2018.</a>'
+  attachments: '<a href="https://censoredplanet.org/assets/CP_lightning_talk.pdf" target="_blank"><img src="images/lightning.jpg" alt="Lightning Talk" style="width:40%; margin-left: 30%; margin-right: 30%;  "></img></a>'
+
+

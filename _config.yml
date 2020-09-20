@@ -1,0 +1,13 @@
+title: Ramakrishnan Sundara Raman
+email: ramaks@umich.edu
+description: >
+  Ramakrishnan Sundara Raman, Graduate student at the University of Michigan
+baseurl: ""
+url: ""
+twitter_username: ramakrishnan13s
+
+# Build settings
+markdown: kramdown
+
+collections: 
+  - publications
