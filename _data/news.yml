@@ -1,3 +1,7 @@
+- key:  news12                                                                                                                                                                   
+  date: 27 October 2020
+  description: 'I am attending <a href="https://conferences.sigcomm.org/imc/2020/#" target="_blank">ACM IMC 2020</a> where I am presenting our paper on <a href="assets/Kazakhstan.pdf" target="_blank">investigating large scale HTTPS interception in Kazakhstan.</a>'
+  home: 'true'
 - key:  news11                                                                                                                                                                   
   date: 11 August 2020
   description: 'I attended <a href="https://www.usenix.org/conference/foci20" target="_blank">FOCI 2020</a> and <a href="https://www.usenix.org/conference/usenixsecurity20/" target="_blank">Usenix Security 2020<a> funded by the student grant.'

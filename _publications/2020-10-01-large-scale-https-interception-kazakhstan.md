@@ -12,6 +12,7 @@ collaborators:
   - Eric Wurstrow
   - J. Alex Halderman
   - Roya Ensafi
+pdf: assets/Kazakhstan.pdf
 bibtex: "@inproceedings{raman2020investigating,<br>
 title={{Investigating Large Scale HTTPS Interception in Kazakhstan}},<br>
 author={R. Sundara Raman, L. Evdokimov, E. Wustrow, A. Halderman, and R. Ensafi},<br>

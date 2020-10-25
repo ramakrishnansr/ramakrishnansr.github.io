@@ -39,5 +39,5 @@ year={2020}<br>
 }"
 talk: "https://youtu.be/aKeMB-Owlug"
 slides: "https://www.reethika.info/papers/slides/ndss20-decentralized-slides-v1.pdf"
-pdf: "https://www.censoredplanet.org/assets/russia.pdf"
+pdf: assets/russia.pdf
 ---

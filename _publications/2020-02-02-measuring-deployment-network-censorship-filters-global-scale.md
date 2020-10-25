@@ -26,5 +26,5 @@ year={2020}<br>
 }"
 talk: "https://youtu.be/R8VlHOwakQk"
 slides: "https://www.censoredplanet.org/assets/filtermap-slides.pdf"
-pdf: "https://www.censoredplanet.org/assets/filtermap.pdf"
+pdf: assets/filtermap.pdf
 ---
