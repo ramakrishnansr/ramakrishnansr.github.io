@@ -21,7 +21,10 @@ layout: default
     {% endfor %}<br/> 
     <span class="collaborator">{{ publication.publisher }}, {{ publication.date | date: "%B %Y" }}
       </span>
-
+    {% if publication.tag %}
+      <span class="collaborator">{{ publication.tag }}
+      </span>
+    {% endif %}
     {% endif %}
     {% endfor %}
           
