@@ -14,11 +14,11 @@ collaborators:
   - Roya Ensafi
 pdf: assets/Kazakhstan.pdf
 slides: assets/kazakhstan_long_slides.pdf
-bibtex: "@inproceedings{raman2020investigating,<br>
+bibtex: "@inproceedings{sundararaman2020investigating,<br>
 title={{Investigating Large Scale HTTPS Interception in Kazakhstan}},<br>
 author={R. Sundara Raman, L. Evdokimov, E. Wustrow, A. Halderman, and R. Ensafi},<br>
 booktitle={In ACM Internet Measurement Conference (IMC)},<br>
 year={2020}<br>
 }"
-tag: Best Paper Award Nominee 🎉'
+tag: Best Paper Award Nominee 🎉
 ---

@@ -1,11 +1,14 @@
+- key:  news14                                                                                                                                                                   
+  date: 10 November 2020
+  description: 'I am presenting our paper on <a href="assets/censoredplanet.pdf" target="_blank">Censored Planet</a> at <a href="https://www.sigsac.org/ccs/CCS2020/index.html" target="_blank">ACM SIGSAC CCS 2020</a>.'
+  home: 'true'
 - key:  news13                                                                                                                                                                   
   date: 27 October 2020
-  description: 'Our paper on <a href="assets/Kazakhstan.pdf" target="_blank">investigating large scale HTTPS interception in Kazakhstan</a> was nominated for the best paper award at <a href="https://conferences.sigcomm.org/imc/2020/#" target="_blank">ACM IMC 2020.</a>'
+  description: 'Our paper on <a href="assets/Kazakhstan.pdf" target="_blank">investigating large scale HTTPS interception in Kazakhstan</a> was nominated for the best paper award at <a href="https://conferences.sigcomm.org/imc/2020/#" target="_blank">ACM IMC 2020</a>.'
   home: 'true'
 - key:  news12                                                                                                                                                                   
   date: 27 October 2020
-  description: 'I am attending <a href="https://conferences.sigcomm.org/imc/2020/#" target="_blank">ACM IMC 2020</a> where I am presenting our paper on <a href="assets/Kazakhstan.pdf" target="_blank">investigating large scale HTTPS interception in Kazakhstan.</a>'
-
+  description: 'I attended <a href="https://conferences.sigcomm.org/imc/2020/#" target="_blank">ACM IMC 2020</a> where I presented our paper on <a href="assets/Kazakhstan.pdf" target="_blank">investigating large scale HTTPS interception in Kazakhstan.</a>'
 - key:  news11                                                                                                                                                                   
   date: 11 August 2020
   description: 'I attended <a href="https://www.usenix.org/conference/foci20" target="_blank">FOCI 2020</a> and <a href="https://www.usenix.org/conference/usenixsecurity20/" target="_blank">Usenix Security 2020<a> funded by the student grant.'
@@ -17,7 +20,6 @@
 - key:  news9                                                                                                                                                                   
   date: 24 June 2020
   description: 'I became a PhD candidate! 🎉'
-  home: 'true'
 - key:  news8                                                                                                                                                                   
   date: 24 February 2020 
   description: 'My first first-author <a href="https://www.censoredplanet.org/assets/filtermap.pdf" target="_blank">research paper</a> studying the proliferation of network censorship filters in the world. 🎉'
