@@ -7,7 +7,7 @@ tags:
   - observatory
   - country-studies
 collaborators:
-  - Ram Sundara Raman
+  - <b>Ram Sundara Raman</b>
   - Prerana Shenoy
   - Katharina Kohls
   - Roya Ensafi
