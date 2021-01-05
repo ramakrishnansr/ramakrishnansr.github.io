@@ -13,6 +13,7 @@ collaborators:
   - Roya Ensafi
 pdf: "assets/censoredplanet.pdf"
 slides: "assets/censoredplanet-slides.pdf"
+talk: "https://youtu.be/8dwZdNkJ508"
 press:
   - publisher: Censored Planet
     link: "https://censoredplanet.org/censoredplanet-findings"

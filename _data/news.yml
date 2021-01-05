@@ -1,4 +1,9 @@
-- key:  news14                                                                                                                                                                   
+- key:  news15                                                                                                                                                               
+  date: 11 November 2020
+  description: 'I was a finalist in the <a href="https://cse.engin.umich.edu/stories/2020-cse-graduate-student-honors-competition-highlights-outstanding-research" target="_blank">2020 Michigan CSE Graduate Student Honors Competition</a> where I represented the <a href ="https://systems.engin.umich.edu/" targer="_blank">Michigan Systems Lab</a>'
+  attachments: '<img src="images/honors-comp-2020.jpg" alt="CSE Graduate Honors Competition 2020" width="560" height="315"/'
+  home: 'true'
+- key:  news14                                                                                                                                                               
   date: 10 November 2020
   description: 'I am presenting our paper on <a href="assets/censoredplanet.pdf" target="_blank">Censored Planet</a> at <a href="https://www.sigsac.org/ccs/CCS2020/index.html" target="_blank">ACM SIGSAC CCS 2020</a>.'
   home: 'true'
@@ -16,7 +21,6 @@
   date: 26 June 2020
   description: 'I gave a live-streamed talk about the <a href="https://censoredplanet.org/observatory" target="_blank">Censored Planet Observatory</a> at the <a href="https://ooni.org/post/2020-internet-measurement-village/" target="_blank">OONI Internet Measurement Village</a>.'
   attachments: '<iframe style="margin-left:20%;" width="560" height="315" src="https://www.youtube-nocookie.com/embed/5IgnvR42cMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-  home: 'true'
 - key:  news9                                                                                                                                                                   
   date: 24 June 2020
   description: 'I became a PhD candidate! 🎉'
