@@ -9,7 +9,7 @@ layout: default
     <h2 class="w3-text-grey">About Me</h2>
 
     <hr class="w3-opacity">
-    <p> I am currently a third year PhD candidate at the University of Michigan <a href = "https://www.cse.umich.edu/" target="_blank" title="Go to the UMich page">Computer Science and Engineering</a> department, where I am advised by <a href="https://ensa.fi/" target="_blank"title="Go to the UMich page">Prof. Roya Ensafi</a>. I am a member of the <a href="https://www.censoredplanet.org" target="_blank" title="Go to the CensoredPlanet page">Censored Planet Lab</a>, where I work on improving security and privacy in the Internet. My current research involves measuring Internet censorship and network interference at global scale. My work also involves understanding and analyzing the technologies that enable censorship and surveillence. I lead work on the <a href="https://www.censoredplanet.org/observatory" target="_blank" title="Go to the CensoredPlanet Observatory">Censored Planet Observatory</a>, which is a platform for measuring various types of network interference continously around the world.  </p>
+    <p> I am currently a third year PhD candidate at the University of Michigan <a href = "https://www.cse.umich.edu/" target="_blank" title="Go to the UMich page">Computer Science and Engineering</a> department, where I am advised by <a href="https://ensa.fi/" target="_blank"title="Go to the UMich page">Prof. Roya Ensafi</a>. I am a member of the <a href="https://www.censoredplanet.org" target="_blank" title="Go to the CensoredPlanet page">Censored Planet Lab</a>, where I work on improving security and privacy in the Internet. My current research involves measuring Internet censorship and network interference at global scale. My work also involves understanding and analyzing the technologies that enable censorship and surveillence. I lead work on the <a href="https://www.censoredplanet.org" target="_blank" title="Go to the CensoredPlanet Observatory">Censored Planet Observatory</a>, which is a platform for measuring various types of network interference continously around the world.  </p>
 
    
   <!-- End About Section -->
@@ -68,15 +68,51 @@ layout: default
 
 <br/>
 
+
+<div class="w3-content w3-justify w3-text-grey" id="invited">
+  <h2 class="w3-text-grey"><a href="/invited"><u>Invited Talks</u></a></h2>
+  <hr class="w3-opacity">
+  {% for talk in site.data.invited %}
+  <ul>
+    <li>
+      <span class="title">{{ talk.date }}</span>
+      <span class="news-subtitle">Title: {{ talk.topic }} {% if talk.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity"></i></a>{% endif %}</span>
+      <br/>
+      <span class="news-subtitle">Venue: {{ talk.venue }}</span>
+    </li>
+  </ul>
+  {% endfor %}
+</div>
+
+<br/>
+
+
+<div class="w3-content w3-justify w3-text-grey" id="invited">
+  <h2 class="w3-text-grey"><a href="/blogposts"><u>Blogposts</u></a></h2>
+  <hr class="w3-opacity">
+  {% for blog in site.data.blogposts %}
+  <ul>
+    <li>
+      <span class="title">{{ blog.date }}</span>
+      <span class="news-subtitle">Title: {{ blog.topic }} {% if blog.link %} <a href=" {{ blog.link }} " target="_blank" title="Go to blogpost"><i class="fa fa-file w3-hover-opacity"></i></a>{% endif %}</span>
+      <br/>
+      <span class="news-subtitle">Venue: {{ blog.venue }}</span>
+    </li>
+  </ul>
+  {% endfor %}
+</div>
+
+<br/>
+
 <!--Projects Section-->
 <div class="w3-content w3-justify w3-text-grey" id="projects">
     <h2><a href="/projects"><u>Projects</u></a></h2>
     <hr class="w3-opacity">
 
     <h3 class="title">Censored Planet Observatory</h3>
-    <p><iframe src="https://www.youtube-nocookie.com/embed/ljZJrM9A2Pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-left:20%;" width="560" height="315"></iframe></p>
+    <p><iframe src="https://www.youtube-nocookie.com/embed/ljZJrM9A2Pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-left:15%; width:70%; margin-right:15%" height=350></iframe></p>
 
-    I am the primary developer and maintainer of the <a href="https://www.censoredplanet.org/observatory" target="_blank">Censored Planet Observatory</a>, which is a platform for measuring Internet censorship and network interference continously and globally. The observatory uses thousands of remote infrastructural vantage points from over 170 countries to continuously monitor disruption tactics used by authorities around the world. All data collected using the Observatory is made <a href="https://www.censoredplanet.org/data/raw" target="_blank">public</a> for use by researchers and policy-makers, and we have already released several <a href="https://www.censoredplanet.org" target="_blank">reports</a> based on data from the Observatory. I also maintain the Observatory website, which contains several visualizations of our data. 
+    I am the primary developer and maintainer of the <a href="https://www.censoredplanet.org" target="_blank">Censored Planet Observatory</a>, which is a platform for measuring Internet censorship and network interference continously and globally. The observatory uses thousands of remote infrastructural vantage points from over 170 countries to continuously monitor disruption tactics used by authorities around the world. All data collected using the Observatory is made <a href="https://www.censoredplanet.org/data/raw" target="_blank">public</a> for use by researchers and policy-makers, and we have already released several <a href="https://www.censoredplanet.org" target="_blank">reports</a> based on data from the Observatory. I also maintain the Observatory website, which contains several visualizations of our data. 
 
     <h4>Map showing the Observatory's vantage point distribution:</h4> 
     <a href="https://www.censoredplanet.org/data/visualizations" target="_blank"><img src="images/cp_vp.png" alt="VP" style="width:90%"></img></a>

@@ -1,7 +1,11 @@
+- key:  news16                                                                                                                                                               
+  date: 21 February 2021
+  description: 'I was honoured to give an invited talk on <a href="https://censoredplanet.org">Censored Planet</a> at the <a href="https://dnsprivacy.org/wiki/display/DNSPWS/2021%3A+NDSS+DNS+Privacy+Workshop">2021 NDSS DNS Privacy workshop</a>.'
+  home: 'true'
 - key:  news15                                                                                                                                                               
   date: 11 November 2020
-  description: 'I was a finalist in the <a href="https://cse.engin.umich.edu/stories/2020-cse-graduate-student-honors-competition-highlights-outstanding-research" target="_blank">2020 Michigan CSE Graduate Student Honors Competition</a> where I represented the <a href ="https://systems.engin.umich.edu/" targer="_blank">Michigan Systems Lab</a>'
-  attachments: '<img src="images/honors-comp-2020.jpg" alt="CSE Graduate Honors Competition 2020" width="560" height="315"/'
+  description: 'I was a finalist in the <a href="https://cse.engin.umich.edu/stories/2020-cse-graduate-student-honors-competition-highlights-outstanding-research" target="_blank">2020 Michigan CSE Graduate Student Honors Competition</a> where I represented the <a href ="https://systems.engin.umich.edu/" targer="_blank">Michigan Systems Lab</a>.'
+  attachments: '<img src="images/honors-comp-2020.jpg" alt="CSE Graduate Honors Competition 2020" style="width:60%; margin-left: 20%; margin-right: 20%;  "/>'
   home: 'true'
 - key:  news14                                                                                                                                                               
   date: 10 November 2020
@@ -10,7 +14,6 @@
 - key:  news13                                                                                                                                                                   
   date: 27 October 2020
   description: 'Our paper on <a href="assets/Kazakhstan.pdf" target="_blank">investigating large scale HTTPS interception in Kazakhstan</a> was nominated for the best paper award at <a href="https://conferences.sigcomm.org/imc/2020/#" target="_blank">ACM IMC 2020</a>.'
-  home: 'true'
 - key:  news12                                                                                                                                                                   
   date: 27 October 2020
   description: 'I attended <a href="https://conferences.sigcomm.org/imc/2020/#" target="_blank">ACM IMC 2020</a> where I presented our paper on <a href="assets/Kazakhstan.pdf" target="_blank">investigating large scale HTTPS interception in Kazakhstan.</a>'
@@ -19,8 +22,8 @@
   description: 'I attended <a href="https://www.usenix.org/conference/foci20" target="_blank">FOCI 2020</a> and <a href="https://www.usenix.org/conference/usenixsecurity20/" target="_blank">Usenix Security 2020<a> funded by the student grant.'
 - key:  news10                                                                                                                                                                   
   date: 26 June 2020
-  description: 'I gave a live-streamed talk about the <a href="https://censoredplanet.org/observatory" target="_blank">Censored Planet Observatory</a> at the <a href="https://ooni.org/post/2020-internet-measurement-village/" target="_blank">OONI Internet Measurement Village</a>.'
-  attachments: '<iframe style="margin-left:20%;" width="560" height="315" src="https://www.youtube-nocookie.com/embed/5IgnvR42cMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  description: 'I gave a live-streamed talk about the <a href="https://censoredplanet.org" target="_blank">Censored Planet Observatory</a> at the <a href="https://ooni.org/post/2020-internet-measurement-village/" target="_blank">OONI Internet Measurement Village</a>.'
+  attachments: '<iframe style="margin-left:15%; width:70%; margin-right:15%" height=350 src="https://www.youtube-nocookie.com/embed/5IgnvR42cMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 - key:  news9                                                                                                                                                                   
   date: 24 June 2020
   description: 'I became a PhD candidate! 🎉'
@@ -29,7 +32,7 @@
   description: 'My first first-author <a href="https://www.censoredplanet.org/assets/filtermap.pdf" target="_blank">research paper</a> studying the proliferation of network censorship filters in the world. 🎉'
   attachments: '<a href="https://www.censoredplanet.org/filtermap" target="_blank"><img src="images/filtermap_1.png" alt="FilterMap 1" style="width:37%; margin-left: 10%;  "></img></a>
     <a href="https://cse.engin.umich.edu/stories/real-time-monitor-tracks-the-growing-use-of-network-filters-for-censorship" target="_blank"><img src="images/filtermap_2.png" alt="FilterMap 2" style="width:37%; margin-left: 5%; margin-right: 5%;  "></img></a>
-    <iframe  style="margin-left:20%;" width="560" height="315" src="https://www.youtube.com/embed/R8VlHOwakQk"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    <iframe  style="margin-left:15%; width:70%; margin-right:15%" height=350 src="https://www.youtube.com/embed/R8VlHOwakQk"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 - key:  news7                                                                                                                                                                   
   date: 6 November 2019  
   description: 'Excited to announce a <a href="https://www.censoredplanet.org/assets/russia.pdf" target="_blank">research paper</a> studying information control in depth in Russia.'
@@ -37,7 +40,7 @@
     <a href="https://www.nytimes.com/aponline/2019/11/06/us/politics/ap-us-russia-internet-censorship.html" target="_blank"><img src="images/russia_2.png" alt="Russia 2" style="width:37%; margin-left: 5%; margin-right: 5%;  "></img></a>'
 - key: news6                                                                                                                                                                       
   date: 29 October 2019
-  description: '<a href="https://ooni.torproject.org" target="_blank">OONI</a> released a <a href="https://ooni.torproject.org/post/2019-blocking-abortion-rights-websites-women-on-waves-web/" target="_blank">blog post</a> on the blocking of abortion rights websites on the web, to which I contributed using data from the <a href="https://www.censoredplanet.org/observatory" target="_blank" title="Go to the CensoredPlanet Observatory">Censored Planet Observatory</a>.'
+  description: '<a href="https://ooni.torproject.org" target="_blank">OONI</a> released a <a href="https://ooni.torproject.org/post/2019-blocking-abortion-rights-websites-women-on-waves-web/" target="_blank">blog post</a> on the blocking of abortion rights websites on the web, to which I contributed using data from the <a href="https://www.censoredplanet.org" target="_blank" title="Go to the CensoredPlanet Observatory">Censored Planet Observatory</a>.'
   attachments: '<a href="https://ooni.torproject.org/post/2019-blocking-abortion-rights-websites-women-on-waves-web/" target="_blank"><img src="images/ooni_1.png" alt="OONI 1" style="width:40%; margin-left: 30%; margin-right: 30%;"></img></a>'
 - key: news5                                                                                                                                                                       
   date: 31 July 2019
@@ -55,7 +58,7 @@
   description: 'I attended the <a href="https://www.midwestsecurityworkshop.com/2019/" target="_blank">Midwest Security Workshop 7</a> in Chicago, Illinois'
 - key: news1                                                                                                                                                                       
   date: 14 August 2018
-  description: 'I gave a <a href="https://censoredplanet.org/assets/CP_lightning_talk.pdf" target="_blank">Lightining Talk</a> about the <a href="https://www.censoredplanet.org/observatory" target="_blank">Censored Planet Observatory</a> at <a href="https://www.usenix.org/conference/foci18" target="_blank">FOCI 2018.</a>'
+  description: 'I gave a <a href="https://censoredplanet.org/assets/CP_lightning_talk.pdf" target="_blank">Lightining Talk</a> about the <a href="https://www.censoredplanet.org" target="_blank">Censored Planet Observatory</a> at <a href="https://www.usenix.org/conference/foci18" target="_blank">FOCI 2018.</a>'
   attachments: '<a href="https://censoredplanet.org/assets/CP_lightning_talk.pdf" target="_blank"><img src="images/lightning.jpg" alt="Lightning Talk" style="width:40%; margin-left: 30%; margin-right: 30%;  "></img></a>'
 
 

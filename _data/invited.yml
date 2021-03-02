@@ -1,0 +1,9 @@
+- key: invited2                                                                                                                                                                     
+  date: 21 February 2021
+  topic: '<a href="https://censoredplanet.org" target="_blank">Censored Planet: An Internet-wide Longitudinal Observatory</a>'
+  venue: '<a href="https://dnsprivacy.org/wiki/display/DNSPWS/2021%3A+NDSS+DNS+Privacy+Workshop">2021 NDSS DNS Privacy workshop</a>'
+- key: invited1                                                                                                                                                                       
+  date: 26 June 2020
+  topic: '<a href="https://censoredplanet.org" target="_blank">Censored Planet: Measuring Internet censorship remotely</a>'
+  venue: '<a href="https://ooni.org/post/2020-internet-measurement-village/" target="_blank">OONI Internet Measurement Village</a>'
+  link: 'https://youtu.be/5IgnvR42cMQ'

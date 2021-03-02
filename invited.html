@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="w3-content w3-justify w3-text-grey" id="invited">
+    <h2 class="w3-text-grey"><a href="/invited"><u>Invited Talks</u></a></h2>
+    <hr class="w3-opacity">
+    {% for talk in site.data.invited %}
+    <ul>
+      <li>
+        <span class="title">{{ talk.date }}</span>
+        <span class="news-subtitle">Title: {{ talk.topic }} {% if talk.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity"></i></a>{% endif %}</span>
+        <br/>
+        <span class="news-subtitle">Venue: {{ talk.venue }}</span>
+      </li>
+    </ul>
+    {% endfor %}
+  </div>
