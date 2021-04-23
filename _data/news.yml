@@ -1,3 +1,12 @@
+- key:  news17                                                                                                                                                               
+  date: 10 April 2021
+  description: 'I led a series of outreach events (<a href="https://www.femmes.studentorgs.umich.edu/femmes-connect" target="_blank">FEMMES Connect</a>, <a href="https://www.femmes.studentorgs.umich.edu/capstones" target="_blank">FEMMES Explore</a>) for <a href="https://cseg-michigan.github.io/" target="_blank">CSEG</a> in collaboration with <a href="https://www.femmes.studentorgs.umich.edu/" target="_blank">FEMMES University of Michigan</a>. The events involved designing and performing activities that helped middle-school aged students learn about computer algorithms and robots.'
+  attachments: '<img src="images/femmes_connect.png" alt="CSEG Outreac 2021" style="width:60%; margin-left: 20%; margin-right: 20%;  "/>'
+  home: 'true'
+- key:  news18                                                                                                                                                               
+  date: 5 April 2021
+  description: 'We at Censored Planet are excited to <a href="https://github.com/censoredplanet/censoredplanet/issues/12" target="_blank">announce the release of Satellite-v2, along with documentation, analysis helpers and other information<a/> which we hope will help the community understand Censored Planet data better.'
+  home: 'true'
 - key:  news16                                                                                                                                                               
   date: 21 February 2021
   description: 'I was honoured to give an invited talk on <a href="https://censoredplanet.org">Censored Planet</a> at the <a href="https://dnsprivacy.org/wiki/display/DNSPWS/2021%3A+NDSS+DNS+Privacy+Workshop">2021 NDSS DNS Privacy workshop</a>.'
@@ -6,11 +15,9 @@
   date: 11 November 2020
   description: 'I was a finalist in the <a href="https://cse.engin.umich.edu/stories/2020-cse-graduate-student-honors-competition-highlights-outstanding-research" target="_blank">2020 Michigan CSE Graduate Student Honors Competition</a> where I represented the <a href ="https://systems.engin.umich.edu/" targer="_blank">Michigan Systems Lab</a>.'
   attachments: '<img src="images/honors-comp-2020.jpg" alt="CSE Graduate Honors Competition 2020" style="width:60%; margin-left: 20%; margin-right: 20%;  "/>'
-  home: 'true'
 - key:  news14                                                                                                                                                               
   date: 10 November 2020
   description: 'I am presenting our paper on <a href="assets/censoredplanet.pdf" target="_blank">Censored Planet</a> at <a href="https://www.sigsac.org/ccs/CCS2020/index.html" target="_blank">ACM SIGSAC CCS 2020</a>.'
-  home: 'true'
 - key:  news13                                                                                                                                                                   
   date: 27 October 2020
   description: 'Our paper on <a href="assets/Kazakhstan.pdf" target="_blank">investigating large scale HTTPS interception in Kazakhstan</a> was nominated for the best paper award at <a href="https://conferences.sigcomm.org/imc/2020/#" target="_blank">ACM IMC 2020</a>.'

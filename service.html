@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<!--Service Section -->
+
+<div class="w3-content w3-justify w3-text-grey" id="service">
+  <h2 class="w3-text-grey"><a href="/service"><u>Service</u></a></h2>
+  <hr class="w3-opacity">
+  {% for service in site.data.service %}
+  {% if service.display == 'true'  %}
+  <ul>
+    <li>{{ service.text }}
+    </li>
+  </ul>
+  {% endif %}
+  {% endfor %}
+</div>
