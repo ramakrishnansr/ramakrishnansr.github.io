@@ -47,6 +47,25 @@ layout: default
 
 <br/>
 
+<div class="w3-content w3-justify w3-text-grey" id="teaching">
+  <h2 class="w3-text-grey"><a href="/teaching"><u>Teaching</u></a></h2>
+  <hr class="w3-opacity">
+  {% for teaching in site.data.teaching %}
+  <ul>
+    <li>
+      <span class="title">{{ teaching.date }}</span>
+      <span class="news-subtitle">Course: {{ teaching.class }}</span>
+      <br/>
+      <span class="news-subtitle">Position: {{ teaching.position }}</span>
+      <br/>
+      <span class="news-subtitle">{{ teaching.description }}</span>
+    </li>
+  </ul>
+  {% endfor %}
+</div>
+
+<br/>
+
 <div class="w3-content w3-justify w3-text-grey" id="news">
     <h2 class="w3-text-grey"><a href="/news"><u>News</u></a></h2>
     <hr class="w3-opacity">
