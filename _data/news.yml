@@ -1,7 +1,12 @@
+- key:  news18                                                                                                                                                               
+  date: 10 June 2021
+  description: 'I attended the <a href="https://nextprof.engin.umich.edu/" target="_blank">NextProf Engineering 2021 workshop</a> organized by the University of Michigan'
+  attachments: '<img src="images/nextprof.png" alt="NextProf 2021" style="width:60%; margin-left: 20%; margin-right: 20%;  "/>'
+  home: 'true'
 - key:  news17                                                                                                                                                               
   date: 10 April 2021
   description: 'I led a series of outreach events (<a href="https://www.femmes.studentorgs.umich.edu/femmes-connect" target="_blank">FEMMES Connect</a>, <a href="https://www.femmes.studentorgs.umich.edu/capstones" target="_blank">FEMMES Explore</a>) for <a href="https://cseg-michigan.github.io/" target="_blank">CSEG</a> in collaboration with <a href="https://www.femmes.studentorgs.umich.edu/" target="_blank">FEMMES University of Michigan</a>. The events involved designing and performing activities that helped middle-school aged students learn about computer algorithms and robots.'
-  attachments: '<img src="images/femmes_connect.png" alt="CSEG Outreac 2021" style="width:60%; margin-left: 20%; margin-right: 20%;  "/>'
+  attachments: '<img src="images/femmes_connect.png" alt="CSEG Outreach 2021" style="width:60%; margin-left: 20%; margin-right: 20%;  "/>'
   home: 'true'
 - key:  news18                                                                                                                                                               
   date: 5 April 2021
@@ -10,7 +15,6 @@
 - key:  news16                                                                                                                                                               
   date: 21 February 2021
   description: 'I was honoured to give an invited talk on <a href="https://censoredplanet.org">Censored Planet</a> at the <a href="https://dnsprivacy.org/wiki/display/DNSPWS/2021%3A+NDSS+DNS+Privacy+Workshop">2021 NDSS DNS Privacy workshop</a>.'
-  home: 'true'
 - key:  news15                                                                                                                                                               
   date: 11 November 2020
   description: 'I was a finalist in the <a href="https://cse.engin.umich.edu/stories/2020-cse-graduate-student-honors-competition-highlights-outstanding-research" target="_blank">2020 Michigan CSE Graduate Student Honors Competition</a> where I represented the <a href ="https://systems.engin.umich.edu/" targer="_blank">Michigan Systems Lab</a>.'

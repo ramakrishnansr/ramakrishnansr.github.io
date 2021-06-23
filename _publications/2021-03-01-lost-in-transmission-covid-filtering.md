@@ -9,7 +9,7 @@ tags:
   - dual-use
 collaborators:
   - Anjali Vyas
-  - Ram Sundara Raman
+  - <b>Ram Sundara Raman</b>
   - Nick Ceccio
   - Philipp Lutscher
   - Roya Ensafi
