@@ -1,0 +1,11 @@
+- key: award3                                                                                                                                                                       
+  date: 5 August 2021
+  award: '<a href="/images/honorable_mention_award.pdf" target="_blank">GSI Honorable Mention Award</a>'
+  display: 'true'
+- key: award2                                                                                                                                                                       
+  date: 11 November 2020
+  award: '<a href="https://cse.engin.umich.edu/stories/2020-cse-graduate-student-honors-competition-highlights-outstanding-research" target="_blank">2020 Michigan CSE Graduate Student Honors Competition Finalist</a>'
+  display: 'true'
+- key: award1                                                                                                                                                                       
+  date: 17 October 2020
+  award: '<a href="https://dl.acm.org/doi/10.1145/3419394.3423665" target="_blank">ACM IMC 2020 Best paper award nominee</a>'

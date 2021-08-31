@@ -40,4 +40,5 @@ year={2020}<br>
 talk: "https://youtu.be/aKeMB-Owlug"
 slides: "https://www.reethika.info/papers/slides/ndss20-decentralized-slides-v1.pdf"
 pdf: assets/russia.pdf
+tag: CSAW'20 Applied Research Competition North America Top 10 Paper 🎉
 ---

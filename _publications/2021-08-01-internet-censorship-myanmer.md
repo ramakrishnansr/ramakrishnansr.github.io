@@ -15,7 +15,7 @@ collaborators:
   - Doug Madory
   - Molly Roberts
   - Alberto Dainotti
-#pdf: "assets/covid.pdf"
+pdf: "assets/myanmar.pdf"
 #talk: "https://youtu.be/6_gzdp7zSaw"
 #slides: "assets/covid-slides.pdf"
 bibtex: "@inproceedings{padmanabhan2021multi-perspective,<br>

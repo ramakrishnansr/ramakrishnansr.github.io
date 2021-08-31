@@ -1,3 +1,7 @@
+- key:  news19                                                                                                                                                               
+  date: 27 August 2021
+  description: 'Excited to attend and serve as a session chair for the HTTPS censorship session at <a href = "https://conferences.sigcomm.org/sigcomm/2021/workshop-foci.html" target = "_blank">ACM SIGCOMM 2021 Workshop on Free and Open Communications on the Internet (FOCI 21)</a>'
+  home: 'true'
 - key:  news18                                                                                                                                                               
   date: 10 June 2021
   description: 'I attended the <a href="https://nextprof.engin.umich.edu/" target="_blank">NextProf Engineering 2021 workshop</a> organized by the University of Michigan'
@@ -11,7 +15,6 @@
 - key:  news18                                                                                                                                                               
   date: 5 April 2021
   description: 'We at Censored Planet are excited to <a href="https://github.com/censoredplanet/censoredplanet/issues/12" target="_blank">announce the release of Satellite-v2, along with documentation, analysis helpers and other information<a/> which we hope will help the community understand Censored Planet data better.'
-  home: 'true'
 - key:  news16                                                                                                                                                               
   date: 21 February 2021
   description: 'I was honoured to give an invited talk on <a href="https://censoredplanet.org">Censored Planet</a> at the <a href="https://dnsprivacy.org/wiki/display/DNSPWS/2021%3A+NDSS+DNS+Privacy+Workshop">2021 NDSS DNS Privacy workshop</a>.'

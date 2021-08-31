@@ -1,0 +1,18 @@
+---
+layout: only-title
+---
+
+<!--Awards Section -->
+
+<div class="w3-content w3-justify w3-text-grey" id="awards">
+    <h2 class="w3-text-grey">Awards</h2>
+    <hr class="w3-opacity">
+    {% for awards in site.data.awards %}
+    <ul>
+      <li>
+        <span class="title">{{ awards.date }}</span>
+        <span class="news-subtitle">{{ awards.award }}</span>
+      </li>
+    </ul>
+    {% endfor %}
+</div>
