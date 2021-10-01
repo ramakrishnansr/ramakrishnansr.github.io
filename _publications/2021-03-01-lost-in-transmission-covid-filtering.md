@@ -1,6 +1,6 @@
 ---
 date: 2021-03-01
-publisher: Financial Cryptography and Data Security (FC) 2021
+publisher: Financial Cryptography and Data Security (FC)
 name: "Lost in Transmission: Investigating Filtering of COVID-19 Websites"
 tags:
   - censorship

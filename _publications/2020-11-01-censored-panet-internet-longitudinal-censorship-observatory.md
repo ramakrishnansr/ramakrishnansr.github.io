@@ -1,6 +1,6 @@
 ---
 date: 2020-11-10
-publisher: ACM SIGSAC Conference on Computer and Communications Security (CCS) 2020
+publisher: ACM SIGSAC Conference on Computer and Communications Security (CCS)
 name: "Censored Planet: An Internet-wide, Longitudinal Censorship Observatory"
 tags:
   - censorship
