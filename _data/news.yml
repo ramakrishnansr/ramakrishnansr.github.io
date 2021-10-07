@@ -1,3 +1,8 @@
+- key: news20                                                                                                                                                          
+  date: 04 October 2021
+  description: 'We organized the <a href = "https://censoredplanet.org/webinar2021" target = "_blank">Censored Planet Community Webinar 2021</a>, where I talked about Censored Planet tools, data, and some of our new capabilities to analyze and explore data produced by the observatory.'
+  attachments: '<img src="images/webinar.png" alt="Webinar 2021" style="width:60%; margin-left: 20%; margin-right: 20%;  "/>' 
+  home: 'true'
 - key:  news19                                                                                                                                                               
   date: 27 August 2021
   description: 'Excited to attend and serve as a session chair for the HTTPS censorship session at <a href = "https://conferences.sigcomm.org/sigcomm/2021/workshop-foci.html" target = "_blank">ACM SIGCOMM 2021 Workshop on Free and Open Communications on the Internet (FOCI 21)</a>'
@@ -11,7 +16,6 @@
   date: 10 April 2021
   description: 'I led a series of outreach events (<a href="https://www.femmes.studentorgs.umich.edu/femmes-connect" target="_blank">FEMMES Connect</a>, <a href="https://www.femmes.studentorgs.umich.edu/capstones" target="_blank">FEMMES Explore</a>) for <a href="https://cseg-michigan.github.io/" target="_blank">CSEG</a> in collaboration with <a href="https://www.femmes.studentorgs.umich.edu/" target="_blank">FEMMES University of Michigan</a>. The events involved designing and performing activities that helped middle-school aged students learn about computer algorithms and robots.'
   attachments: '<img src="images/femmes_connect.png" alt="CSEG Outreach 2021" style="width:60%; margin-left: 20%; margin-right: 20%;  "/>'
-  home: 'true'
 - key:  news18                                                                                                                                                               
   date: 5 April 2021
   description: 'We at Censored Planet are excited to <a href="https://github.com/censoredplanet/censoredplanet/issues/12" target="_blank">announce the release of Satellite-v2, along with documentation, analysis helpers and other information<a/> which we hope will help the community understand Censored Planet data better.'
