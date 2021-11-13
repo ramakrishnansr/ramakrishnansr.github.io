@@ -1,3 +1,7 @@
+- key: news21                                                                                                                                                          
+  date: 15 November 2021
+  description: 'I am very grateful to have been awarded the <a href="https://www.opentech.fund/funds/icfp/">Open Technology Fund Information Controls Fellowship</a> Award, and I am very excited to work with <a href="https://citizenlab.ca">The Citizen Lab</a> for the duration of my fellowship!'
+  home: 'true'
 - key: news20                                                                                                                                                          
   date: 04 October 2021
   description: 'We organized the <a href = "https://censoredplanet.org/webinar2021" target = "_blank">Censored Planet Community Webinar 2021</a>, where I talked about Censored Planet tools, data, and some of our new capabilities to analyze and explore data produced by the observatory.'
@@ -11,7 +15,6 @@
   date: 10 June 2021
   description: 'I attended the <a href="https://nextprof.engin.umich.edu/" target="_blank">NextProf Engineering 2021 workshop</a> organized by the University of Michigan'
   attachments: '<img src="images/nextprof.png" alt="NextProf 2021" style="width:60%; margin-left: 20%; margin-right: 20%;  "/>'
-  home: 'true'
 - key:  news17                                                                                                                                                               
   date: 10 April 2021
   description: 'I led a series of outreach events (<a href="https://www.femmes.studentorgs.umich.edu/femmes-connect" target="_blank">FEMMES Connect</a>, <a href="https://www.femmes.studentorgs.umich.edu/capstones" target="_blank">FEMMES Explore</a>) for <a href="https://cseg-michigan.github.io/" target="_blank">CSEG</a> in collaboration with <a href="https://www.femmes.studentorgs.umich.edu/" target="_blank">FEMMES University of Michigan</a>. The events involved designing and performing activities that helped middle-school aged students learn about computer algorithms and robots.'
