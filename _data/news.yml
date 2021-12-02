@@ -1,3 +1,8 @@
+- key: news22
+  date: 18 November 2021
+  description: 'We uploaded a recorded version of our <a href = "https://censoredplanet.org/webinar2021" target = "_blank">Censored Planet Community Webinar 2021</a>'
+  attachments: '<iframe style="margin-left:15%; width:70%; margin-right:15%" height=350 src="https://www.youtube-nocookie.com/embed/v5G_nUUzVv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  home: 'true'
 - key: news21                                                                                                                                                          
   date: 15 November 2021
   description: 'I am very grateful to have been awarded the <a href="https://www.opentech.fund/funds/icfp/">Open Technology Fund Information Controls Fellowship</a> Award, and I am very excited to work with <a href="https://citizenlab.ca">The Citizen Lab</a> for the duration of my fellowship!'
@@ -10,7 +15,6 @@
 - key:  news19                                                                                                                                                               
   date: 27 August 2021
   description: 'Excited to attend and serve as a session chair for the HTTPS censorship session at <a href = "https://conferences.sigcomm.org/sigcomm/2021/workshop-foci.html" target = "_blank">ACM SIGCOMM 2021 Workshop on Free and Open Communications on the Internet (FOCI 21)</a>'
-  home: 'true'
 - key:  news18                                                                                                                                                               
   date: 10 June 2021
   description: 'I attended the <a href="https://nextprof.engin.umich.edu/" target="_blank">NextProf Engineering 2021 workshop</a> organized by the University of Michigan'
