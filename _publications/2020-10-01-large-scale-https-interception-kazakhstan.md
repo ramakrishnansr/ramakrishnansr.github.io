@@ -9,7 +9,7 @@ tags:
 collaborators:
   - <b>Ram Sundara Raman</b>
   - Leonid Evdokimov
-  - Eric Wurstrow
+  - Eric Wustrow
   - J. Alex Halderman
   - Roya Ensafi
 pdf: assets/Kazakhstan.pdf
