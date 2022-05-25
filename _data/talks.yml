@@ -1,3 +1,11 @@
+- key: talk5                                                                                                                                                                 
+  date: June 2022
+  topic: '<a href="https://www.rightscon.org/program/" target="_blank">Exploring Internet censorship with the Censored Planet Dashboard</a>'
+  venue: '<a href="https://www.rightscon.org/program/">RightsCon 2022</a>'
+- key: talk4                                                                                                                                                                     
+  date: 25 March 2022
+  topic: '<a href="https://midas.umich.edu/2022-d4pg/research-talks/" target="_blank">Censored Planet: An Internet-wide, Longitudinal Censorship Observatory</a>'
+  venue: '<a href="https://midas.umich.edu/2022-d4pg/research-talks/">The 5th Annual Data for Public Good Symposium</a>'
 - key: talk3                                                                                                                                                                     
   date: 4 October 2021
   topic: '<a href="https://censoredplanet.org/webinar2021" target="_blank">Censored Planet Webinar: Censored Planet tools, data, and new capabilities</a>'

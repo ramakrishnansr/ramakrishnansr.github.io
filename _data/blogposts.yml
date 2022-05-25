@@ -3,3 +3,8 @@
   topic: 'An analysis of a large-scale HTTPS interception'
   venue: 'APNIC Blog'
   link: 'https://blog.apnic.net/2021/02/15/an-analysis-of-a-large-scale-https-interception/'
+- key: blog2                                                                                                                                                                     
+  date: 10 August 2020
+  topic: 'Technical Report: US Government and military websites are geoblocked from Hong Kong and China'
+  venue: 'Censored Planet'
+  link: 'https://censoredplanet.org/hongkong'

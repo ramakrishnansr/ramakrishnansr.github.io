@@ -11,7 +11,9 @@ layout: default
     <hr class="w3-opacity">
     <p> I am a fourth year PhD candidate at the University of Michigan <a href = "https://www.cse.umich.edu/" target="_blank" title="Go to the UMich page">Computer Science and Engineering</a> department, where I am advised by <a href="https://ensa.fi/" target="_blank"title="Go to the UMich page">Prof. Roya Ensafi</a>. My primary research interests surround Internet Security and Privacy. In particular, I am interested in using Internet measurement methods to detect, analyze and prevent large-scale threats to Internet users' security and privacy.
       <br/> <br/>
-    My research involves measuring Internet censorship and network interference at global scale. I lead work on the <a href="https://www.censoredplanet.org" target="_blank" title="Go to the CensoredPlanet Observatory">Censored Planet Observatory</a>, which is a platform for measuring various types of network interference continuously around the world. My work also involves understanding and analyzing the technologies that enable censorship and surveillance. Currently, I am an OTF Senior ICFP Fellow in Information Controls at <a href="https://citizenlab.ca">The Citizen Lab</a>, University of Toronto, working on identifying the network devices that perform network interference.</p>
+    My research involves measuring Internet censorship and network interference at global scale. I lead work on the <a href="https://www.censoredplanet.org" target="_blank" title="Go to the CensoredPlanet Observatory">Censored Planet Observatory</a>, which is a platform for measuring various types of network interference continuously around the world. My work also involves understanding and analyzing the technologies that enable censorship and surveillance. Currently, I am an <a href="https://www.opentech.fund/about/people/ramakrishnan-sundara-raman/" target="_blank">OTF Senior ICFP Fellow in Information Controls</a> at <a href="https://citizenlab.ca">The Citizen Lab</a>, University of Toronto, working on identifying the network devices that perform network interference.
+    <br/><br/>
+    I will be interning at <a href="https://research.cloudflare.com/" target="_blank">Cloudflare Research</a> this summer!</p>
    
   <!-- End About Section -->
   </div>
@@ -19,6 +21,8 @@ layout: default
   <!--Publications Section -->
   <div class="w3-content w3-justify w3-text-grey" id="publications">
     <h2 class="w3-text-grey"><a href="/publications"><u>Publications</u></a></h2>
+    <hr class="w3-opacity">
+    <h4 class="w3-text-grey">Conference Publications</h4>
     <hr class="w3-opacity">
     {% for publication in site.publications reversed%}
     {% if publication.blacklisted == "yes" %}
@@ -35,9 +39,32 @@ layout: default
     {% endfor %}<br/> 
     <span class="collaborator">{{ publication.publisher }}, {{ publication.date | date: "%B %Y" }}
       </span>
-    <br/>
     {% if publication.tag %}
-      <span class="collaborator"><em>{{ publication.tag }}</em>
+      <span class="collaborator">{{ publication.tag }}
+      </span>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    <hr class="w3-opacity">
+    <h4 class="w3-text-grey">Workshop Publications and Talks</h4>
+    <hr class="w3-opacity">
+    {% for publication in site.workshops reversed%}
+    {% if publication.blacklisted == "yes" %}
+    {% else %}
+    {% assign collaborators = publication.collaborators %}
+    <p><span class="title"><a href="{{ publication.pdf }} " target="_blank" title="Go to paper">{{ publication.name }} {% if publication.pdf %}<i class="fa fa-file w3-hover-opacity"></i>{% endif %}</a> {% if publication.slides %}<a href=" {{ publication.slides }} " target="_blank" title="Go to slides"> <i class="fa fa-desktop w3-hover-opacity"></i></a>{% endif %}{% if publication.talk %} <a href=" {{ publication.talk }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity"></i></a>{% endif %}</span> 
+    {%  assign last_collab = collaborators[-1] %}
+    {% for collaborator in collaborators %}
+      {% if collaborator == last_collab %}
+      <span class="collaborator">{{ collaborator }}</span>
+      {% else %}
+      <span class="collaborator">{{ collaborator }},</span>
+      {% endif %}
+    {% endfor %}<br/> 
+    <span class="collaborator">{{ publication.publisher }}, {{ publication.date | date: "%B %Y" }}
+      </span>
+    {% if publication.tag %}
+      <span class="collaborator">{{ publication.tag }}
       </span>
     {% endif %}
     {% endif %}
@@ -139,7 +166,7 @@ layout: default
 
 
 <div class="w3-content w3-justify w3-text-grey" id="invited">
-  <h2 class="w3-text-grey"><a href="/blogposts"><u>Blogposts</u></a></h2>
+  <h2 class="w3-text-grey"><a href="/blogposts"><u>Blogposts & Reports</u></a></h2>
   <hr class="w3-opacity">
   {% for blog in site.data.blogposts %}
   <ul>

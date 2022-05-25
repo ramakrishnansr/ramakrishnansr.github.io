@@ -11,3 +11,4 @@ markdown: kramdown
 
 collections: 
   - publications
+  - workshops

@@ -1,3 +1,8 @@
+- key: teaching2                                                                                                                                                                    
+  date: Winter 2022
+  class: '<a href="https://eecs388.org" target="_blank">EECS 388 - Introduction to Computer Security</a>'
+  position: 'Guest Lecturer'
+  description: 'I delivered a guest lecture on Censorship and Circumvention.'
 - key: teaching1                                                                                                                                                                     
   date: Fall 2020
   class: '<a href="https://www.eecs.umich.edu/courses/eecs588" target="_blank">EECS 588 - Computer & Network Security</a>'
