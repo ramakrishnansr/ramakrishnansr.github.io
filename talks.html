@@ -12,6 +12,8 @@ layout: only-title
         <span class="news-subtitle">Title: {{ talk.topic }} {% if talk.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity"></i></a>{% endif %}</span>
         <br/>
         <span class="news-subtitle">Venue: {{ talk.venue }}</span>
+        <br/>
+        {% if talk.award %} <span class="news-subtitle">Award: {{ talk.award }}</span>{% endif %}
       </li>
     </ul>
     {% endfor %}

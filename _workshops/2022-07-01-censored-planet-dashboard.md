@@ -14,4 +14,5 @@ author={Ram Sundara Raman and Sarah Laplante and Armin Huremagic and Roya Ensafi
 booktitle={15th Workshop on Hot Topics in Privacy Enhancing Technologies (HotPETs)},
 year={2022}
 }"
+tag: HotPETs Best Talk Award 🎉
 ---
