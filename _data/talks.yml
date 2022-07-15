@@ -1,7 +1,12 @@
 - key: talk5                                                                                                                                                                 
+  date: July 2022
+  topic: 'Improving Usability of Internet Censorship Data through a Censorship Dashboard'
+  venue: '<a href="https://petsymposium.org/2022/program.php">HotPETS 2022</a>'
+- key: talk5                                                                                                                                                                 
   date: June 2022
   topic: '<a href="https://www.rightscon.org/program/" target="_blank">Exploring Internet censorship with the Censored Planet Dashboard</a>'
   venue: '<a href="https://www.rightscon.org/program/">RightsCon 2022</a>'
+  link: 'https://youtu.be/j1sLWAm0nMA'
 - key: talk4                                                                                                                                                                     
   date: 25 March 2022
   topic: '<a href="https://midas.umich.edu/2022-d4pg/research-talks/" target="_blank">Censored Planet: An Internet-wide, Longitudinal Censorship Observatory</a>'
