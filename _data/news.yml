@@ -1,7 +1,11 @@
+- key: news30
+  date: 06 December 2022
+  description: 'I presented <a href="/assets/censorship_devices.pdf" target = "_blank">my recent work on examining censorship devices</a> at <a href="https://conferences2.sigcomm.org/co-next/2022/#!/home" target = "_blank">CoNEXT 2022</a>. Blogposts about my work were published at <a href="https://www.opentech.fund/news/profiling-internet-censors-methods-to-measure-and-locate-censorship-devices/" target = "_blank">OTF News</a> and <a href="https://censoredplanet.org/" target = "_blank">Censored Planet</a>.'
+  home: 'true'
+  attachments: '<img src="images/conext2022.jpg" alt="Talk at CoNEXT 2022" style="width:60%; margin-left: 20%; margin-right: 20%; height:60%; "/>' 
 - key: news29
   date: 11 July 2022
   description: 'Excited to start my internship with the <a href = "https://research.cloudflare.com" target = "_blank">Cloudflare research team</a>, where I will be working on detecting traffic tampering.'
-  home: 'true'
 - key: news28
   date: 01 July 2022
   description: 'I volunteered in the <a href = "https://campsforkids.engin.umich.edu/xplore/" target = "_blank">Xplore Engineering outreach event</a> organized by CSEG and had a great time leading CS workshops for kids in grades 4-7.'
@@ -20,7 +24,6 @@
   date: 30 March 2022
   description: 'It was great to give a guest lecure on Censorship and Circumvention at <a href = "https://eecs388.org" target = "_blank">EECS 388</a>'
   attachments: '<img src="images/eecs388.jpeg" alt="EECS 388" style="width:60%; margin-left: 20%; margin-right: 20%;  "/>' 
-  home: 'true'
 - key: news23
   date: 25 March 2022
   description: 'I gave a talk about Censored Planet and its public data at the <a href = "https://midas.umich.edu/2022-d4pg/research-talks/#research-talks" target = "_blank">MIDAS 5th Annual Data for Public Good Symposium</a>'

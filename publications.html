@@ -6,8 +6,6 @@ layout: only-title
 <div class="w3-content w3-justify w3-text-grey" id="publications">
     <h2 class="w3-text-grey">Publications</h2>
     <hr class="w3-opacity">
-    <h4 class="w3-text-grey">Conference Publications</h4>
-    <hr class="w3-opacity">
     {% for publication in site.publications reversed%}
     {% if publication.blacklisted == "yes" %}
     {% else %}
@@ -23,30 +21,6 @@ layout: only-title
     {% endfor %}<br/> 
     <span class="collaborator">{{ publication.publisher }}, {{ publication.date | date: "%B %Y" }}
       </span>
-    {% if publication.tag %}
-      <span class="collaborator">{{ publication.tag }}
-      </span>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-    <hr class="w3-opacity">
-    <h4 class="w3-text-grey">Workshop Publications and Talks</h4>
-    <hr class="w3-opacity">
-    {% for publication in site.workshops reversed%}
-    {% if publication.blacklisted == "yes" %}
-    {% else %}
-    {% assign collaborators = publication.collaborators %}
-    <p><span class="title"><a href="{{ publication.pdf }} " target="_blank" title="Go to paper">{{ publication.name }} {% if publication.pdf %}<i class="fa fa-file w3-hover-opacity"></i>{% endif %}</a> {% if publication.slides %}<a href=" {{ publication.slides }} " target="_blank" title="Go to slides"> <i class="fa fa-desktop w3-hover-opacity"></i></a>{% endif %}{% if publication.talk %} <a href=" {{ publication.talk }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity"></i></a>{% endif %}</span> 
-    {%  assign last_collab = collaborators[-1] %}
-    {% for collaborator in collaborators %}
-      {% if collaborator == last_collab %}
-      <span class="collaborator">{{ collaborator }}</span>
-      {% else %}
-      <span class="collaborator">{{ collaborator }},</span>
-      {% endif %}
-    {% endfor %}<br/> 
-    <span class="collaborator">{{ publication.publisher }}, {{ publication.date | date: "%B %Y" }}
-      </span><br/> 
     {% if publication.tag %}
       <span class="collaborator">{{ publication.tag }}
       </span>

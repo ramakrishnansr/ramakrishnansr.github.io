@@ -1,9 +1,14 @@
-- key: blog1                                                                                                                                                                     
+- key: blog3
+  date: 05 December 2022
+  topic: 'Profiling Internet Censors: Methods to Measure and Locate Censorship Devices'
+  venue: 'Open Technology Fund (OTF) News'
+  link: 'https://www.opentech.fund/news/profiling-internet-censors-methods-to-measure-and-locate-censorship-devices/'
+- key: blog2                                                                                                                                                                     
   date: 15 February 2021
   topic: 'An analysis of a large-scale HTTPS interception'
   venue: 'APNIC Blog'
   link: 'https://blog.apnic.net/2021/02/15/an-analysis-of-a-large-scale-https-interception/'
-- key: blog2                                                                                                                                                                     
+- key: blog1                                                                                                                                                                     
   date: 10 August 2020
   topic: 'Technical Report: US Government and military websites are geoblocked from Hong Kong and China'
   venue: 'Censored Planet'

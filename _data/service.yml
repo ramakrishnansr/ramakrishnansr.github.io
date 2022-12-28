@@ -1,3 +1,6 @@
+- key: csae2022pc
+  text: 'I served as a reviewer for the 6th International Conference on Computer Science and Application Engineering (CSAE).'
+  display: 'true'
 - key: foci2021session
   text: 'I served as a session chair for the HTTPS censorship session at <a href = "https://conferences.sigcomm.org/sigcomm/2021/workshop-foci.html" target = "_blank">ACM SIGCOMM 2021 Workshop on Free and Open Communications on the Internet (FOCI 21)</a>'
   display: 'true'
@@ -6,7 +9,7 @@
   display: 'true'
 - key: outreachcseg
   text: 'I served as the outreach chair for <a href = "https://cseg-michigan.github.io/" target = "_blank"> CSEG, the University of Michigan CSE department grad student organization</a> since from July 2020 - May 2022'
-  display: 'true'
+  display: 'false'
 - key: secrit
   text: 'I served as the lead host for the Michigan CSE <a href = "https://wiki.eecs.umich.edu/secrit/index.php/Main_Page" target = "_blank"> Security Reading Group (SECRIT) </a> from June 2019 - June 2021'
   display: 'false'

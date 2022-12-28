@@ -1,6 +1,6 @@
 ---
 date: 2022-12-06
-publisher: To Appear - ACM International Conference on emerging Networking EXperiments and Technologies (CoNEXT)
+publisher: ACM International Conference on emerging Networking EXperiments and Technologies (CoNEXT)
 name: "Network Measurement Methods for Locating and Examining Censorship Devices"
 tags:
   - censorship
