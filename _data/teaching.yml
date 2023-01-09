@@ -1,3 +1,8 @@
+- key: teaching3
+  date: Winter 2023
+  class: '<a href="https://www.eecs.umich.edu/courses/eecs588" target="_blank">EECS 588 - Computer & Network Security</a>'
+  position: 'Substitute Instructor'
+  description: 'I substitited as the sole instructor for this graduate level course when the lead instructor was not available during the first month of the course.'
 - key: teaching2                                                                                                                                                                    
   date: Winter 2022
   class: '<a href="https://eecs388.org" target="_blank">EECS 388 - Introduction to Computer Security</a>'

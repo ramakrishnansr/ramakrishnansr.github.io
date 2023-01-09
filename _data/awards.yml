@@ -1,8 +1,10 @@
+- key: award9
+  date: 09 January 2023
+  award: '<a href="https://irtf.org/anrp/" target="_blank">IRTF Applied Networking Research Prize (ANRP) 2023</a>'
+  display: 'true'
 - key: award8                                                                                                                                                                   
   date: 01 October 2022
   award: 'ACM IMC 2022 Travel Grant Award'
-  display: 'true'
-  
 - key: award7                                                                                                                                                                   
   date: 15 July 2022
   award: '<a href="https://twitter.com/PET_Symposium/status/1547872277198356480?s=20&t=Zm2ymVsT1JmHgD7kjOsQqw" target="_blank">HotPETs 2022 Best Talk Award</a>'
@@ -14,7 +16,6 @@
 - key: award5                                                                                                                                                                       
   date: 5 August 2021
   award: '<a href="/images/honorable_mention_award.pdf" target="_blank">GSI Honorable Mention Award</a>'
-  display: 'true'
 - key: award4                                                                                                                                                                       
   date: 11 November 2020
   award: '<a href="https://cse.engin.umich.edu/stories/2020-cse-graduate-student-honors-competition-highlights-outstanding-research" target="_blank">2020 Michigan CSE Graduate Student Honors Runners Up Award</a>'

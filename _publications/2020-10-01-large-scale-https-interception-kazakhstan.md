@@ -21,5 +21,5 @@ author={R. Sundara Raman, L. Evdokimov, E. Wustrow, A. Halderman, and R. Ensafi}
 booktitle={In ACM Internet Measurement Conference (IMC)},<br>
 year={2020}<br>
 }"
-tag: Best Paper Award Nominee 🎉
+tag: 🏅 Best Paper Award Nominee 
 ---

@@ -21,4 +21,5 @@ author = {Sundara Raman, Ram and Wang, Mona and Dalek, Jakub and Mayer, Jonathan
 booktitle={In ACM International Conference on emerging Networking EXperiments and Technologies (CoNEXT)},<br>
 year={2022}<br>
 }"
+tag: 🏅 IRTF Applied Networking Research Prize 2023 
 ---

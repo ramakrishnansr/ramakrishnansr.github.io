@@ -1,3 +1,7 @@
+- key: news31
+  date: 09 January 2023
+  description: 'I am delighted and honored to receive the <a href="https://irtf.org/anrp/" target="_blank">IRTF Applied Networking Research Prize (ANRP)</a> for my work on <a href="/assets/censorship_devices.pdf" target="_blank">studying censorship devices.</a>'
+  home: 'true'
 - key: news30
   date: 06 December 2022
   description: 'I presented <a href="/assets/censorship_devices.pdf" target = "_blank">my recent work on examining censorship devices</a> at <a href="https://conferences2.sigcomm.org/co-next/2022/#!/home" target = "_blank">CoNEXT 2022</a>. Blogposts about my work were published at <a href="https://www.opentech.fund/news/profiling-internet-censors-methods-to-measure-and-locate-censorship-devices/" target = "_blank">OTF News</a> and <a href="https://censoredplanet.org/" target = "_blank">Censored Planet</a>.'
@@ -13,7 +17,6 @@
   date: 09 June 2022
   description: 'I gave a talk about the Censored Planet dashboard at <a href = "https://www.rightscon.org/" target = "_blank">RightsCon 2022</a>'
   attachments: '<img src="images/rightscon2022.jpg" alt="EECS 388" style="width:60%; margin-left: 20%; margin-right: 20%;  "/>' 
-  home: 'true'
 - key: news26
   date: 25 April 2022
   description: 'Had a great time at the <a href = "https://www.ieee-security.org/TC/SP2022/" target = "_blank">IEEE S&P Workshops</a> thanks to an OTF travel grant.'
