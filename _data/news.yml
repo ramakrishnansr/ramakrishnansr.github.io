@@ -1,3 +1,7 @@
+- key: news32
+  date: 16 January 2023
+  description: 'Grateful to be awarded a <a href="https://culture.engin.umich.edu/an-inclusive-campus/mlk-spirit-awards/" target="_blank">2023 North Campus Deans’ MLK Spirit Award</a>'
+  home: 'true'
 - key: news31
   date: 09 January 2023
   description: 'I am delighted and honored to receive the <a href="https://irtf.org/anrp/" target="_blank">IRTF Applied Networking Research Prize (ANRP)</a> for my work on <a href="/assets/censorship_devices.pdf" target="_blank">studying censorship devices.</a>'
