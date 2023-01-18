@@ -4,7 +4,7 @@
   home: 'true'
 - key: news31
   date: 09 January 2023
-  description: 'I am delighted and honored to receive the <a href="https://www.ietf.org/blog/anrp-2023/" target="_blank">IRTF Applied Networking Research Prize (ANRP)</a> for my work on <a href="/assets/censorship_devices.pdf" target="_blank">studying censorship devices.</a> I was also <a href="https://cse.engin.umich.edu/stories/u-m-researchers-win-applied-networking-research-prize-in-partnership-with-citizen-lab-and-princeton-citp">featured on my University's CSE news page</a>'
+  description: 'I am delighted and honored to receive the <a href="https://www.ietf.org/blog/anrp-2023/" target="_blank">IRTF Applied Networking Research Prize (ANRP)</a> for my work on <a href="/assets/censorship_devices.pdf" target="_blank">studying censorship devices.</a>  I was also <a href="https://cse.engin.umich.edu/stories/u-m-researchers-win-applied-networking-research-prize-in-partnership-with-citizen-lab-and-princeton-citp" target="_blank">featured on the UM CSE news page</a>'
   home: 'true'
 - key: news30
   date: 06 December 2022
