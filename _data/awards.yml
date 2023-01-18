@@ -4,7 +4,7 @@
   display: 'true'
 - key: award9
   date: 09 January 2023
-  award: '<a href="https://irtf.org/anrp/" target="_blank">IRTF Applied Networking Research Prize (ANRP) 2023</a>'
+  award: '<a href="https://www.ietf.org/blog/anrp-2023/" target="_blank">IRTF Applied Networking Research Prize (ANRP) 2023</a>'
   display: 'true'
 - key: award8                                                                                                                                                                   
   date: 01 October 2022
