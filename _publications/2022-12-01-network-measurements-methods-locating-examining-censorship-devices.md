@@ -15,6 +15,7 @@ collaborators:
   - Roya Ensafi
 pdf: "assets/censorship_devices.pdf"
 slides: "assets/censorship_devices_slides.pdf"
+bibtex-title: "sundararaman2022network"
 bibtex: "@inproceedings{sundararaman2022network,<br>
 title = {Network Measurement Methods for Locating and Examining Censorship Devices},<br>
 author = {Sundara Raman, Ram and Wang, Mona and Dalek, Jakub and Mayer, Jonathan and Ensafi, Roya},<br>

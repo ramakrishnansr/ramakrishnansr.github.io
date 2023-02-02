@@ -31,7 +31,8 @@ press:
     link: "https://www.washingtonpost.com/business/technology/study-russias-web-censoring-tool-sets-pace-for-imitators/2019/11/06/f10dd964-00ea-11ea-8341-cc3dce52e7de_story.html"
   - publisher: University of Michigan News
     link: "https://news.umich.edu/how-russias-online-censorship-could-jeopardize-internet-freedom-worldwide/"
-bibtex: "@inproceedings{ndss20-russia,<br>
+bibtex-title: "ramesh2020decentralized"
+bibtex: "@inproceedings{ramesh2020decentralized,<br>
 title={Decentralized Control: A Case Study of Russia},<br>
 author={R. Ramesh, R. Sundara Raman, M. Bernhard, V. Ongkowijaya, L. Evdokimov, A. Edmundson, S. Sprecher, M. Ikram, R.Ensafi},<br>
 booktitle={Proceedings of the Network and Distributed System Security Symposium, NDSS 2020, San Diego, California, USA},<br>

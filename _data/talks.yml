@@ -1,4 +1,8 @@
 - key: talk5                                                                                                                                                                 
+  date: January 2023
+  topic: 'Exploring Internet Censorship Data through the Censored Planet Dashboard'
+  venue: 'OTF Summit 2023'
+- key: talk5                                                                                                                                                                 
   date: July 2022
   topic: 'Improving Usability of Internet Censorship Data through a Censorship Dashboard'
   venue: '<a href="https://petsymposium.org/2022/program.php">HotPETs 2022</a>'

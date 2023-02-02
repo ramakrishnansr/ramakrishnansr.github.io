@@ -131,3 +131,11 @@ h3{
 .news-subtitle {
   font-size: 85%;
 }
+
+.bibtex {
+  display: none;
+  color:silver;
+  font-size: 70%;
+}
+
+

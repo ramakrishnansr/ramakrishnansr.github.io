@@ -17,6 +17,7 @@ talk: "https://youtu.be/8dwZdNkJ508"
 press:
   - publisher: Censored Planet
     link: "https://censoredplanet.org/censoredplanet-findings"
+bibtex-title: "sundararaman2020censoredplanet"
 bibtex: "@inproceedings{sundararaman2020censoredplanet,<br>
 title = {Censored Planet: An Internet-Wide, Longitudinal Censorship Observatory},<br>
 author = {Sundara Raman, Ram and Shenoy, Prerana and Kohls, Katharina and Ensafi, Roya},<br>

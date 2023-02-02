@@ -15,6 +15,7 @@ collaborators:
 pdf: assets/Kazakhstan.pdf
 slides: assets/kazakhstan_long_slides.pdf
 talk: "https://youtu.be/RoYWsfNOCr4"
+bibtex-title: "sundararaman2020investigating"
 bibtex: "@inproceedings{sundararaman2020investigating,<br>
 title={{Investigating Large Scale HTTPS Interception in Kazakhstan}},<br>
 author={R. Sundara Raman, L. Evdokimov, E. Wustrow, A. Halderman, and R. Ensafi},<br>
