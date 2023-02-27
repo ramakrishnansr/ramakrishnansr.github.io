@@ -208,8 +208,6 @@ layout: default
       <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: ramaks@umich.edu</p>
     </div>
     
-     <!-- Google Map -->
-    <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:300px;margin:36px 0;"></div>
   <!-- End Contact Section -->
   </div>  
   
@@ -221,30 +219,3 @@ layout: default
   
 <!-- END PAGE CONTENT -->
 </div>
-
-<!-- Add Google Maps -->
-<script>
-function myMap()
-{
-  myCenter=new google.maps.LatLng(42.2930, -83.7164);
-  var mapOptions= {
-    center:myCenter,
-    zoom:15, scrollwheel: false, draggable: true,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=
-AIzaSyCmAzRgMPnVHMGVkB38DJmx_3cmnpNQrBs
-&callback=myMap"></script>
-<script>
-  $(".btn-bib").click(function() {
-      $(this).closest(".row").find(".bibtex").fadeToggle("300", "swing");
-  });
-</script>
