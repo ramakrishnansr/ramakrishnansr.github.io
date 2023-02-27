@@ -9,8 +9,8 @@ tags:
   - analysis
   - geoblocking
 collaborators:
-  - Reethika Ramesh
-  - <b>Ram Sundara Raman</b>
+  - Reethika Ramesh*
+  - <b>Ram Sundara Raman*</b>
   - Apurva Virkud
   - Alexandra Dirksen
   - Armin Huremagic
