@@ -4,7 +4,7 @@ layout: home
 <script>
   window.onload = setMenu('home-menu');
 </script>
-  <div class="vg-main-wrapper">
+  <div class="vg-main-wrapper" id="desktop">
     <div class="vg-page page-home" id="home" style="background-image: url(images/bg2.jpg);">
 
     <!-- Page About -->
@@ -14,9 +14,9 @@ layout: home
         <div class="row">
           <div class="col-md-6">
             <div class="caption">
-              <h1 class="fg-dark">Ramakrishnan (Ram)</h1>
-              <h1 class="fg-dark">Sundara Raman</h1>
-              <p class="fg-theme fw-medium">PhD candidate in Computer Science and Engineering</p>
+              <h1 class="fg-dark">Ramakrishnan (Ram) <br/> Sundara Raman</h1>
+              <p class="fg-theme fw-medium">PhD candidate</p>
+              <p class="fg-theme fw-medium">Computer Science and Engineering</p>
               <p class="fg-theme fw-medium"><a href="https://www.umich.edu" target="_blank" title="Go to the UMich page">University of Michigan</a></p>
             </div>
             <div class="img-place" >
@@ -46,9 +46,6 @@ layout: home
         </div>
         
       </div> <!-- End profile -->
-      <section id="section04" class="demo">
-        <a href="#publications" class="fg-theme" style="font-size: 40px;"><span></span></a>
-      </section>
     </div>
   </div> <!-- End resume -->
  
@@ -233,7 +230,7 @@ layout: home
     <ul>
       <li>
         <span class="ram-subtitle wow fadeInUp">{% if blog.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"> {{ blog.topic }} <i class="fa fa-link w3-hover-opacity"></i></a>{% endif %}, {{ blog.date }} </span><br/>
-        <span class="ram-subtitle wow fadeInUp">Venue: {{ blog.venue }}</span><br/>
+        <span class="ram-subtitle wow fadeInUp">Medium: {{ blog.venue }}</span><br/>
         <br/>
       </li>
     </ul>

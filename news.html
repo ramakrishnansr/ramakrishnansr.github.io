@@ -14,8 +14,8 @@ layout: home
     {% for news in site.data.news %}
     <ul>
       <li>
-        <span class="ram-title">{{ news.date }}</span>
-        <span class="ram-subtitle">{{ news.description }}</span>
+        <span class="ram-title">{{ news.date }}</span><br/>
+        <span class="ram-subtitle">{{ news.description }}</span><br/>
         {% if news.attachments %}
         <p>{{ news.attachments }}</p>
         {% endif %}
