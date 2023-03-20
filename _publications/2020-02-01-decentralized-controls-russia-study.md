@@ -34,8 +34,8 @@ press:
 bibtex-title: "ramesh2020decentralized"
 bibtex: "@inproceedings{ramesh2020decentralized,<br>
 title={Decentralized Control: A Case Study of Russia},<br>
-author={R. Ramesh, R. Sundara Raman, M. Bernhard, V. Ongkowijaya, L. Evdokimov, A. Edmundson, S. Sprecher, M. Ikram, R.Ensafi},<br>
-booktitle={Proceedings of the Network and Distributed System Security Symposium, NDSS 2020, San Diego, California, USA},<br>
+author={Ramesh, Reethika and Sundara Raman, Ram and Bernhard, Matthew and Ongkowijaya, Victor and Evdokimov, Leonid and Edmundson, Annie and Sprecher, Steve and Ikram, Muhammad and Ensafi, Roya},<br>
+booktitle={Network and Distributed System Security Symposium (NDSS)},<br>
 year={2020}<br>
 }"
 talk: "https://youtu.be/aKeMB-Owlug"

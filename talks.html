@@ -1,20 +1,26 @@
 ---
-layout: only-title
+layout: home
 ---
+<script>
+  window.onload = setMenu('talks-menu');
+</script>
+<!-- Talks -->
+<div class="vg-page page-blog" id="talks">
+  <h1 class="text-center"><a href="/talks" class="fg-theme">Talks</a></h1>
+  <br/>
+  <div class="container">
+  {% for talk in site.data.talks %}
 
-<div class="w3-content w3-justify w3-text-grey" id="invited">
-    <h2 class="w3-text-grey"><a href="/talks"><u>Talks</u></a></h2>
-    <hr class="w3-opacity">
-    {% for talk in site.data.talks %}
     <ul>
       <li>
-        <span class="title">{{ talk.date }}</span>
-        <span class="news-subtitle">Title: {{ talk.topic }} {% if talk.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity"></i></a>{% endif %}</span>
+        <span class="ram-subtitle">{{ talk.topic }}{% if talk.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity"></i></a>{% endif %}, {{ talk.date }} </span><br/>
+        <span class="ram-subtitle">Venue: {{ talk.venue }}</span><br/>
         <br/>
-        <span class="news-subtitle">Venue: {{ talk.venue }}</span>
-        <br/>
-        {% if talk.award %} <span class="news-subtitle">Award: {{ talk.award }}</span>{% endif %}
+        {% if talk.award %} <span class="ram-subtitle">Award: {{ talk.award }}</span>{% endif %}
       </li>
     </ul>
     {% endfor %}
+    </p>
   </div>
+</div>
+<!--End Talks-->

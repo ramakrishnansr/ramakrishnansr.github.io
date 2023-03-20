@@ -1,18 +1,24 @@
 ---
-layout: only-title
+layout: home
 ---
+<script>
+  window.onload = setMenu('blogposts-menu');
+</script>
 
-<div class="w3-content w3-justify w3-text-grey" id="invited">
-    <h2 class="w3-text-grey"><a href="/blogposts"><u>Blogposts & Reports</u></a></h2>
-    <hr class="w3-opacity">
+<!-- Blogposts -->
+<div class="vg-page page-blog" id="blogposts">
+  <h1 class="text-center fg-dark"><a href="/blogposts" class="fg-theme">Blogposts & Reports</a></h1>
+  <div class="container">
+    <br/>
     {% for blog in site.data.blogposts %}
     <ul>
       <li>
-        <span class="title">{{ blog.date }}</span>
-        <span class="news-subtitle">Title: {{ blog.topic }} {% if blog.link %} <a href=" {{ blog.link }} " target="_blank" title="Go to blogpost"><i class="fa fa-file w3-hover-opacity"></i></a>{% endif %}</span>
+        <span class="ram-subtitle">{% if blog.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"> {{ blog.topic }} <i class="fa fa-link w3-hover-opacity"></i></a>{% endif %}, {{ blog.date }} </span><br/>
+        <span class="ram-subtitle">Venue: {{ blog.venue }}</span><br/>
         <br/>
-        <span class="news-subtitle">Venue: {{ blog.venue }}</span>
       </li>
     </ul>
     {% endfor %}
   </div>
+</div>
+<!-- End Blogposts -->
