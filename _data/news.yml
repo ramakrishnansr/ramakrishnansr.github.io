@@ -8,7 +8,7 @@
   home: 'true'
 - key: news35
   date: 24 February 2023
-  description: 'An year after the escalation of the Ukraine invasion, my <a href="assets/russia-ukraine-invasion.pdf" target="_blank">new research paper appearing at USENIX Security 2023</a> investigates network changes in Russia.'
+  description: 'A year after the escalation of the Ukraine invasion, my <a href="assets/russia-ukraine-invasion.pdf" target="_blank">new research paper appearing at USENIX Security 2023</a> investigates network changes in Russia.'
   home: 'true'
 - key: news34
   date: 15 February 2023
