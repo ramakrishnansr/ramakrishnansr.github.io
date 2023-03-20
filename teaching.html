@@ -1,22 +1,27 @@
 ---
-layout: only-title
+layout: home
 ---
+<script>
+  window.onload = setMenu('teaching-menu');
+</script>
 
-<!--Teaching Section -->
-
-<div class="w3-content w3-justify w3-text-grey" id="teaching">
-    <h2 class="w3-text-grey"><a href="/teaching"><u>Teaching</u></a></h2>
-    <hr class="w3-opacity">
+<!-- Teaching -->
+<div class="vg-page page-blog" id="teaching">
+  <h1 class="text-center fg-dark"><a href="/teaching" class="fg-theme">Teaching</a></h1>
+  <div class="container">
     {% for teaching in site.data.teaching %}
     <ul>
       <li>
-        <span class="title">{{ teaching.date }}</span>
-        <span class="news-subtitle">Course: {{ teaching.class }}</span>
+        <span class="ram-title">{{ teaching.date }}</span>
         <br/>
-        <span class="news-subtitle">Position: {{ teaching.position }}</span>
+        <span class="ram-subtitle">Course: {{ teaching.class }}</span>
         <br/>
-        <span class="news-subtitle">{{ teaching.description }}</span>
+        <span class="ram-subtitle">Position: {{ teaching.position }}</span>
+        <br/>
+        <span class="ram-subtitle">{{ teaching.description }}</span>
       </li>
     </ul>
     {% endfor %}
   </div>
+</div>
+<!-- End Teaching -->

@@ -1,45 +1,75 @@
 ---
-layout: default
+layout: home
 ---
-<!-- Scripts -->
 <script>
-  function toggleBib(bibtitle) {
-   var x = document.getElementById(bibtitle);
-   if (x.style.display === "none") {
-     x.style.display = "block";
-   } else {
-     x.style.display = "none";
-   }
- }
- </script>
+  window.onload = setMenu('home-menu');
+</script>
+  <div class="vg-main-wrapper">
+    <div class="vg-page page-home" id="home" style="background-image: url(images/bg2.jpg);">
 
-</div>
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey" id="about">
-    <h2 class="w3-text-grey">About Me</h2>
+    <!-- Page About -->
+    <div class="vg-page page-about" id="about">
+      <!-- Profile -->
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="caption">
+              <h1 class="fg-dark">Ramakrishnan (Ram)</h1>
+              <h1 class="fg-dark">Sundara Raman</h1>
+              <p class="fg-theme fw-medium">PhD candidate in Computer Science and Engineering</p>
+              <p class="fg-theme fw-medium"><a href="https://www.umich.edu" target="_blank" title="Go to the UMich page">University of Michigan</a></p>
+            </div>
+            <div class="img-place" >
+              <img src="images/avatar.jpg" alt="Ram is here!">
+            </div>
+           <div style="margin: auto; width:50%">
+          
+              <a href="https://twitter.com/ramakrishnan13s" target="_blank" style="margin-left: 1%;" title="Go to my Twitter profile"><i class="fg-theme fa fa-twitter w3-hover-opacity" style="font-size: 48px"></i></a>
+              <a href="https://www.linkedin.com/in/ramakrishnansundararaman/" target="_blank" style="margin-left: 1%;" title="Go to my LinkedIn profile"><i class="fg-theme fa fa-linkedin w3-hover-opacity" style="font-size: 48px"></i></a>
+              <a href="https://github.com/ramakrishnansr" target="_blank" style="margin-left: 1%;" title="Go to my Github Page"><i class="fg-theme fa fa-github w3-hover-opacity" style="font-size: 48px"></i></a>
+              <a href="https://scholar.google.com/citations?user=1gyokIMAAAAJ&hl=en" target="_blank" style="margin-left: 1%" title="Go to my Google Scholar profile"><i class="fg-theme fa fa-graduation-cap w3-hover-opacity" style="font-size: 48px"></i></a>
+          
+              <a href="mailto:ramaks@umich.edu" target="_blank" style="margin-left: 1%;" title="Send me mail"><i class="fg-theme fa fa-envelope w3-hover-opacity " style="font-size: 48px; margin-left: 0.1%; margin-top: 1%;"></i></a>
+              <br/>
+            </div>
 
-    <hr class="w3-opacity">
-    <p> I am a fifth year PhD candidate at the University of Michigan <a href = "https://www.cse.umich.edu/" target="_blank" title="Go to the UMich page">Computer Science and Engineering</a> department, where I am advised by <a href="https://ensa.fi/" target="_blank"title="Go to the UMich page">Prof. Roya Ensafi</a>. My primary research interests surround Internet Security and Privacy. In particular, I am interested in using Internet measurement methods to detect, analyze and prevent large-scale threats to Internet users' security and privacy.
-      <br/> <br/>
-    My research involves measuring Internet censorship and network interference at global scale. I lead work on the <a href="https://www.censoredplanet.org" target="_blank" title="Go to the CensoredPlanet Observatory">Censored Planet Observatory</a>, which is a platform for measuring various types of network interference continuously around the world. My work also involves understanding and analyzing the technologies that enable censorship and surveillance.
-    <br/><br/>
-    Previously, I was a research intern at <a href="https://research.cloudflare.com/" target="_blank">Cloudflare Research</a> in Summer 2022. I was also an <a href="https://www.opentech.fund/about/people/ramakrishnan-sundara-raman/" target="_blank">OTF Senior ICFP Fellow in Information Controls</a> at <a href="https://citizenlab.ca">The Citizen Lab</a>, University of Toronto, working on identifying the network devices that perform network interference.</p>
-   
-  <!-- End About Section -->
-  </div>
+          </div>
+          <div class="col-md-6"> 
+              <p style="font-size: 20px;"> I am a fifth year PhD candidate at the University of Michigan <a class = "fg-theme" href = "https://www.cse.umich.edu/" target="_blank" title="Go to the UMich page">Computer Science and Engineering</a> department, where I am advised by <a class = "fg-theme" href="https://ensa.fi/" target="_blank"title="Go to the UMich page">Prof. Roya Ensafi</a>. I am interested in using Internet measurement methods to detect, analyze and prevent large-scale threats to Internet users' security and privacy.
+                <br/> <br/>
+              My research involves measuring Internet censorship and other forms of network interference at global scale. I lead work on the <a  class = "fg-theme" href="https://www.censoredplanet.org" target="_blank" title="Go to the CensoredPlanet Observatory">Censored Planet Observatory</a>, which is a platform for measuring various types of network interference continuously around the world. My work also involves understanding and analyzing the technologies that enable censorship and surveillance.
+              <br/><br/>
+              Previously, I was a research intern at <a  class = "fg-theme" href="https://research.cloudflare.com/" target="_blank">Cloudflare Research</a> in Summer 2022. I was also an <a class = "fg-theme" href="https://www.opentech.fund/about/people/ramakrishnan-sundara-raman/" target="_blank">OTF Senior ICFP Fellow in Information Controls</a> at <a class = "fg-theme" href="https://citizenlab.ca">The Citizen Lab</a>, University of Toronto, working on identifying the network devices that perform network interference.</p>
+              <a class="btn btn-theme btn-rounded" target="_blank" href="assets/CV_Ramakrishnan_Sundara_Raman.pdf"><p style="color: white; text-align:center; margin: 0;">Download CV</p></a>
+            </div>
+          </div>
+        </div>
+        
+      </div> <!-- End profile -->
+      <section id="section04" class="demo">
+        <a href="#publications" class="fg-theme" style="font-size: 40px;"><span></span></a>
+      </section>
+    </div>
+  </div> <!-- End resume -->
+ 
+</div> <!-- End page about -->
 
-  <!--Publications Section -->
-  <div class="w3-content w3-justify w3-text-grey" id="publications">
-    <h2 class="w3-text-grey"><a href="/publications"><u>Publications</u></a></h2>
-    <hr class="w3-opacity">
+<!-- Publications -->
+<div class="vg-page page-service" id="publications">
+  <h1 class="text-center wow fadeInUp"><a href="/publications" class="fg-theme">Publications</a></h1>
+  <div class="container">
     {% for publication in site.publications reversed%}
     {% if publication.blacklisted == "yes" %}
     {% else %}
     {% assign collaborators = publication.collaborators %}
-    <p><span class="title"><a href="{{ publication.pdf }} " target="_blank" title="Go to paper">{{ publication.name }} {% if publication.pdf %}<i class="fa fa-file w3-hover-opacity"></i>{% endif %}</a> {% if publication.slides %}<a href=" {{ publication.slides }} " target="_blank" title="Go to slides"> <i class="fa fa-desktop w3-hover-opacity"></i></a>{% endif %}{% if publication.talk %} <a href=" {{ publication.talk }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity"></i></a>{% endif %}{% if publication.bibtex-title %}
-      <button style="font-size:small; vertical-align: middle; position:relative; display: inline-block;" class="w3-hover-opacity" onclick="toggleBib('{{ publication.bibtex-title }}')">BibTex</button>
-      <p class="bibtex" style="display:none" id={{ publication.bibtex-title }}>{{ publication.bibtex }}</p>
-      {% endif %}</span> 
+    
+    <p class="wow fadeInUp"><span class="ram-subtitle"><a href="{{ publication.pdf }} " target="_blank" title="Go to paper" class="fg-theme">{{ publication.name }} {% if publication.pdf %}<i class="fa fa-file-pdf w3-hover-opacity fg-theme"></i>{% endif %}</a> {% if publication.slides %}<a href=" {{ publication.slides }} " target="_blank" title="Go to slides"> <i class="fa fa-desktop w3-hover-opacity fg-theme"></i></a>{% endif %}{% if publication.talk %} <a href=" {{ publication.talk }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity fg-theme"></i></a>{% endif %}
+
+    {% if publication.bibtex-title %}
+      <a class="fg-theme" onclick="toggleBib('{{ publication.bibtex-title }}')"> <i class="fa fa-quote-right w3-hover-opacity fg-theme"></i></a>
+    {% endif %}
+    </span> 
+    <br/>
     {%  assign last_collab = collaborators[-1] %}
     {% for collaborator in collaborators %}
       {% if collaborator == last_collab %}
@@ -55,167 +85,213 @@ layout: default
       <span class="collaborator">{{ publication.tag }}
       </span>
     {% endif %}
+    <p class="bibtex" style="display:none" id={{ publication.bibtex-title }}>{{ publication.bibtex }}</p>
+
     {% endif %}
     {% endfor %}
-          
-  </p>
+    </p>
+    </div>
 </div>
+<!-- End Publications -->
 
-<br/>
-
-<div class="w3-content w3-justify w3-text-grey" id="teaching">
-  <h2 class="w3-text-grey"><a href="/teaching"><u>Teaching</u></a></h2>
-  <hr class="w3-opacity">
-  {% for teaching in site.data.teaching %}
-  <ul>
-    <li>
-      <span class="title">{{ teaching.date }}</span>
-      <span class="news-subtitle">Course: {{ teaching.class }}</span>
-      <br/>
-      <span class="news-subtitle">Position: {{ teaching.position }}</span>
-      <br/>
-      <span class="news-subtitle">{{ teaching.description }}</span>
-    </li>
-  </ul>
-  {% endfor %}
-</div>
-
-<br/>
-
-<div class="w3-content w3-justify w3-text-grey" id="news">
-    <h2 class="w3-text-grey"><a href="/news"><u>News</u></a></h2>
-    <hr class="w3-opacity">
-    {% for news in site.data.news %}
-    {% if news.home == 'true' %}
+<!-- Teaching -->
+<div class="vg-page page-blog" id="teaching">
+  <h1 class="text-center fg-dark wow fadeInUp"><a href="/teaching" class="fg-theme">Teaching</a></h1>
+  <div class="container wow fadeInUp">
+    {% for teaching in site.data.teaching %}
     <ul>
       <li>
-        <span class="title">{{ news.date }}</span>
-        <span class="news-subtitle">{{ news.description }}</span>
-        {% if news.attachments %}
-        <p>{{ news.attachments }}</p>
+        <span class="ram-title wow fadeInUp">{{ teaching.date }}</span>
+        <br/>
+        <span class="ram-subtitle wow fadeInUp">Course: {{ teaching.class }}</span>
+        <br/>
+        <span class="ram-subtitle wow fadeInUp">Position: {{ teaching.position }}</span>
+        <br/>
+        <span class="ram-subtitle wow fadeInUp">{{ teaching.description }}</span>
+      </li>
+    </ul>
+    {% endfor %}
+  </div>
+</div>
+<!-- End Teaching -->
+
+<!-- News -->
+<div class="vg-page p-0" id="news">
+  <div class="owl-carousel testi-carousel" style="background-image: url(images/bg.jpg);">
+      {% for news in site.data.news %}
+        {% if news.home == 'true' %}
+        <div class="item">
+            <span class="ram-title" style="text-decoration: underline;">{{ news.date }}<br/></span>
+            <span class="ram-subtitle">{{ news.description }}</span><br/>
+            {% if news.attachments %}
+            <p>{{ news.attachments }}</p>
+            {% endif %}
+        <span class="ram-title"><a href="/news">See more news &#8594;</a></span>
+
         {% endif %}
+      </div>
+      {% endfor %}
+
+  </div>
+</div> <!-- End News -->
+
+
+<!-- Awards -->
+<div class="vg-page page-service" id="awards">
+  <h1 class="text-center wow fadeInUp"><a href="/awards" class="fg-theme">Awards</a></h1>
+  <br/>
+  <div class="container">
+    {% for awards in site.data.awards %}
+    {% if awards.display == 'true'  %}
+    <ul>
+      <li>
+        <span class="ram-subtitle wow fadeInUp">{{ awards.award }}, {{ awards.date }}</span><br/>
       </li>
     </ul>
     {% endif %}
     {% endfor %}
-    <span class="title"><a href="/news">See more news &#8594;</a></span>
+    <span class="ram-title wow fadeInUp" style="float:right; margin-left: auto; margin-right: 0;"><a href="/awards">See more awards &#8594;</a></span>
+    </p>
+  </div>
 </div>
+<!--End Awards-->
 
-<br/>
+<!-- Awards Alternate
+<div class="vg-page page-blog" id="awards">
+  <h1 class="text-center wow fadeInUp"><a href="/awards" class="fg-theme">Awards</a></h1>
+  <div class="container">
+    <div class="row post-grid">
+    {% for awards in site.data.awards %}
+    {% if awards.display == 'true'  %} 
+    <div class="col-md-6 col-lg-4 wow fadeInUp">
+      <div class="card">
+        <div class="caption">
+            <p class="post-category">{{ awards.date }}</p>
+            <p class="post-title">{{ awards.award }}</p>     
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}     
+      <span class="ram-title" style="float:right; margin-left: auto; margin-right: 0;"><a href="/awards">See more awards &#8594;</a></span>
 
-<div class="w3-content w3-justify w3-text-grey" id="service">
-  <h2 class="w3-text-grey"><a href="/service"><u>Service</u></a></h2>
-  <hr class="w3-opacity">
-  {% for service in site.data.service %}
-  {% if service.display == 'true'  %}
-  <ul>
-    <li>{{ service.text }}
-    </li>
-  </ul>
-  {% endif %}
-  {% endfor %}
-  <span class="title"><a href="/service">See more service &#8594;</a></span>
-</div>
-
-<!--Awards Section -->
-
-<div class="w3-content w3-justify w3-text-grey" id="awards">
-  <h2 class="w3-text-grey"><a href="/awards"><u>Awards</u></a></h2>
-  <hr class="w3-opacity">
-  {% for awards in site.data.awards %}
-  {% if awards.display == 'true'  %}
-  <ul>
-    <li>
-      <span class="title">{{ awards.date }}</span>
-      <span class="news-subtitle">{{ awards.award }}</span>
-    </li>
-  </ul>
-  {% endif %}
-  {% endfor %}
-  <span class="title"><a href="/awards">See more awards &#8594;</a></span>
-</div>
-
-<div class="w3-content w3-justify w3-text-grey" id="talks">
-  <h2 class="w3-text-grey"><a href="/talks"><u>Talks</u></a></h2>
-  <hr class="w3-opacity">
-  {% for talk in site.data.talks %}
-  <ul>
-    <li>
-      <span class="title">{{ talk.date }}</span>
-      <span class="news-subtitle">Title: {{ talk.topic }} {% if talk.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity"></i></a>{% endif %}</span>
-      <br/>
-      <span class="news-subtitle">Venue: {{ talk.venue }}</span>
-      <br/>
-      {% if talk.award %} <span class="news-subtitle">Award: {{ talk.award }}</span>{% endif %}
-    </li>
-  </ul>
-  {% endfor %}
-</div>
-
-<br/>
-
-
-<div class="w3-content w3-justify w3-text-grey" id="invited">
-  <h2 class="w3-text-grey"><a href="/blogposts"><u>Blogposts & Reports</u></a></h2>
-  <hr class="w3-opacity">
-  {% for blog in site.data.blogposts %}
-  <ul>
-    <li>
-      <span class="title">{{ blog.date }}</span>
-      <span class="news-subtitle">Title: {{ blog.topic }} {% if blog.link %} <a href=" {{ blog.link }} " target="_blank" title="Go to blogpost"><i class="fa fa-file w3-hover-opacity"></i></a>{% endif %}</span>
-      <br/>
-      <span class="news-subtitle">Venue: {{ blog.venue }}</span>
-    </li>
-  </ul>
-  {% endfor %}
-</div>
-
-<br/>
-
-<!--Projects Section-->
-<div class="w3-content w3-justify w3-text-grey" id="projects">
-    <h2><a href="/projects"><u>Projects</u></a></h2>
-    <hr class="w3-opacity">
-
-    <h3 class="title">Censored Planet Observatory</h3>
-    <p><iframe src="https://www.youtube-nocookie.com/embed/ljZJrM9A2Pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-left:15%; width:70%; margin-right:15%" height=350></iframe></p>
-
-    I am the primary developer and maintainer of the <a href="https://www.censoredplanet.org" target="_blank">Censored Planet Observatory</a>, which is a platform for measuring Internet censorship and network interference continously and globally. The observatory uses thousands of remote infrastructural vantage points from over 170 countries to continuously monitor disruption tactics used by authorities around the world. All data collected using the Observatory is made <a href="https://www.censoredplanet.org/data/raw" target="_blank">public</a> for use by researchers and policy-makers, and we have already released several <a href="https://www.censoredplanet.org" target="_blank">reports</a> based on data from the Observatory. I also maintain the Observatory website, which contains several visualizations of our data. 
-
-    <h4>Map showing the Observatory's vantage point distribution:</h4> 
-    <a href="https://www.censoredplanet.org/data/visualizations" target="_blank"><img src="images/cp_vp.png" alt="VP" style="width:90%"></img></a>
-
-    <h4>Map showing percentage of disruption detected using Satellite in different countries:</h4>
-    <a href="https://www.censoredplanet.org/data/visualizations" target="_blank"><img src="images/cp_satellite.png" alt="Satellite" style="width:90%"></img></a>
-
-    <h3 class="title">Kazakhstan's HTTPS Interception</h3>
-    I led Censored Planet's <a href="https://censoredplanet.org/kazakhstan" target="_blank:">investigation</a> into the interception of HTTPS connections of Internet users in Kazakhstan. The Kazakhstan government began using a fake root CA from July 20 2019 to perform a man-in-the-middle (MitM) attack against HTTPS connections to websites including Facebook, Twitter, and Google. This behavior significantly weakened Internet for Kazakh Internet users, who were instructed to manually trust the fake CA certificate. Our investigation suggested that only a portion of the Internet users in Kazakhstan were affected in what appeared to be a pilot test of the system. Our <a href="https://censoredplanet.org/kazakhstan/live" target="_blank:">live measurements</a> reveal that the attack was stopped on August 6 2019, and an official statement from the Kazakhstan Government suggests they will turn on the system "when necessary". 
-	<h4>Live tracking of Censored Planet observatory vantage points observing the intercepion:</h4> 
-    <a href="https://censoredplanet.org/kazakhstan/live" target="_blank"><img src="images/kazakh.jpg" alt="Kazakhstan" style="width:90%"></img></a>
-
-
-    <span class="title"><a href="/projects">See more projects &#8594;</a></span>
-</div>
-<br/>
-  <!-- Contact Section -->
-  <div class=" w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
-    <h2>Contact Me</h2>
-    <hr class="w3-opacity">
-
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Ann Arbor, MI</p>
-      <!--<p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +1-(734)-353-6994</p>-->
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: ramaks@umich.edu</p>
     </div>
-    
-  <!-- End Contact Section -->
-  </div>  
-  
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity " style="margin:-24px">
-    <p>   &copy; Ramakrishnan Sundara Raman</p>
-  <!-- End footer -->
-  </footer>
-  
-<!-- END PAGE CONTENT -->
+  </div>
+</div> -->
+
+<!-- Service -->
+<div class="vg-page page-blog" id="service">
+  <h1 class="text-center fg-dark wow fadeInUp"><a href="/service" class="fg-theme">Service</a></h1>
+  <div class="container wow fadeInUp">
+    <br/>
+    {% for service in site.data.service %}
+    {% if service.display == 'true'  %}
+    <ul>
+      <li> <span class="ram-subtitle wow fadeInUp">{{ service.text }}</span>
+      </li>
+    </ul>
+    {% endif %}
+    {% endfor %}
+    <span class="ram-title wow fadeInUp" style="float:right; margin-left: auto; margin-right: 0;"><a href="/service">See more service &#8594;</a></span>
+
+  </div>
 </div>
+<!-- End Service -->
+
+
+<!-- Talks -->
+<div class="vg-page page-service" id="talks">
+  <h1 class="text-center wow fadeInUp"><a href="/talks" class="fg-theme">Talks</a></h1>
+  <br/>
+  <div class="container">
+  {% for talk in site.data.talks %}
+  {% if talk.display == 'true'  %}
+
+    <ul>
+      <li>
+        <span class="ram-subtitle wow fadeInUp">{{ talk.topic }}{% if talk.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity"></i></a>{% endif %}, {{ talk.date }} </span><br/>
+        <span class="ram-subtitle wow fadeInUp">Venue: {{ talk.venue }}</span><br/>
+        <br/>
+        {% if talk.award %} <span class="ram-subtitle wow fadeInUp">Award: {{ talk.award }}</span>{% endif %}
+      </li>
+    </ul>
+    {% endif %}
+    {% endfor %}
+    <span class="ram-title wow fadeInUp" style="float:right; margin-left: auto; margin-right: 0;"><a href="/talks">See more talks &#8594;</a></span>
+    </p>
+  </div>
+</div>
+<!--End Talks-->
+
+
+<!-- Blogposts -->
+<div class="vg-page page-blog" id="blogposts">
+  <h1 class="text-center fg-dark wow fadeInUp"><a href="/blogposts" class="fg-theme">Blogposts & Reports</a></h1>
+  <div class="container wow fadeInUp">
+    <br/>
+    {% for blog in site.data.blogposts %}
+    <ul>
+      <li>
+        <span class="ram-subtitle wow fadeInUp">{% if blog.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"> {{ blog.topic }} <i class="fa fa-link w3-hover-opacity"></i></a>{% endif %}, {{ blog.date }} </span><br/>
+        <span class="ram-subtitle wow fadeInUp">Venue: {{ blog.venue }}</span><br/>
+        <br/>
+      </li>
+    </ul>
+    {% endfor %}
+  </div>
+</div>
+<!-- End Blogposts -->
+
+<!-- Projects -->
+<div class="vg-page page-service" id="projects">
+  <h1 class="text-center fg-dark wow fadeInUp"><a href="/projects">Selected Projects</a></h1>
+  <div class="container">
+    <div class="row post-grid">
+      <div class="col-md-6 col-lg-4 wow fadeInUp">
+        <div class="card">
+          <div class="img-place">
+            <iframe src="https://www.youtube-nocookie.com/embed/ljZJrM9A2Pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;" height=250></iframe>
+          </div>
+          <div class="caption">
+            <a href="https://www.censoredplanet.org" class="post-title">Censored Planet</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 wow fadeInUp">
+        <div class="card">
+          <div class="img-place">
+            <iframe src="https://www.youtube-nocookie.com/embed/j1sLWAm0nMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;" height=250></iframe>
+          </div>
+          <div class="caption">
+            <a href="https://dashboard.censoredplanet.org" class="post-title">Censored Planet Dashboard</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 wow fadeInUp">
+        <div class="card">
+          <div class="img-place">
+            <iframe src="https://www.youtube-nocookie.com/embed/RoYWsfNOCr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;" height=250></iframe>
+          </div>
+          <div class="caption">
+            <a href="https://www.censoredplanet.org/kazakhstan" class="post-title">HTTPS Interception</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div> <!-- End projects -->
+
+
+<!-- Footer -->
+<div class="vg-footer">
+  <h1 class="text-center">Ramakrishnan Sundara Raman</h1>
+  
+  <p class="text-center"><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Ann Arbor, MI</p>
+  <!--<p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +1-(734)-353-6994</p>-->
+  <p class="text-center"><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: ramaks@umich.edu</p> 
+      </div>
+    </div>
+  </div>
+</div> <!-- End footer -->
+</div> <!-- End main wrapper -->

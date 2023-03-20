@@ -1,18 +1,23 @@
 ---
-layout: only-title
+layout: home
 ---
+<script>
+  window.onload = setMenu('awards-menu');
+</script>
 
-<!--Awards Section -->
-
-<div class="w3-content w3-justify w3-text-grey" id="awards">
-    <h2 class="w3-text-grey">Awards</h2>
-    <hr class="w3-opacity">
+<!-- Awards -->
+<div class="vg-page page-blog" id="awards">
+  <h1 class="text-center"><a href="/awards" class="fg-theme">Awards</a></h1>
+  <br/>
+  <div class="container">
     {% for awards in site.data.awards %}
     <ul>
       <li>
-        <span class="title">{{ awards.date }}</span>
-        <span class="news-subtitle">{{ awards.award }}</span>
+        <span class="ram-subtitle">{{ awards.award }}, {{ awards.date }}</span><br/>
       </li>
     </ul>
     {% endfor %}
+    </p>
+  </div>
 </div>
+<!--End Awards-->

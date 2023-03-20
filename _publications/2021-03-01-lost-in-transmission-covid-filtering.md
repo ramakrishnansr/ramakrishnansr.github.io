@@ -20,7 +20,7 @@ bibtex-title: "vyas2021lost"
 bibtex: "@inproceedings{vyas2021lost,<br>
 title = {Lost in Transmission: Investigating Filtering of COVID-19 Websites},<br>
 author = {Vyas, Anjali and Sundara Raman, Ram and Ceccio, Nick and Lutscher, Philipp and Ensafi, Roya},<br>
-booktitle={In Financial Cryptography and Data Security (FC)},<br>
+booktitle={Financial Cryptography and Data Security (FC)},<br>
 year={2021}<br>
 }"
 ---

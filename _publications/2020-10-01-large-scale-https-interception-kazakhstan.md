@@ -18,8 +18,8 @@ talk: "https://youtu.be/RoYWsfNOCr4"
 bibtex-title: "sundararaman2020investigating"
 bibtex: "@inproceedings{sundararaman2020investigating,<br>
 title={{Investigating Large Scale HTTPS Interception in Kazakhstan}},<br>
-author={R. Sundara Raman, L. Evdokimov, E. Wustrow, A. Halderman, and R. Ensafi},<br>
-booktitle={In ACM Internet Measurement Conference (IMC)},<br>
+author={Sundara Raman, Ram and Evdokimov, Leonid and Wustrow, Eric and Halderman, Alex and Ensafi, Roya},<br>
+booktitle={ACM Internet Measurement Conference (IMC)},<br>
 year={2020}<br>
 }"
 tag: 🏅 Best Paper Award Nominee 

@@ -1,30 +1,45 @@
 ---
-layout: only-title
+layout: home
 ---
-<div class="w3-content w3-justify w3-text-grey" id="projects">
-    <h2>Projects</h2>
-    <hr class="w3-opacity">
-    <h3 class="title">Censored Planet Observatory</h3>
-    <p><iframe src="https://www.youtube-nocookie.com/embed/ljZJrM9A2Pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-left:20%;" width="560" height="315"></iframe></p>
-
-    I am the primary developer and maintainer of the <a href="https://www.censoredplanet.org/observatory" target="_blank">Censored Planet Observatory</a>, which is a platform for measuring Internet censorship and network interference continously and globally. The observatory uses thousands of remote infrastructural vantage points from over 170 countries to continuously monitor disruption tactics used by authorities around the world. All data collected using the Observatory is made <a href="https://www.censoredplanet.org/data/raw" target="_blank">public</a> for use by researchers and policy-makers, and we have already released several <a href="https://www.censoredplanet.org" target="_blank">reports</a> based on data from the Observatory. I also maintain the Observatory website, which contains several visualizations of our data. 
-
-    <h4>Map showing the Observatory's vantage point distribution:</h4> 
-    <a href="https://www.censoredplanet.org/data/visualizations" target="_blank"><img src="images/cp_vp.png" alt="VP" style="width:90%"></img></a>
-
-    <h4>Map showing percentage of disruption detected using Satellite in different countries:</h4>
-    <a href="https://www.censoredplanet.org/data/visualizations" target="_blank"><img src="images/cp_satellite.png" alt="Satellite" style="width:90%"></img></a>
-
-    <h3 class="title">Kazakhstan's HTTPS Interception</h3>
-    I led Censored Planet's <a href="https://censoredplanet.org/kazakhstan" target="_blank:">investigation</a> into the interception of HTTPS connections of Internet users in Kazakhstan. The Kazakhstan government began using a fake root CA from July 20 2019 to perform a man-in-the-middle (MitM) attack against HTTPS connections to websites including Facebook, Twitter, and Google. This behavior significantly weakened Internet for Kazakh Internet users, who were instructed to manually trust the fake CA certificate. Our investigation suggested that only a portion of the Internet users in Kazakhstan were affected in what appeared to be a pilot test of the system. Our <a href="https://censoredplanet.org/kazakhstan/live" target="_blank:">live measurements</a> reveal that the attack was stopped on August 6 2019, and an official statement from the Kazakhstan Government suggests they will turn on the system "when necessary". 
-	<h4>Live tracking of Censored Planet observatory vantage points observing the intercepion:</h4> 
-    <a href="https://censoredplanet.org/kazakhstan/live" target="_blank"><img src="images/kazakh.jpg" alt="Kazakhstan" style="width:90%"></img></a>
-
-
-    <h3 lass="title">Thunderping Live</h3>
-    <p> As a research intern at University of Maryland, I worked with <a href="http://www.cs.umd.edu/~nspring/" target="_blank">Prof. Neil Spring</a> on measuring last-mile residential Internet outages in areas affected by severe weather conditions. The Thunderping tool uses several vantage points to actively prove residential IP addresses. The real-time website shows Internet outages as they occur. The tool helped visualize heavy outages during Hurricanes Harvey and Irma.</p>
-    <h4>Map showing outage statistics aggregated by state:</h4>
-    <a href="http://bluepill.cs.umd.edu:3000/map/statemap" target="_blank"><img src="images/statemap.png" alt="statemap" style="width:90%"></img></a>
-    <h4>Map showing present weather condition and outage information:</h4>
-    <a href="http://bluepill.cs.umd.edu:3000/map/countymap" target="_blank"><img src="images/countymap.png" alt="countymap" style="width:90%"></img></a>
-</div>
+<script>
+  window.onload = setMenu('projects-menu');
+</script>
+<!-- Projects -->
+<div class="vg-page page-blog" id="projects">
+    <h1 class="text-center fg-dark"><a href="/projects">Selected Projects</a></h1>
+    <div class="container">
+      <div class="row post-grid">
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="img-place">
+              <iframe src="https://www.youtube-nocookie.com/embed/ljZJrM9A2Pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;" height=250></iframe>
+            </div>
+            <div class="caption">
+              <a href="https://www.censoredplanet.org" class="post-title">Censored Planet</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="img-place">
+              <iframe src="https://www.youtube-nocookie.com/embed/j1sLWAm0nMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;" height=250></iframe>
+            </div>
+            <div class="caption">
+              <a href="https://dashboard.censoredplanet.org" class="post-title">Censored Planet Dashboard</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="img-place">
+              <iframe src="https://www.youtube-nocookie.com/embed/RoYWsfNOCr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;" height=250></iframe>
+            </div>
+            <div class="caption">
+              <a href="https://www.censoredplanet.org/kazakhstan" class="post-title">HTTPS Interception</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div> <!-- End projects -->

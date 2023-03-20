@@ -22,7 +22,7 @@ bibtex-title: "padmanabhan2021multi-perspective"
 bibtex: "@inproceedings{padmanabhan2021multi-perspective,<br>
 title = {A Multi-Perspective View of Internet Censorship in Myanmar},<br>
 author = {Padmanabhan, Ramakrishna and Filastò, Arturo and Xynou, Maria and and Sundara Raman, Ram and Middleton, Kennedy and Zhang, Mingwei and Madory, Doug and Roberts, Molly and Dainotti, Alberto},<br>
-booktitle={In ACM SIGCOMM 2021 Workshop on Free and Open Communications on the Internet (FOCI 2021)},<br>
+booktitle={ACM SIGCOMM 2021 Workshop on Free and Open Communications on the Internet (FOCI)},<br>
 year={2021}<br>
 }"
 ---

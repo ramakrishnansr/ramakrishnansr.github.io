@@ -1,18 +1,22 @@
 ---
-layout: only-title
+layout: home
 ---
 
-<!--Service Section -->
+<script>
+  window.onload = setMenu('service-menu');
+</script>
+<!-- Service -->
+<div class="vg-page page-blog" id="service">
+  <h1 class="text-center fg-dark"><a href="/service" class="fg-theme">Service</a></h1>
+  <div class="container">
+    <br/>
+    {% for service in site.data.service %}
+    <ul>
+      <li> <span class="ram-subtitle">{{ service.text }}</span>
+      </li>
+    </ul>
+    {% endfor %}
 
-<div class="w3-content w3-justify w3-text-grey" id="service">
-  <h2 class="w3-text-grey"><a href="/service"><u>Service</u></a></h2>
-  <hr class="w3-opacity">
-  {% for service in site.data.service %}
-  {% if service.display == 'true'  %}
-  <ul>
-    <li>{{ service.text }}
-    </li>
-  </ul>
-  {% endif %}
-  {% endfor %}
+  </div>
 </div>
+<!-- End Service -->
