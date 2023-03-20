@@ -1,31 +1,26 @@
 ---
-layout: only-title
+layout: home
 ---
-
-<!-- Scripts -->
 <script>
-  function toggleBib(bibtitle) {
-   var x = document.getElementById(bibtitle);
-   if (x.style.display === "none") {
-     x.style.display = "block";
-   } else {
-     x.style.display = "none";
-   }
- }
- </script>
+  window.onload = setMenu('publications-menu');
+</script>
 
-<!--Publications Section -->
-<div class="w3-content w3-justify w3-text-grey" id="publications">
-    <h2 class="w3-text-grey">Publications</h2>
-    <hr class="w3-opacity">
+<!-- Publications -->
+<div class="vg-page page-blog" id="publications">
+  <h1 class="text-center"><a href="/publications" class="fg-theme">Publications</a></h1>
+  <div class="container">
     {% for publication in site.publications reversed%}
     {% if publication.blacklisted == "yes" %}
     {% else %}
     {% assign collaborators = publication.collaborators %}
-    <p><span class="title"><a href="{{ publication.pdf }} " target="_blank" title="Go to paper">{{ publication.name }} {% if publication.pdf %}<i class="fa fa-file w3-hover-opacity"></i>{% endif %}</a> {% if publication.slides %}<a href=" {{ publication.slides }} " target="_blank" title="Go to slides"> <i class="fa fa-desktop w3-hover-opacity"></i></a>{% endif %}{% if publication.talk %} <a href=" {{ publication.talk }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity"></i></a>{% endif %}{% if publication.bibtex-title %}
-      <button style="font-size:small; vertical-align: middle; position:relative; display: inline-block;" class="w3-hover-opacity" onclick="toggleBib('{{ publication.bibtex-title }}')">BibTex</button>
-      <p class="bibtex" style="display:none" id={{ publication.bibtex-title }}>{{ publication.bibtex }}</p>
-      {% endif %}</span> 
+    
+    <p><span class="ram-subtitle"><a href="{{ publication.pdf }} " target="_blank" title="Go to paper" class="fg-theme">{{ publication.name }} {% if publication.pdf %}<i class="fa fa-file-pdf w3-hover-opacity fg-theme"></i>{% endif %}</a> {% if publication.slides %}<a href=" {{ publication.slides }} " target="_blank" title="Go to slides"> <i class="fa fa-desktop w3-hover-opacity fg-theme"></i></a>{% endif %}{% if publication.talk %} <a href=" {{ publication.talk }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity fg-theme"></i></a>{% endif %}
+
+    {% if publication.bibtex-title %}
+      <a class="fg-theme" onclick="toggleBib('{{ publication.bibtex-title }}')"> <i class="fa fa-quote-right w3-hover-opacity fg-theme"></i></a>
+    {% endif %}
+    </span> 
+    <br/>
     {%  assign last_collab = collaborators[-1] %}
     {% for collaborator in collaborators %}
       {% if collaborator == last_collab %}
@@ -36,15 +31,16 @@ layout: only-title
     {% endfor %}<br/> 
     <span class="collaborator">{{ publication.publisher }}, {{ publication.date | date: "%B %Y" }}
       </span>
-      <br/>
     {% if publication.tag %}
+      <br/>
       <span class="collaborator">{{ publication.tag }}
       </span>
-      <br/>
     {% endif %}
+    <p class="bibtex" style="display:none" id={{ publication.bibtex-title }}>{{ publication.bibtex }}</p>
+
     {% endif %}
     {% endfor %}
-          
-  </p>
+    </p>
+    </div>
 </div>
-
+<!-- End Publications -->

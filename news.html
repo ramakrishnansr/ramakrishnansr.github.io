@@ -1,17 +1,21 @@
 ---
-layout: only-title
+layout: home
 ---
 
-<!--News Section -->
+<script>
+  window.onload = setMenu('news-menu');
+</script>
 
-<div class="w3-content w3-justify w3-text-grey" id="news">
-    <h2 class="w3-text-grey">News</h2>
+<!--News Section -->
+<div class="vg-page page-blog" id="news">
+  <h1 class="text-center fg-dark"><a href="/news" class="fg-theme">News</a></h1>
+  <div class="container">
     <hr class="w3-opacity">
     {% for news in site.data.news %}
     <ul>
       <li>
-        <span class="title">{{ news.date }}</span>
-        <span class="news-subtitle">{{ news.description }}</span>
+        <span class="ram-title">{{ news.date }}</span>
+        <span class="ram-subtitle">{{ news.description }}</span>
         {% if news.attachments %}
         <p>{{ news.attachments }}</p>
         {% endif %}

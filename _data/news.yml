@@ -1,3 +1,11 @@
+- key: news37
+  date: 17 March 2023
+  description: 'I am extremely happy to have been <a href="https://cse.engin.umich.edu/stories/ram-sundara-raman-earns-rackham-predoctoral-fellowship" target="_blank">awarded the Rackham Predoctoral Fellowship</a> for the academic year 2023-2024'
+  home: 'true'
+- key: news36
+  date: 16 March 2023
+  description: 'It was extremely rewarding to attend the <a href="https://rackham.umich.edu/phd-connections/" target="_blank">PhD connections conference</a> at the University of Michigan and hear from a group of diverse expert panelists.'
+  home: 'true'
 - key: news35
   date: 24 February 2023
   description: 'An year after the escalation of the Ukraine invasion, my <a href="assets/russia-ukraine-invasion.pdf" target="_blank">new research paper appearing at USENIX Security 2023</a> investigates network changes in Russia.'
@@ -9,11 +17,9 @@
 - key: news33
   date: 23 January 2023
   description: 'I had a great time interacting with the Internet Freedom Community and giving a talk at the 2023 OTF Summit in Austin, Texas'
-  home: 'true'
 - key: news32
   date: 16 January 2023
   description: 'Grateful to be receive a <a href="https://culture.engin.umich.edu/2023-nominees-recipients/" target="_blank">2023 North Campus Deans MLK Spirit Award</a>'
-  home: 'true'
 - key: news31
   date: 09 January 2023
   description: 'I am delighted and honored to receive the <a href="https://www.ietf.org/blog/anrp-2023/" target="_blank">IRTF Applied Networking Research Prize (ANRP)</a> for my work on <a href="/assets/censorship_devices.pdf" target="_blank">studying censorship devices.</a>  I was also <a href="https://cse.engin.umich.edu/stories/u-m-researchers-win-applied-networking-research-prize-in-partnership-with-citizen-lab-and-princeton-citp" target="_blank">featured on the UM CSE news page</a>'

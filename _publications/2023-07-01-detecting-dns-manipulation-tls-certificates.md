@@ -1,7 +1,7 @@
 ---
-date: 2023-07-10
+date: 2023-08-09
 publisher: To Appear - Privacy Enhancing Technologies Symposium (PETS) 2023
-name: "Detecting DNS Manipulation using TLS Certificates"
+name: "CERTainty: Detecting DNS Manipulation using TLS Certificates"
 tags:
   - censorship
   - observatory
@@ -15,9 +15,10 @@ collaborators:
   - Gavin Li
   - Yael Eiger
   - Roya Ensafi
+pdf: "assets/certainty.pdf"
 bibtex-title: "tsai2023detecting"
 bibtex: "@inproceedings{tsai2023detecting,<br>
-title = {Detecting DNS Manipulation using TLS Certificates},<br>
+title = {CERTainty: Detecting DNS Manipulation using TLS Certificates},<br>
 author = {Tsai, Elisa and Kumar, Deepak and Sundara Raman, Ram and Li, Gavin and Eiger, Yael and Ensafi, Roya},<br>
 booktitle={Privacy Enhancing Technologies Symposium (PETS)},<br>
 year={2023}<br>

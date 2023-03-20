@@ -21,8 +21,8 @@ press:
 bibtex-title: "sundararaman2020measuring"
 bibtex: "@inproceedings{sundararaman2020measuring,<br>
 title={Measuring the Deployment of Network Censorship Filters at Global Scale},<br>
-author={R. Sundara Raman, A. Stoll, J.Dalek, R. Ramesh, W.Scott, R.Ensafi},<br>
-booktitle={Proceedings of the Network and Distributed System Security Symposium, NDSS 2020, San Diego, California, USA},<br>
+author={Sundara Raman, Ram and Stoll, Adrian and Dalek, Jakub and Ramesh, Reethika and Scott, Will and Ensafi, Roya},<br>
+booktitle={Network and Distributed System Security Symposium (NDSS)},<br>
 year={2020}<br>
 }"
 talk: "https://youtu.be/R8VlHOwakQk"
