@@ -1,3 +1,8 @@
+- key: blog4
+  date: 04 May 2023
+  topic: 'Making Censorship Data More User Friendly'
+  venue: 'Internet Society Pulse Blog'
+  link: 'https://pulse.internetsociety.org/blog/making-censorship-data-more-user-friendly'
 - key: blog3
   date: 05 December 2022
   topic: 'Profiling Internet Censors: Methods to Measure and Locate Censorship Devices'

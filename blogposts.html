@@ -13,7 +13,7 @@ layout: home
     {% for blog in site.data.blogposts %}
     <ul>
       <li>
-        <span class="ram-subtitle">{% if blog.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"> {{ blog.topic }} <i class="fa fa-link w3-hover-opacity"></i></a>{% endif %}, {{ blog.date }} </span><br/>
+        <span class="ram-subtitle">{% if blog.link %} <a href=" {{ blog.link }} " target="_blank" title="Go to talk"> {{ blog.topic }} <i class="fa fa-link w3-hover-opacity"></i></a>{% endif %}, {{ blog.date }} </span><br/>
         <span class="ram-subtitle">Medium: {{ blog.venue }}</span><br/>
         <br/>
       </li>

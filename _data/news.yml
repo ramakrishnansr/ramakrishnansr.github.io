@@ -1,3 +1,7 @@
+- key: news38
+  date: 04 May 2023
+  description: 'Read my <a href="https://pulse.internetsociety.org/blog/making-censorship-data-more-user-friendly" target="_blank">new blogpost on the ISOC Pulse blog about improving the process of censorship data analysis.</a>'
+  home: 'true'
 - key: news37
   date: 17 March 2023
   description: 'I am extremely happy to have been <a href="https://cse.engin.umich.edu/stories/ram-sundara-raman-earns-rackham-predoctoral-fellowship" target="_blank">awarded the Rackham Predoctoral Fellowship</a> for the academic year 2023-2024'
@@ -13,7 +17,6 @@
 - key: news34
   date: 15 February 2023
   description: 'It was amazing to present <a href="assets/censorship-data-analysis.pdf" target="_blank">my work on censorship data analysis</a> to the Internet Freedom research community at <a href="https://foci.community" target="_blank">FOCI 2023</a>.'
-  home: 'true'
 - key: news33
   date: 23 January 2023
   description: 'I had a great time interacting with the Internet Freedom Community and giving a talk at the 2023 OTF Summit in Austin, Texas'

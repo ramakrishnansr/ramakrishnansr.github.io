@@ -18,18 +18,18 @@ layout: home
               <p class="fg-theme fw-medium">PhD candidate</p>
               <p class="fg-theme fw-medium">Computer Science and Engineering</p>
               <p class="fg-theme fw-medium"><a href="https://www.umich.edu" target="_blank" title="Go to the UMich page">University of Michigan</a></p>
+              <a href="mailto:ramaks@umich.edu" target="_blank" style="margin-left: 1%;" title="Send me mail"><span style="font-size: 17px; margin-left: 0.1%; margin-top: 1%;">ramaks[@]umich[.]edu</span></a>
+
             </div>
             <div class="img-place" >
               <img src="images/avatar.jpg" alt="Ram is here!">
             </div>
-           <div style="margin: auto; width:50%">
+           <div style="margin: auto; width:55%">
           
-              <a href="https://twitter.com/ramakrishnan13s" target="_blank" style="margin-left: 1%;" title="Go to my Twitter profile"><i class="fg-theme fa fa-twitter w3-hover-opacity" style="font-size: 48px"></i></a>
-              <a href="https://www.linkedin.com/in/ramakrishnansundararaman/" target="_blank" style="margin-left: 1%;" title="Go to my LinkedIn profile"><i class="fg-theme fa fa-linkedin w3-hover-opacity" style="font-size: 48px"></i></a>
-              <a href="https://github.com/ramakrishnansr" target="_blank" style="margin-left: 1%;" title="Go to my Github Page"><i class="fg-theme fa fa-github w3-hover-opacity" style="font-size: 48px"></i></a>
-              <a href="https://scholar.google.com/citations?user=1gyokIMAAAAJ&hl=en" target="_blank" style="margin-left: 1%" title="Go to my Google Scholar profile"><i class="fg-theme fa fa-graduation-cap w3-hover-opacity" style="font-size: 47px;  margin-top: 1%"></i></a>
-          
-              <a href="mailto:ramaks@umich.edu" target="_blank" style="margin-left: 1%;" title="Send me mail"><i class="fg-theme fa fa-envelope w3-hover-opacity" style="font-size: 45px; margin-left: 0.1%; margin-top: 1%;"></i></a>
+              <a href="https://twitter.com/ramakrishnan13s" target="_blank" style="margin-left: 2%;" title="Go to my Twitter profile"><i class="fg-theme fa fa-twitter w3-hover-opacity" style="font-size: 58px"></i></a>
+              <a href="https://www.linkedin.com/in/ramakrishnansundararaman/" target="_blank" style="margin-left: 2%;" title="Go to my LinkedIn profile"><i class="fg-theme fa fa-linkedin w3-hover-opacity" style="font-size: 58px"></i></a>
+              <a href="https://github.com/ramakrishnansr" target="_blank" style="margin-left: 2%;" title="Go to my Github Page"><i class="fg-theme fa fa-github w3-hover-opacity" style="font-size: 58px"></i></a>
+              <a href="https://scholar.google.com/citations?user=1gyokIMAAAAJ&hl=en" target="_blank" style="margin-left: 2%" title="Go to my Google Scholar profile"><i class="fg-theme fa fa-graduation-cap w3-hover-opacity" style="font-size: 58px;  margin-top: 1%"></i></a>
               <br/>
             </div>
 
@@ -91,26 +91,26 @@ layout: home
 </div>
 <!-- End Publications -->
 
-<!-- Teaching -->
-<div class="vg-page page-blog" id="teaching">
-  <h1 class="text-center fg-dark "><a href="/teaching" class="fg-theme">Teaching</a></h1>
-  <div class="container ">
-    {% for teaching in site.data.teaching %}
+
+<!-- Awards -->
+<div class="vg-page page-blog" id="awards">
+  <h1 class="text-center "><a href="/awards" class="fg-theme">Awards</a></h1>
+  <br/>
+  <div class="container">
+    {% for awards in site.data.awards %}
+    {% if awards.display == 'true'  %}
     <ul>
       <li>
-        <span class="ram-title ">{{ teaching.date }}</span>
-        <br/>
-        <span class="ram-subtitle ">Course: {{ teaching.class }}</span>
-        <br/>
-        <span class="ram-subtitle ">Position: {{ teaching.position }}</span>
-        <br/>
-        <span class="ram-subtitle ">{{ teaching.description }}</span>
+        <span class="ram-subtitle ">{{ awards.award }}, {{ awards.date }}</span><br/>
       </li>
     </ul>
+    {% endif %}
     {% endfor %}
+    <span class="ram-title " style="float:right; margin-left: auto; margin-right: 0;"><a href="/awards">See more awards &#8594;</a></span>
+    </p>
   </div>
 </div>
-<!-- End Teaching -->
+<!--End Awards-->
 
 <!-- News -->
 <div class="vg-page p-0" id="news">
@@ -132,26 +132,29 @@ layout: home
   </div>
 </div> <!-- End News -->
 
-
-<!-- Awards -->
-<div class="vg-page page-service" id="awards">
-  <h1 class="text-center "><a href="/awards" class="fg-theme">Awards</a></h1>
-  <br/>
-  <div class="container">
-    {% for awards in site.data.awards %}
-    {% if awards.display == 'true'  %}
+<!-- Teaching -->
+<div class="vg-page page-service" id="teaching">
+  <h1 class="text-center fg-dark "><a href="/teaching" class="fg-theme">Teaching</a></h1>
+  <div class="container ">
+    {% for teaching in site.data.teaching %}
     <ul>
       <li>
-        <span class="ram-subtitle ">{{ awards.award }}, {{ awards.date }}</span><br/>
+        <span class="ram-title ">{{ teaching.date }}</span>
+        <br/>
+        <span class="ram-subtitle ">Course: {{ teaching.class }}</span>
+        <br/>
+        <span class="ram-subtitle ">Position: {{ teaching.position }}</span>
+        <br/>
+        <span class="ram-subtitle ">{{ teaching.description }}</span>
       </li>
     </ul>
-    {% endif %}
     {% endfor %}
-    <span class="ram-title " style="float:right; margin-left: auto; margin-right: 0;"><a href="/awards">See more awards &#8594;</a></span>
-    </p>
   </div>
 </div>
-<!--End Awards-->
+<!-- End Teaching -->
+
+
+
 
 <!-- Awards Alternate
 <div class="vg-page page-blog" id="awards">
@@ -229,7 +232,7 @@ layout: home
     {% for blog in site.data.blogposts %}
     <ul>
       <li>
-        <span class="ram-subtitle ">{% if blog.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"> {{ blog.topic }} <i class="fa fa-link w3-hover-opacity"></i></a>{% endif %}, {{ blog.date }} </span><br/>
+        <span class="ram-subtitle ">{% if blog.link %} <a href=" {{ blog.link }} " target="_blank" title="Go to talk"> {{ blog.topic }} <i class="fa fa-link w3-hover-opacity"></i></a>{% endif %}, {{ blog.date }} </span><br/>
         <span class="ram-subtitle ">Medium: {{ blog.venue }}</span><br/>
         <br/>
       </li>
