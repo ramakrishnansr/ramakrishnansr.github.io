@@ -1,3 +1,7 @@
+- key: news39
+  date: 01 June 2023
+  description: 'Learned a lot from attending the <a href="assets/pff2023.pdf" target="_blank">2023 Rachkam CRLT Preparing Future Faculty Seminar 2023</a>.'
+  home: 'true'
 - key: news38
   date: 04 May 2023
   description: 'Read my <a href="https://pulse.internetsociety.org/blog/making-censorship-data-more-user-friendly" target="_blank">new blogpost on the ISOC Pulse blog about improving the process of censorship data analysis.</a>'
@@ -9,10 +13,9 @@
 - key: news36
   date: 16 March 2023
   description: 'It was extremely rewarding to attend the <a href="https://rackham.umich.edu/phd-connections/" target="_blank">PhD connections conference</a> at the University of Michigan and hear from a group of diverse expert panelists.'
-  home: 'true'
 - key: news35
   date: 24 February 2023
-  description: 'A year after the escalation of the Ukraine invasion, my <a href="assets/russia-ukraine-invasion.pdf" target="_blank">new research paper appearing at USENIX Security 2023</a> investigates network changes in Russia.'
+  description: 'My <a href="assets/russia-ukraine-invasion.pdf" target="_blank">new research paper appearing at USENIX Security 2023</a> investigates network changes in Russia following the escalation of the conflict with Ukraine.'
   home: 'true'
 - key: news34
   date: 15 February 2023
