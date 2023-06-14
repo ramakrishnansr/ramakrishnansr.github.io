@@ -16,7 +16,6 @@
 - key: news35
   date: 24 February 2023
   description: 'My <a href="assets/russia-ukraine-invasion.pdf" target="_blank">new research paper appearing at USENIX Security 2023</a> investigates network changes in Russia following the escalation of the conflict with Ukraine.'
-  home: 'true'
 - key: news34
   date: 15 February 2023
   description: 'It was amazing to present <a href="assets/censorship-data-analysis.pdf" target="_blank">my work on censorship data analysis</a> to the Internet Freedom research community at <a href="https://foci.community" target="_blank">FOCI 2023</a>.'
