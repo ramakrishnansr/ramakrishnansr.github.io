@@ -16,6 +16,7 @@ collaborators:
   - Yael Eiger
   - Roya Ensafi
 pdf: "assets/certainty.pdf"
+slides: "assets/certainty-slides.pdf"
 bibtex-title: "tsai2023detecting"
 bibtex: "@inproceedings{tsai2023detecting,<br>
 title = {CERTainty: Detecting DNS Manipulation using TLS Certificates},<br>

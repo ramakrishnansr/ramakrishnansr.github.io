@@ -14,6 +14,7 @@ collaborators:
   - Vinicius Fortuna
   - Roya Ensafi
 pdf: "assets/censorship-data-analysis.pdf"
+slides: "assets/censorship-data-analysis-slides.pdf"
 bibtex-title: "sundararaman2023advancing"
 bibtex: "@inproceedings{sundararaman2023advancing,<br>
 title = {Advancing the Art of Censorship Data Analysis},<br>

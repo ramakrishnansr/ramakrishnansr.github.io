@@ -1,7 +1,10 @@
-- key: news40
-  date: 10 July 2023!
-  description: 'Excited to attend <a href="https://foci.community/" target="_blank">FOCI 2023</a> and <a href="https://petsymposium.org/2023/" target="_blank">PETS 2023</a> in Lausanne, Switzerland.'
+- key: news41
+  date: 10 July 2023
+  description: 'Really happy and honored to receive the Rising Star award at <a href="https://foci.community/" target="_blank">FOCI 2023</a>'
   home: 'true'
+- key: news40
+  date: 10 July 2023
+  description: 'Excited to attend <a href="https://foci.community/" target="_blank">FOCI 2023</a> and <a href="https://petsymposium.org/2023/" target="_blank">PETS 2023</a> in Lausanne, Switzerland.'
 - key: news39
   date: 01 June 2023
   description: 'Learned a lot from attending the <a href="assets/pff2023.pdf" target="_blank">2023 Rachkam CRLT Preparing Future Faculty Seminar</a>.'
