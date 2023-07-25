@@ -1,11 +1,11 @@
 - key: award12
   date: 10 July 2023
-  award: '<a href="/images/foci-rising-star.jpeg">FOCI'23 Rising Star Award</a>'
+  award: '<a href="/images/foci-rising-star.jpeg" target="_blank">FOCI 2023 Rising Star Award</a>'
   display: 'true'
 - key: award11
   date: 17 March 2023
   award: '<a href="https://cse.engin.umich.edu/stories/ram-sundara-raman-earns-rackham-predoctoral-fellowship">Rackham Predoctoral Fellowship 2023</a>'
-  display: 'true'
+  display: 'true'  
 - key: award10
   date: 16 January 2023
   award: '<a href="https://culture.engin.umich.edu/2023-nominees-recipients/">North Campus Deans’ MLK Spirit Awards 2023</a>'
