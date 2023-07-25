@@ -1,10 +1,7 @@
-- key: news41
-  date: 10 July 2023
-  description: 'Really happy and honored to receive the Rising Star award at <a href="https://foci.community/" target="_blank">FOCI 2023</a>'
-  home: 'true'
 - key: news40
-  date: 09 July 2023
-  description: 'Excited to attend <a href="https://foci.community/" target="_blank">FOCI 2023</a> and <a href="https://petsymposium.org/2023/" target="_blank">PETS 2023</a> in Lausanne, Switzerland.'
+  date: 10 July 2023
+  description: 'Really happy and honored to receive the Rising Star award at <a href="https://foci.community/" target="_blank">FOCI 2023</a>.'
+  home: 'true'
 - key: news39
   date: 01 June 2023
   description: 'Learned a lot from attending the <a href="assets/pff2023.pdf" target="_blank">2023 Rachkam CRLT Preparing Future Faculty Seminar</a>.'
@@ -16,7 +13,6 @@
 - key: news37
   date: 17 March 2023
   description: 'I am extremely happy to have been <a href="https://cse.engin.umich.edu/stories/ram-sundara-raman-earns-rackham-predoctoral-fellowship" target="_blank">awarded the Rackham Predoctoral Fellowship</a> for the academic year 2023-2024'
-  home: 'true'
 - key: news36
   date: 16 March 2023
   description: 'It was extremely rewarding to attend the <a href="https://rackham.umich.edu/phd-connections/" target="_blank">PhD connections conference</a> at the University of Michigan and hear from a group of diverse expert panelists.'
@@ -146,5 +142,4 @@
   date: 14 August 2018
   description: 'I gave a <a href="https://censoredplanet.org/assets/CP_lightning_talk.pdf" target="_blank">Lightining Talk</a> about the <a href="https://www.censoredplanet.org" target="_blank">Censored Planet Observatory</a> at <a href="https://www.usenix.org/conference/foci18" target="_blank">FOCI 2018.</a>'
   attachments: '<a href="https://censoredplanet.org/assets/CP_lightning_talk.pdf" target="_blank"><img src="images/lightning.jpg" alt="Lightning Talk" style="width:40%; margin-left: 30%; margin-right: 30%;  "></img></a>'
-
 
