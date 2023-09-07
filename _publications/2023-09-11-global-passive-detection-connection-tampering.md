@@ -1,6 +1,6 @@
 ---
 date: 2023-08-09
-publisher: To Appear - ACM SIGCOMM 2023
+publisher: ACM SIGCOMM
 name: "Global, Passive Detection of Connection Tampering"
 tags:
   - censorship
@@ -18,6 +18,7 @@ collaborators:
   - Dave Levin
   - Nick Sullivan
   - Luke Valenta
+pdf: "assets/passive.pdf"
 bibtex-title: "sundararaman2023global"
 bibtex: "@inproceedings{sundararaman2023global,<br>
 title = {{Global, Passive Detection of Connection Tampering}},<br>

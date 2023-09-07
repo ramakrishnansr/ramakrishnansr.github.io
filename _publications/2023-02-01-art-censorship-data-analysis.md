@@ -1,6 +1,6 @@
 ---
 date: 2023-02-15
-publisher: Free and Open Communications on the Internet (FOCI) 2023
+publisher: Free and Open Communications on the Internet (FOCI)
 name: "Advancing the Art of Censorship Data Analysis"
 tags:
   - censorship
