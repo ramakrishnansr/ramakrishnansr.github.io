@@ -1,6 +1,6 @@
 - key: news42
   date: 7 September 2023
-  description: 'Super excited to attend ACM SIGCOMM 2023, and present our work on <a href="assets/passive.pdf" target="_blank">detecting connection tampering globally and passively.</a>'
+  description: 'Super excited to attend ACM SIGCOMM 2023, where I presented our work on <a href="assets/passive.pdf" target="_blank">detecting connection tampering globally and passively.</a>'
   home: 'true'
 - key: news41
   date: 10 August 2023
