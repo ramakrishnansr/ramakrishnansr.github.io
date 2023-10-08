@@ -2,13 +2,10 @@
   date: 7 September 2023
   description: 'Super excited to attend ACM SIGCOMM 2023, where I presented our work on <a href="assets/passive.pdf" target="_blank">detecting connection tampering globally and passively.</a>'
   home: 'true'
-- key: news41
   date: 10 August 2023
   description: 'Looking forward to presenting our work on <a href="assets/russia-ukraine-invasion.pdf" target="_blank">network changes in Russia following the Ukraine invasion</a> at USENIX Security 2023.'
   home: 'true'
 - key: news40
-  date: 10 July 2023
-  description: 'Really happy and honored to receive the Rising Star award at <a href="https://foci.community/" target="_blank">FOCI 2023</a>.'
   home: 'true'
 - key: news39
   date: 01 June 2023

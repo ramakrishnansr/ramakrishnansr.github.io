@@ -1,4 +1,7 @@
-- key: csae2022pc
+- key: foci2024pc
+  text: 'I am serving as a technical program committee member for <a href="https://foci.community/foci24.html" target="_blank"> Free and Open Communications on the Internet (FOCI) 2024</a>'
+  display: 'true'
+- key: sp2024pc
   text: 'I am serving as a technical program committee member for <a href="https://sp2024.ieee-security.org/cfpapers.html" target="_blank">IEEE Symposium on Security and Privacy (S&P) 2024</a>'
   display: 'true'
 - key: csae2022pc
