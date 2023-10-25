@@ -1,15 +1,18 @@
+- key: news42
+  date: 7 September 2023
+  description: 'Super excited to attend ACM SIGCOMM 2023, where I presented our work on <a href="assets/passive.pdf" target="_blank">detecting connection tampering globally and passively.</a>'
+  home: 'true'
+  date: 10 August 2023
+  description: 'Looking forward to presenting our work on <a href="assets/russia-ukraine-invasion.pdf" target="_blank">network changes in Russia following the Ukraine invasion</a> at USENIX Security 2023.'
+  home: 'true'
 - key: news40
-  date: 10 July 2023
-  description: 'Really happy and honored to receive the Rising Star award at <a href="https://foci.community/" target="_blank">FOCI 2023</a>.'
   home: 'true'
 - key: news39
   date: 01 June 2023
   description: 'Learned a lot from attending the <a href="assets/pff2023.pdf" target="_blank">2023 Rachkam CRLT Preparing Future Faculty Seminar</a>.'
-  home: 'true'
 - key: news38
   date: 04 May 2023
   description: 'Read my <a href="https://pulse.internetsociety.org/blog/making-censorship-data-more-user-friendly" target="_blank">new blogpost on the ISOC Pulse blog about improving the process of censorship data analysis.</a>'
-  home: 'true'
 - key: news37
   date: 17 March 2023
   description: 'I am extremely happy to have been <a href="https://cse.engin.umich.edu/stories/ram-sundara-raman-earns-rackham-predoctoral-fellowship" target="_blank">awarded the Rackham Predoctoral Fellowship</a> for the academic year 2023-2024'

@@ -1,6 +1,6 @@
 ---
 date: 2023-08-09
-publisher: To Appear - Privacy Enhancing Technologies Symposium (PETS) 2023
+publisher: Privacy Enhancing Technologies Symposium (PETS)
 name: "CERTainty: Detecting DNS Manipulation using TLS Certificates"
 tags:
   - censorship

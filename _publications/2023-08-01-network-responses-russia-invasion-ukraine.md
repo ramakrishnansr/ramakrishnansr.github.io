@@ -1,6 +1,6 @@
 ---
 date: 2023-08-09
-publisher: To Appear - USENIX Security Symposium 2023
+publisher: USENIX Security Symposium
 name: "Network Responses to Russia's Invasion of Ukraine in 2022: A Cautionary Tale for Internet Freedom"
 tags:
   - censorship
@@ -20,6 +20,7 @@ collaborators:
   - Doug Madory
   - Roya Ensafi
 pdf: "assets/russia-ukraine-invasion.pdf"
+slides: "assets/russia-ukraine-invasion-slides.pdf"
 bibtex-title: "ramesh2023network"
 bibtex: "@inproceedings{ramesh2023network,<br>
 title = {{Network Responses to Russia's Invasion of Ukraine in 2022: A Cautionary Tale for Internet Freedom}},<br>
