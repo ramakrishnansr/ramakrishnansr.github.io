@@ -1,11 +1,14 @@
+- key: news43
+  date: 9 November 2023
+  description: 'Presented <a href="https://www.youtube.com/live/4O1NsdOeXgU?si=2aQkGLP8jfjQpZNu&t=4470" target="_blank">my research on censorship devices</a> at IETF 118 in Prague.'
+  home: 'true'
 - key: news42
   date: 7 September 2023
   description: 'Super excited to attend ACM SIGCOMM 2023, where I presented our work on <a href="assets/passive.pdf" target="_blank">detecting connection tampering globally and passively.</a>'
   home: 'true'
+- key: news41
   date: 10 August 2023
   description: 'Looking forward to presenting our work on <a href="assets/russia-ukraine-invasion.pdf" target="_blank">network changes in Russia following the Ukraine invasion</a> at USENIX Security 2023.'
-  home: 'true'
-- key: news40
   home: 'true'
 - key: news39
   date: 01 June 2023

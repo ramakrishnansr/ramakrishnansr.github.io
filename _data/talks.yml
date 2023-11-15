@@ -1,8 +1,13 @@
+- key: talk8                                                                                                                                                                 
+  date: November 2023
+  topic: '<a href="https://www.ietf.org/how/meetings/118/" target="_blank">Network Measurement Methods for Locating and Examining Censorship Devices</a>'
+  venue: 'IETF 118'
+  link: https://www.youtube.com/live/4O1NsdOeXgU?si=2aQkGLP8jfjQpZNu&t=4470
+  display: 'true'
 - key: talk7                                                                                                                                                                 
   date: January 2023
   topic: 'Exploring Internet Censorship Data through the Censored Planet Dashboard'
   venue: 'OTF Summit 2023'
-  display: 'true'
 - key: talk6                                                                                                                                                                 
   date: July 2022
   topic: 'Improving Usability of Internet Censorship Data through a Censorship Dashboard'
