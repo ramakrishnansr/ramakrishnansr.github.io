@@ -13,6 +13,7 @@ collaborators:
   - <b>Ram Sundara Raman</b>
   - Atul Prakash
   - Roya Ensafi
+pdf: "assets/modeling.pdf"
 bibtex-title: "tsai2024modeling"
 bibtex: "@inproceedings{tsai2024modeling,<br>
 title = {{Modeling and Detecting Internet Censorship Events}},<br>
