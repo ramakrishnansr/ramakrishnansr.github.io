@@ -7,13 +7,13 @@ layout: home
 
 <!-- Awards -->
 <div class="vg-page page-blog" id="awards">
-  <h1 class="text-center"><a href="/awards" class="fg-theme">Awards</a></h1>
+  <h1 class="text-center"><a href="/awards" class="fg-theme-3">Awards</a></h1>
   <br/>
   <div class="container">
     {% for awards in site.data.awards %}
     <ul>
       <li>
-        <span class="ram-subtitle">{{ awards.award }}, {{ awards.date }}</span><br/>
+        <span class="fg-theme-2 ram-subtitle-2">{{ awards.award }}</span>, <span class="fg-theme-2">{{ awards.date }}</span><br/>
       </li>
     </ul>
     {% endfor %}

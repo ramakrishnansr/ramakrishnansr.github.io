@@ -524,36 +524,36 @@
 /* Theme Blue */
 .theme-blue .badge-subhead  {
   background-color: rgba(41, 96, 247, 0.15);
-  color: #2960f7;
+  color: #003c6c;
 }
 
 .theme-blue .filterable-button .btn.selected,
 .theme-blue .filterable-button .btn:focus {
-  background-color: #2960f7;
+  background-color: #003c6c;
   color: #fff;
-  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #2960f7;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #003c6c;
 }
 
 .theme-blue .page-home .badge {
   background-color: rgba(41, 96, 247, 0.15);
-  color: #2960f7;
+  color: #003c6c;
 }
 
 .theme-blue .page-about .img-place::before {
-  border-color: #2960f7;
+  border-color: #003c6c;
 }
 
 .theme-blue .timeline li:first-child .title {
-  background-color: #2960f7;
+  background-color: #003c6c;
 }
 
 .theme-blue .timeline li:first-child::before {
-  background-color: #2960f7;
-  box-shadow: 0 0 0 2px #2960f7;
+  background-color: #003c6c;
+  box-shadow: 0 0 0 2px #003c6c;
 }
 
 .theme-blue .post-grid .post-category {
-  color: #2960f7;
+  color: #003c6c;
 }
 
 /* Theme Green */

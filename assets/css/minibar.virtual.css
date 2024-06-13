@@ -11,7 +11,7 @@
     padding-left: 15px;
     width: 100%;
     height: 70px;
-    background-color: #2C2D34;
+    background-color: #121111;
     color: #fff;
 }
 
@@ -360,7 +360,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(255,255,255,0.7), #fff);
+    background: linear-gradient(rgba(255,255,255,0.85), #fff);
     z-index: 2;
 }
 
@@ -404,8 +404,8 @@
 
 /* Services */
 .page-service {
-    background-color: #171925;
-    color: #9FA2AB;
+    background-color: #003366;
+    color: #fff;
 }
 
 .page-service .card {
@@ -565,7 +565,7 @@
     display: block;
     margin: 0;
     padding: 50px 0;
-    background-color: #171925;
+    background-color: #121111;
     color: #9FA2AB;
 }
 
@@ -640,41 +640,41 @@
 
 /* Theme Blue */
 .theme-blue .topbar-nav .toggle-menu:hover {
-    color: #2960f7;
+    color: #003366;
 }
 
 .theme-blue .main-menu .menu-link:hover,
 .theme-blue .main-menu .active .menu-link {
-    background-color: #2960f7;
+    background-color: #003366;
 }
 
 .theme-blue .filterable-button .btn.selected,
 .theme-blue .filterable-button .btn:focus {
-    background-color: #2960f7;
+    background-color: #003366;
     color: #fff;
-    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #2960f7;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #003366;
 }
 
 .theme-blue .timeline li:first-child .title {
-    background-color: #2960f7;
+    background-color: #003366;
 }
 
 .theme-blue .timeline li:first-child::before {
-    background-color: #2960f7;
-    box-shadow: 0 0 0 2px #2960f7;
+    background-color: #003366;
+    box-shadow: 0 0 0 2px #003366;
 }
 
 .theme-blue .testi-carousel .item .iconic {
-    background-color: #2960f7;
+    background-color: #003366;
 }
 
 .theme-blue .page-home .caption .tagline {
     background-color: #dae3fd;
-    color: #2960f7;
+    color: #003366;
 }
 
 .theme-blue .post-grid .post-category {
-    color: #2960f7;
+    color: #003366;
 }
 
 
@@ -799,11 +799,29 @@
 
 .ram-title {
     font-size: 140%;
+    color:#fff;
 }
 .ram-subtitle {
     font-size: 120%;
+    color:#003c6c;
 }
 
+.ram-subtitle a {
+    font-size: 110%;
+    color:#006aad;
+}
+
+.ram-subtitle-2 {
+    font-size: 120%;
+    color:#fff
+}
+
+
+
+.ram-subtitle-2 a {
+    font-size: 110%;
+    color:#fdc700
+}
 
 ul {
     list-style-type: none;

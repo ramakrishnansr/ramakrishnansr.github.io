@@ -8,14 +8,14 @@ layout: home
 
 <!--News Section -->
 <div class="vg-page page-blog" id="news">
-  <h1 class="text-center fg-dark"><a href="/news" class="fg-theme">News</a></h1>
+  <h1 class="text-center fg-dark"><a href="/news" class="fg-theme-3">News</a></h1>
   <div class="container">
     <hr class="w3-opacity">
     {% for news in site.data.news %}
     <ul>
       <li>
-        <span class="ram-title">{{ news.date }}</span><br/>
-        <span class="ram-subtitle">{{ news.description }}</span><br/>
+        <span class="fg-theme-3">{{ news.date }}</span><br/>
+        <span class="fg-theme-2">{{ news.description }}</span><br/>
         {% if news.attachments %}
         <p>{{ news.attachments }}</p>
         {% endif %}

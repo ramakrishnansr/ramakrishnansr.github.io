@@ -7,17 +7,17 @@ layout: home
 
 <!-- Publications -->
 <div class="vg-page page-blog" id="publications">
-  <h1 class="text-center"><a href="/publications" class="fg-theme">Publications</a></h1>
+  <h1 class="text-center"><a href="/publications" class="fg-theme-3">Publications</a></h1>
   <div class="container">
     {% for publication in site.publications reversed%}
     {% if publication.blacklisted == "yes" %}
     {% else %}
     {% assign collaborators = publication.collaborators %}
     
-    <p><span class="ram-subtitle"><a href="{{ publication.pdf }} " target="_blank" title="Go to paper" class="fg-theme">{{ publication.name }} {% if publication.pdf %}<i class="fa fa-file-pdf w3-hover-opacity fg-theme"></i>{% endif %}</a> {% if publication.slides %}<a href=" {{ publication.slides }} " target="_blank" title="Go to slides"> <i class="fa fa-desktop w3-hover-opacity fg-theme"></i></a>{% endif %}{% if publication.talk %} <a href=" {{ publication.talk }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity fg-theme"></i></a>{% endif %}
+    <p><span class="fg-theme-2 ram-subtitle-2"><a href="{{ publication.pdf }} " target="_blank" title="Go to paper" class="fg-theme-2">{{ publication.name }} {% if publication.pdf %}<i class="fa fa-file-pdf w3-hover-opacity fg-theme-2"></i>{% endif %}</a> {% if publication.slides %}<a href=" {{ publication.slides }} " target="_blank" title="Go to slides"> <i class="fa fa-desktop w3-hover-opacity fg-theme-2"></i></a>{% endif %}{% if publication.talk %} <a href=" {{ publication.talk }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity fg-theme-2"></i></a>{% endif %}
 
     {% if publication.bibtex-title %}
-      <a class="fg-theme" onclick="toggleBib('{{ publication.bibtex-title }}')"> <i class="fa fa-quote-right w3-hover-opacity fg-theme"></i></a>
+      <a class="fg-theme-2" onclick="toggleBib('{{ publication.bibtex-title }}')"> <i class="fa fa-quote-right w3-hover-opacity fg-theme-2"></i></a>
     {% endif %}
     </span> 
     <br/>

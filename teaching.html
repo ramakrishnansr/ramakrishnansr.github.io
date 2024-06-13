@@ -7,18 +7,18 @@ layout: home
 
 <!-- Teaching -->
 <div class="vg-page page-blog" id="teaching">
-  <h1 class="text-center fg-dark"><a href="/teaching" class="fg-theme">Teaching</a></h1>
+  <h1 class="text-center fg-dark"><a href="/teaching" class="fg-theme-3">Teaching</a></h1>
   <div class="container">
     {% for teaching in site.data.teaching %}
     <ul>
       <li>
-        <span class="ram-title">{{ teaching.date }}</span>
+        <span class="fg-theme-3">{{ teaching.date }}</span>
         <br/>
-        <span class="ram-subtitle">Course: {{ teaching.class }}</span>
+        <span class="fg-theme-2 ram-subtitle-2">Course: {{ teaching.class }}</span>
         <br/>
-        <span class="ram-subtitle">Position: {{ teaching.position }}</span>
+        <span class="fg-theme-2 ram-subtitle-2">Position: {{ teaching.position }}</span>
         <br/>
-        <span class="ram-subtitle">{{ teaching.description }}</span>
+        <span class="fg-theme-2 ram-subtitle-2">{{ teaching.description }}</span>
       </li>
     </ul>
     {% endfor %}

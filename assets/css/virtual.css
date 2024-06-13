@@ -28,8 +28,9 @@
  */
 
 :root {
+    --theme-blue: #003c6c;
+    --theme-yellow: #fdc700;
     --theme-red: #ef3724;
-    --theme-blue: #2960f7;
     --theme-green: #8cc63f;
     --theme-orange: #fd7e14;
     --theme-purple: #6f42c1;
@@ -341,7 +342,7 @@ a:hover, a:active {
 }
 
 .bg-theme-blue {
-    background-color: #2960f7 !important;
+    background-color: #003c6c !important;
 }
 
 .bg-theme-green {
@@ -361,7 +362,7 @@ a:hover, a:active {
 }
 
 .fg-theme-blue {
-    color: #2960f7 !important;
+    color: #003c6c !important;
 }
 
 .fg-theme-green {
@@ -1184,67 +1185,95 @@ a:hover, a:active {
 
 /* Theme Blue */
 .theme-blue .bg-theme {
-    background-color: #2960f7 !important;
+    background-color: #003c6c !important;
 }
 
 .theme-blue .fg-theme {
-    color: #2960f7 !important;
+    color: #fdc700 !important;
 }
 
-.theme-blue a {
-    color: #2960f7 !important;
+.theme-blue .fg-theme-2 {
+    color: #090909 !important;
 }
+
+.theme-blue .fg-theme-3 {
+    color: #003c6c !important;
+}
+.theme-blue .fg-theme a {
+    color: #003c6c !important;
+}
+
+.theme-blue .fg-theme-2 a {
+    color: #006aad !important;
+}
+
+.theme-blue .fg-theme-3 a {
+    color: #006aad !important;
+}
+
+.theme-blue .fg-theme a:hover {
+    color: #003c6c !important;
+}
+
+.theme-blue .fg-theme-2 a:hover {
+    color: #006aad !important;
+}
+
+.theme-blue .fg-theme-3 a:hover {
+    color: #ffbf00 !important;
+}
+
 
 .theme-blue .btn-theme {
-    background-color: #2960f7;
+    background-color: #003c6c;
     color: #fff;
 }
 
 .theme-blue .btn-theme:hover {
-    background-color: #3f71f8;
+    background-color: #fdc700;
     color: #fff;
 }
 
 .theme-blue .btn-theme:focus {
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #2960f7;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #fdc700;
 }
 
 .theme-blue .btn-theme-outline {
-    color: #2960f7;
-    box-shadow: 0 0 0 2px #2960f7;
+    color: #003c6c;
+    box-shadow: 0 0 0 2px #003c6c;
 }
 
 .theme-blue .btn-theme-outline:hover {
-    background-color: #2960f7;
+    background-color: #003c6c;
     color: #fff;
 }
 
 .theme-blue .btn-theme-outline:focus {
-    background-color: #2960f7;
+    background-color: #003c6c;
     color: #fff;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #2960f7;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #003c6c;
 }
 
 .theme-blue .btn-fab {
-    background-color: #2960f7;
+    background-color: #003c6c;
     color: #fff;
 }
 
 .theme-blue .btn-fab:hover {
-    background-color: #3f71f8;
+    background-color: #003c6c;
     color: #fff;
 }
 
 .theme-blue .progress {
-    box-shadow: 0 0 0 2px #2960f7;
+    box-shadow: 0 0 0 2px #003c6c;
 }
 
 .theme-blue .progress-bar {
-    background-color: #2960f7;
+    background-color: #003c6c;
 }
 
 .theme-blue .theme-list li::before {
-    border-color: #2960f7;
+    border-color: #003c6c;
 }
 
 

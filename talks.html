@@ -6,17 +6,17 @@ layout: home
 </script>
 <!-- Talks -->
 <div class="vg-page page-blog" id="talks">
-  <h1 class="text-center"><a href="/talks" class="fg-theme">Talks</a></h1>
+  <h1 class="text-center"><a href="/talks" class="fg-theme-3">Talks</a></h1>
   <br/>
   <div class="container">
   {% for talk in site.data.talks %}
 
     <ul>
       <li>
-        <span class="ram-subtitle">{{ talk.topic }}{% if talk.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity"></i></a>{% endif %}, {{ talk.date }} </span><br/>
-        <span class="ram-subtitle">Venue: {{ talk.venue }}</span><br/>
+        <span class="fg-theme-2 ram-subtitle">{{ talk.topic }}{% if talk.link %} <a href=" {{ talk.link }} " target="_blank" title="Go to talk"><i class="fa fa-video w3-hover-opacity"></i></a>{% endif %}, {{ talk.date }} </span><br/>
+        <span class="fg-theme-2 ram-subtitle">Venue: {{ talk.venue }}</span><br/>
         <br/>
-        {% if talk.award %} <span class="ram-subtitle">Award: {{ talk.award }}</span>{% endif %}
+        {% if talk.award %} <span class="ram-subtitle-2">Award: {{ talk.award }}</span>{% endif %}
       </li>
     </ul>
     {% endfor %}
