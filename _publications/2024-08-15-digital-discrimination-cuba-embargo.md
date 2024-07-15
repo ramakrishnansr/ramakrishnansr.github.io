@@ -16,7 +16,6 @@ collaborators:
   - Reethika Ramesh
   - Harry Oppenheimer
   - Roya Ensafi
-pdf: "assets/modeling.pdf"
 bibtex-title: "ablove2024digital"
 bibtex: "@inproceedings{ablove2024digital,<br>
 title = {{Digital Discrimination of Users in Sanctioned States: The Case of the Cuba Embargo}},<br>
