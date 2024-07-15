@@ -5,7 +5,7 @@ name: "Network Responses to Russia's Invasion of Ukraine in 2022: A Cautionary T
 tags:
   - censorship
   - observatory
-  - measurement
+  - measurements
   - analysis
   - geoblocking
 collaborators:
@@ -29,4 +29,5 @@ booktitle = {USENIX Security Symposium},
 year = {2023}
 }"
 talk: https://youtu.be/kBK3N3dYZq4
+tag: 🏅 FOCI 2024 Best Practical Award
 ---
