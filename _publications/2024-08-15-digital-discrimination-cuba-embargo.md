@@ -16,6 +16,7 @@ collaborators:
   - Reethika Ramesh
   - Harry Oppenheimer
   - Roya Ensafi
+pdf: "assets/cuba.pdf"
 bibtex-title: "ablove2024digital"
 bibtex: "@inproceedings{ablove2024digital,<br>
 title = {{Digital Discrimination of Users in Sanctioned States: The Case of the Cuba Embargo}},<br>
@@ -23,4 +24,5 @@ author = {Ablove, Anna and Chandrashekaran, Shreyas and Le, Hieu and Sundara Ram
 booktitle = {USENIX Security Symposium},<br>
 year = {2024}
 }"
+tag: 🏅 Distinguished Paper Award
 ---
