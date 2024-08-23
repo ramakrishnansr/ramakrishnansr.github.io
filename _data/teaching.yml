@@ -1,20 +1,24 @@
+- key: teaching5
+  date: September 2024
+  class: '<a href="teaching/cse253-fall24" target="_blank">CSE 253: Network Security</a>'
+  position: 'Instructor'
 - key: teaching4
   date: March 2023
-  class: '<a href="https://swsprec.com/4973/readings" target="_blank">CS4972 - Foundations of Computer Security & Privacy: Breakthroughs and Research, Northeastern University</a>'
+  class: '<a href="https://swsprec.com/4973/readings" target="_blank">CS4972: Foundations of Computer Security & Privacy: Breakthroughs and Research, Northeastern University</a>'
   position: 'Guest Lecturer'
   description: 'I delivered a guest lecture on Censorship and Circumvention.'
 - key: teaching3
   date: Winter 2023
-  class: '<a href="https://www.eecs.umich.edu/courses/eecs588" target="_blank">EECS 588 - Computer & Network Security</a>, University of Michigan'
+  class: '<a href="https://www.eecs.umich.edu/courses/eecs588" target="_blank">EECS 588: Computer & Network Security</a>, University of Michigan'
   position: 'Substitute Instructor'
   description: 'I substitited as the instructor for this graduate level course when the lead instructor was not available.'
 - key: teaching2                                                                                                                                                                    
   date: March 2022
-  class: '<a href="https://eecs388.org" target="_blank">EECS 388 - Introduction to Computer Security, University of Michigan</a>'
+  class: '<a href="https://eecs388.org" target="_blank">EECS 388: Introduction to Computer Security, University of Michigan</a>'
   position: 'Guest Lecturer'
   description: 'I delivered a guest lecture on Censorship and Circumvention.'
 - key: teaching1                                                                                                                                                                     
   date: Fall 2020
-  class: '<a href="https://www.eecs.umich.edu/courses/eecs588" target="_blank">EECS 588 - Computer & Network Security, University of Michigan</a>'
+  class: '<a href="https://www.eecs.umich.edu/courses/eecs588" target="_blank">EECS 588: Computer & Network Security, University of Michigan</a>'
   position: 'Lead Graduate Student Instructor'
   description: 'In this virtual course, my responsibilities included assisting with designing the course, leading the course while the instructor was on leave, managing the the course lecture and discussion, holding office hours for students, helping students with course projects, and grading.'
