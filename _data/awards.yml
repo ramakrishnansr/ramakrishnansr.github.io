@@ -1,3 +1,7 @@
+- key: award14
+  date: 13 August 2024
+  award: '<a href="https://www.usenix.org/conference/usenixsecurity24/presentation/ablove" target="_blank">USENIX Security 2024 Distinguished Paper Award</a>'
+  display: 'true'
 - key: award13
   date: 16 July 2024
   award: '<a href="/assets/foci-2024-best-practical-certificate.jpg" target="_blank">FOCI 2024 Best Practical Award</a>'
@@ -13,7 +17,6 @@
 - key: award10
   date: 16 January 2023
   award: '<a href="https://culture.engin.umich.edu/2023-nominees-recipients/">North Campus Deans’ MLK Spirit Awards 2023</a>'
-  display: 'true'
 - key: award9
   date: 09 January 2023
   award: '<a href="https://www.ietf.org/blog/anrp-2023/" target="_blank">IRTF Applied Networking Research Prize (ANRP) 2023</a>'

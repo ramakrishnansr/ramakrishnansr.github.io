@@ -1,3 +1,17 @@
+- key: news46
+  date: 13 August 2024
+  description: 'Our <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/ablove" target="_blank">paper on the effect of US Sanctions on Cuban Internet</a> won the USENIX Security 2024 Distinguished Paper Award!'
+  home: 'true'
+- key: news45
+  date: 01 July 2024
+  description: 'I am extremely excited to be joining the UC Santa Cruz CSE department as an Assistant Professor!'
+  attachments: '<img src="images/ucsc.jpeg" alt="UCSC" style="width:60%; margin-left: 20%; margin-right: 20%; "/>' 
+  home: 'true'
+- key: news44
+  date: 06 June 2024
+  description: 'I defended my PhD! Extremely grateful to my advisor Prof. Roya Ensafi and all my collaborators, mentors, and friends for their support through this journey. Go Blue!'
+  attachments: '<img src="images/defense.jpeg" alt="Ram Defense" style="width:60%; margin-left: 20%; margin-right: 20%;  "/>' 
+  home: 'true'
 - key: news43
   date: 9 November 2023
   description: 'Presented <a href="https://www.youtube.com/live/4O1NsdOeXgU?si=2aQkGLP8jfjQpZNu&t=4470" target="_blank">my research on censorship devices</a> at IETF 118 in Prague.'
@@ -5,11 +19,9 @@
 - key: news42
   date: 7 September 2023
   description: 'Super excited to attend ACM SIGCOMM 2023, where I presented our work on <a href="assets/passive.pdf" target="_blank">detecting connection tampering globally and passively.</a>'
-  home: 'true'
 - key: news41
   date: 10 August 2023
   description: 'Looking forward to presenting our work on <a href="assets/russia-ukraine-invasion.pdf" target="_blank">network changes in Russia following the Ukraine invasion</a> at USENIX Security 2023.'
-  home: 'true'
 - key: news39
   date: 01 June 2023
   description: 'Learned a lot from attending the <a href="assets/pff2023.pdf" target="_blank">2023 Rachkam CRLT Preparing Future Faculty Seminar</a>.'
