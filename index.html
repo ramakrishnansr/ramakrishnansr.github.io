@@ -51,7 +51,7 @@ layout: home
             </div>
            
             <h4>📢 I am hiring PhD students for Fall 2025. Please email me if you're interested in joining my group at UCSC. For more details about working with me, go <a href="/prospective_students">here</a>.</h>
-          </div>
+          </div>  
         </div>
         
       </div> <!-- End profile -->
@@ -59,6 +59,26 @@ layout: home
   </div> <!-- End resume -->
  
 </div> <!-- End page about -->
+
+
+<!-- Group -->
+<div class="vg-page page-blog" id="group">
+  <h1 class="text-center "><a href="/randlab" class="fg-theme-3">My Research Group</a></h1>
+  <br/>
+  <div class="container">
+  <p class="fg-theme-2" style="font-size: 18px;">I lead the R&Lab Security and Networking research group at UCSC. Members of my lab include:</p>
+  <div class="container">
+    {% for student in site.data.students %}
+      {% if student.key != "student1" %}
+        <span class="fg-theme-2 ram-subtitle" style="font-size: 18px;">{{ student.name }} ({{ student.title }}), </span>
+      {% else %}
+        <span class="fg-theme-2 ram-subtitle" style="font-size: 18px;">{{ student.name }} ({{ student.title }}) </span>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+</div>
+<!--End Group-->
 
 <!-- Publications -->
 <div class="vg-page page-service" id="publications">
@@ -99,7 +119,6 @@ layout: home
     </div>
 </div>
 <!-- End Publications -->
-
 
 <!-- Awards -->
 <div class="vg-page page-blog" id="awards">

@@ -1,6 +1,11 @@
+- key: blog6
+  date: 5 September 2024
+  topic: 'A Global Assessment of Third-Party Connection Tampering'
+  venue: 'The Cloudflare Blog'
+  link: 'https://blog.cloudflare.com/connection-tampering/'
 - key: blog5
   date: 24 October 2023
-  topic: 'Measuring Connection Tampering Around the World '
+  topic: 'Measuring Connection Tampering Around the World'
   venue: 'Internet Society Pulse Blog'
   link: 'https://pulse.internetsociety.org/blog/measuring-connection-tampering-around-the-world'
 - key: blog4

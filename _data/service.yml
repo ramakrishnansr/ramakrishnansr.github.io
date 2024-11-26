@@ -1,21 +1,16 @@
-- key: sp2025pc
-  text: 'I am serving as a technical program committee member for <a href="https://sp2025.ieee-security.org/cfpapers.html" target="_blank">IEEE Symposium on Security and Privacy (S&P) 2025</a>'
+- key: sppc
+  text: 'Technical program committee member for  <a href="https://sp2025.ieee-security.org/cfpapers.html" target="_blank">IEEE Symposium on Security and Privacy (S&P) 2025</a>, <a href="https://sp2024.ieee-security.org/cfpapers.html" target="_blank">IEEE Symposium on Security and Privacy (S&P) 2024</a>'
   display: 'true'
-- key: imc2024pc
-  text: 'I am serving as a technical program committee member for <a href="https://conferences.sigcomm.org/imc/2024/" target="_blank">ACM Internet Measurement Conference (IMC) 2024</a>'
+- key: imcpc
+  text: 'Technical program committee member for <a href="https://conferences.sigcomm.org/imc/2025/" target="_blank">ACM Internet Measurement Conference (IMC) 2025</a>, <a href="https://conferences.sigcomm.org/imc/2024/" target="_blank">ACM Internet Measurement Conference (IMC) 2024</a>'
   display: 'true' 
-- key: foci2024pc
-  text: 'I am serving as a technical program committee member for <a href="https://foci.community/foci24.html" target="_blank"> Free and Open Communications on the Internet (FOCI) 2024</a>'
-  display: 'true'
-- key: sp2024pc
-  text: 'I served as a technical program committee member for <a href="https://sp2024.ieee-security.org/cfpapers.html" target="_blank">IEEE Symposium on Security and Privacy (S&P) 2024</a>'
+- key: focipc
+  text: 'Technical program committee member for <a href="https://foci.community" target="_blank"> Free and Open Communications on the Internet (FOCI) 2025, Free and Open Communications on the Internet (FOCI) 2024, Free and Open Communications on the Internet (FOCI) 2021</a>'
   display: 'true'
 - key: csae2022pc
   text: 'I served as a reviewer for the 6th International Conference on Computer Science and Application Engineering (CSAE).'
 - key: foci2021session
   text: 'I served as a session chair for the HTTPS censorship session at <a href = "https://conferences.sigcomm.org/sigcomm/2021/workshop-foci.html" target = "_blank">ACM SIGCOMM 2021 Workshop on Free and Open Communications on the Internet (FOCI 21)</a>'
-- key: foci2021pc
-  text: 'I served as a technical program committee member for <a href = "https://conferences.sigcomm.org/sigcomm/2021/workshop-foci.html" target = "_blank">ACM SIGCOMM 2021 Workshop on Free and Open Communications on the Internet (FOCI 21)</a>'
 - key: outreachcseg
   text: 'I served as the outreach chair for <a href = "https://cseg-michigan.github.io/" target = "_blank"> CSEG, the University of Michigan CSE department grad student organization</a> since from July 2020 - May 2022'
   display: 'false'

@@ -1,0 +1,40 @@
+---
+layout: home
+---
+
+<div class="vg-page page-service" id="home" style="background-color: whitesmoke;">
+
+    <!-- Page About -->
+    <div class="container" id="about">
+              <h1 class="fg-dark fw=medium" style="text-align: center; font-size: 500%;">R&Lab<br/></h1>
+              <h2 class="fg-theme-3 fw-medium" style="text-align: center;">Network Security Research Lab at the University of California Santa Cruz</h2>
+              <h3 class="fg-theme-3 fw-medium" style="text-align: center;"><a href="" target="_blank" title="Go to UCSC-CSE - Try saying that over and over!">Computer Science and Engineering</a></h2>
+              <!--<p class="fg-theme-3 fw-medium">Baskin Engineering</p>-->
+              <h3 class="fg-theme-3 fw-medium" style="text-align: center;"><a href="https://www.ucsc.edu/" target="_blank" title="Go to UCSC page">University of California Santa Cruz</a></h2>
+            <br/>
+            <p class="fg-theme-2" style="font-size: 21px;  text-align: justify; text-justify: inter-word;" > The R&Lab is the Network Security Research Lab at the University of California, Santa Cruz, advised by <a href="https://ramakrishnansr.com">Prof. Ram Sundara Raman</a>. The research group develops empirical methods to detect, analyze and prevent large-scale threats to the security and privacy of Internet users. </p>
+          </div>
+ 
+</div> <!-- End page about -->
+
+
+<!-- Group -->
+<div class="vg-page page-blog" id="group">
+    <h1 class="text-center "><a href="/randlab" class="fg-theme-3">R&Lab Research Group</a></h1>
+    <br/>
+    <div class="container">
+    <p class="fg-theme-2" style="font-size: 18px;">Members of the lab include:</p>
+    <div class="container">
+      {% for student in site.data.students %}
+        {% if student.key != "student1" %}
+          <span class="fg-theme-2 ram-subtitle" style="font-size: 18px;">{{ student.name }} ({{ student.title }}), </span>
+        {% else %}
+          <span class="fg-theme-2 ram-subtitle" style="font-size: 18px;">{{ student.name }} ({{ student.title }}) </span>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  </div>
+  <!--End Group-->
+
+</div> <!-- End main wrapper -->
