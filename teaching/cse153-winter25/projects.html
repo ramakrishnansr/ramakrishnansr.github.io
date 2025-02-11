@@ -106,7 +106,7 @@
         <div class="choose-destiny">Choose your destiny:</div>
         <div class="project-title" data-target="#project1">Lab 1: Hacking Your Neighbour</div>
         <div class="project-title" data-target="#project2">Lab 2: My Neighbor Totoro... is a Hacker!</div>
-        <div class="project-title2" data-target="#project3">Lab 3: Wait for it!</div>
+        <div class="project-title" data-target="#project3">Lab 3: Ghost in the Machine: Exploring Digital Privacy</div>
         <div class="project-title2" data-target="#project4">Lab 4: Wait for it!</div>
         
         <div id="project1" class="project-section">
@@ -272,6 +272,65 @@
 		</ul>
 		</div>
 		</div>
+        </div>
+        <div id="project3" class="project-section">
+            <div class="project-intro">
+                <p>Welcome back, initiates. After mastering offense and defense, we now turn our attention to the crucial aspect of digital privacy. In this lab, you'll explore the techniques used to track, identify, and profile individuals online, as well as the tools and methods used to protect privacy. You will be working with traffic analysis, fingerprinting, and web privacy.</p>
+                <h3>The Rules:</h3>
+                <ul>
+                    <li>Do not talk about the hacking club. (No Copying!)</li>
+                    <li>Get into your team (max 3), each of you will have a specific role:
+                        <ul>
+                            <li>The Analyst (Traffic Review): This role focuses on analyzing network traffic to identify patterns, extract information, and understand communication flows. They are proficient in using packet capture tools and protocol dissectors to dissect network traffic and uncover hidden details.</li>
+                            <li>The Profiler (Fingerprinting): This role specializes in techniques used to create unique digital fingerprints of users and devices. They understand how various data points, such as browser settings, operating system details, and network configurations, can be combined to create a fingerprint that can be used to track individuals across the web.</li>
+                            <li>The Cookie Master (Web Privacy): This role focuses on the intricacies of web privacy, particularly concerning cookies and other tracking mechanisms used by websites. They understand how cookies work, how they are used to track users, and the techniques used to mitigate tracking and enhance web privacy.</li>
+                        </ul>
+                    </li>
+                    <li>If you are missing a member for any reason, do the tasks in order. Each member is responsible for a task but EVERY member should help the others.</li>
+                    <li>There are mandatory implementations. Non-mandatory implementations could give you extra points based on their difficulty. (Max 2 bonus implementations per group)</li>
+                    <li>You will be delivering:
+                        <ul>
+
+                            <li>The code or configuration files you made</li>
+                            <li>A short video demonstrating your lab in action (e.g., showing how your tools detect or prevent an attack).</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="project-part">
+                <h4 class="btn-link" data-toggle="collapse" data-target="#part3-1">Part 1: The Analyst's Eye (Traffic Analysis with Zeek)</h4>
+                <div id="part3-1" class="collapse">
+                    <p>The Analyst delves into the raw data of network communication, extracting insights and revealing hidden information using the powerful network security monitor Zeek.</p>
+                    <ul>
+                        <li><strong>Zeek Installation and Configuration:</strong> Install and configure Zeek to monitor network traffic. This involves setting up Zeek to capture traffic from a network interface or from a PCAP file. (Mandatory - <a href="./ZeekLab.md">Lab available</a>)</li>
+                        <li><strong>Basic Zeek Scripting and Log Analysis:</strong> Write basic Zeek scripts to extract specific information from network traffic, such as visited websites, DNS queries, HTTP requests, and other relevant data. Analyze the Zeek logs to identify potential privacy leaks and suspicious activity. The focus should be on logs related to HTTP, DNS, and SSL/TLS. Follow the lab guideline for this. (Mandatory - <a href="./ZeekLab.md">Lab available, Complete Lab Questions, it's the same lab</a>)</li>
+                    </ul>
+                    <p><strong>Bonus Points (Difficulty: 7):</strong> Develop a custom Zeek script that detects specific privacy-related events, such as connections to known tracking servers or the transmission of sensitive data in cleartext. For Bonus Points, a minimum of 5 types of events should be detected with an explanation on how it is related to privacy and/or network security.</p>
+                </div>
+            </div>
+            <div class="project-part">
+                <h4 class="btn-link" data-toggle="collapse" data-target="#part3-2">Part 2: The Profiler's Craft (Fingerprinting Techniques)</h4>
+                <div id="part3-2" class="collapse">
+                    <p>The Profiler constructs unique digital fingerprints, revealing the subtle traces that users leave behind as they navigate the digital world. This part of the lab will explore different fingerprinting techniques and their effectiveness.</p>
+                    <ul>
+                        <li><strong>Browser Fingerprinting:</strong> Analyze pcaps with http queries and tell what browser is generating it. This is called browser fingerprinting. To do this, you must analyze how different browsers query the same webpage and compare the uniqueness of the fingerprint with others. We provide some pcaps taken from different browsers. Obviously saying "because the User-Agent header says so" will have no value. Try to figure out other differences, use pcaps of your own browser (or tools) if needed (Mandatory - <a href="./browser-pcaps.zip">Pcaps available</a>)</li>
+                        <li><strong>Device Fingerprinting:</strong> Analyze a device fingerprinting tool that collects information about the user's device based on pcap captures. You certainly can spot the differences between OS's by looking at the network stack, and even between different versions of the OS. Analyze the collected data to identify unique patterns that can be used to track the device across different networks. (Mandatory -  <a href="./browser-pcaps.zip">Pcaps available, same as the last ones</a>). </li>
+                        <li><strong>DNS and OpenVPN traffic analysis:</strong> Analyze the DNS queries and OpenVPN traffic to identify patterns that can be used for fingerprinting. This could involve looking at the DNS queries made by different devices or analyzing the OpenVPN handshake to extract unique identifiers. (Mandatory - <a href="./Project3-PacketAnalysis.ipynb">Jupyter Notebook available</a>, <a href="./dns-openvpn-pcaps.zip">Pcaps available</a>)</li>
+                    </ul>
+                    <p><strong>Bonus Points (Difficulty: 5):</strong>  Generate pcaps of different versions of the same OS and identify those versions using just network traffic (e.g: ubuntu 18 vs ubuntu 24). Give 2 different OS-version analysis (4 pcaps in total)</p>
+                    <p><strong>Bonus Points (Difficulty: 10)+:</strong> There's a huge bonus in traffic analysis lab (at the end of the Python notebook). You need to create more traffic on your own.</p>
+                </div>
+            </div>
+            <div class="project-part">
+                <h4 class="btn-link" data-toggle="collapse" data-target="#part3-3">Part 3: The Cookie Master's Domain (Part 3: Web Privacy)</h4>
+                <div id="part3-3" class="collapse">
+                    <p>The Cookie Master understands the hidden world of web tracking, controlling the flow of information between users and websites.</p>
+                    <ul>
+                        <li><strong>Coding extensions for privacy:</strong> Develop a browser extension that provides advanced cookie management features, such as automatic cookie deletion, whitelisting, and the ability to view and modify cookie content in real-time. This could also include features to prevent other tracking techniques like local storage or canvas fingerprinting. (<a href="./ChromeExtensionACM.zip">Base code available</a>, tested under windows but should work with every OS)</li>
+                    </ul>
+                    <p><strong>Bonus Points (Difficulty: 10):</strong> Work with the Spy and using an ARP spoofing attack, fetch the cookies from the traffic of a victim, save them on a file and make your browser extension replace your actual cookies with your victim cookies.</p>
+                </div>
+            </div>
             <div class="go-back">Go Back</div>
         </div>
 
