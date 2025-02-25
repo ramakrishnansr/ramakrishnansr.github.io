@@ -107,7 +107,7 @@
         <div class="project-title" data-target="#project1">Lab 1: Hacking Your Neighbour</div>
         <div class="project-title" data-target="#project2">Lab 2: My Neighbor Totoro... is a Hacker!</div>
         <div class="project-title" data-target="#project3">Lab 3: Ghost in the Machine: Exploring Digital Privacy</div>
-        <div class="project-title2" data-target="#project4">Lab 4: Wait for it!</div>
+        <div class="project-title" data-target="#project4">Lab 4: The Digital Arms Race: Censorship vs. Circumvention</div>
         
         <div id="project1" class="project-section">
             <div class="project-intro">
@@ -331,8 +331,109 @@
                     <p><strong>Bonus Points (Difficulty: 10):</strong> Work with the Spy and using an ARP spoofing attack, fetch the cookies from the traffic of a victim, save them on a file and make your browser extension replace your actual cookies with your victim cookies.</p>
                 </div>
             </div>
-            <div class="go-back">Go Back</div>
-        </div>
+            </div>
+            <div id="project4" class="project-section">
+                <div class="project-intro">
+                    <p>Welcome back. As you approach the culmination of your network security training, this final lab delves into
+                        the dynamic struggle between censorship and circumvention. You will explore the technical underpinnings of
+                        both, gain practical experience in building and breaking digital barriers, and examine the ethical
+                        implications of these technologies.</p>
+                    <h3>The Rules:</h3>
+                    <ul>
+                        <li>Do not talk about the hacking club. (No Copying! There's nothing on the internet for this)</li>
+                        <li>Get into your team (max 3), each of you will have a specific role:
+                            <ul>
+                                <li>The Censor (Censorship System Architect): This role is responsible for designing and
+                                    implementing a
+                                    censorship system capable of blocking access to specific content or services.</li>
+                                <li>The Shadow Operator (Tor-like Client Developer): This role focuses on building a client
+                                    application that can securely communicate through a multi-hop anonymity network, bypassing censorship.</li>
+                                <li>The Advocate (Tor-like Server Operator): This role is responsible for setting up and maintaining
+                                    a Tor-like server node, forwarding traffic and decrypting messages within the anonymity network.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>If you are missing a member for any reason, do tasks 2, 3 and 1 in this order. Tasks 2 and 3 should be
+                            build in coordination of 2 members</li>
+                        <li>Max 2 bonus implementations per group</li>
+                        <li>You will be delivering:
+                            <ul>
+                                <li>Description of your group!</li>
+                                <li>The code</li>
+                                <li>A short video demonstrating your defenses in action (e.g., showing how your tools detect or
+                                    prevent an attack).</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-part">
+                    <h4 class="btn-link" data-toggle="collapse" data-target="#part4-1">Part 1: Building a Censorship System (The
+                        Censor's Fortress)</h4>
+                    <div id="part4-1" class="collapse">
+                        <p>The Censor designs and implements a system to block access to specific content or services. This involves
+                            understanding different censorship techniques and implementing them effectively.</p>
+                        <ul>
+                            <li><strong>Objectives:</strong></li>
+                            <ul>
+                                <li>Implement a system to block access to specific websites or IP addresses.</li>
+                                <li>Implement a system to filter content based on keywords or patterns.</li>
+                                <li>Explore and implement techniques to block or disrupt VPN and proxy traffic.</li>
+                                <li>Design a logging and monitoring system to track censorship activity.</li>
+                            </ul>
+                        </ul>
+                        <p>Detailed lab instructions can be found <a
+                                href="./Project4-P1.md" target="_blank">here</a>.</p>
+                    </div>
+                </div>
+                <div class="project-part">
+                    <h4 class="btn-link" data-toggle="collapse" data-target="#part4-2">Part 2: Building a Tor-like Client (The Shadow Operator's Tool)</h4>
+                    <div id="part4-2" class="collapse">
+                        <p>The Shadow Operator develops a client application that can securely communicate through a multi-hop
+                            anonymity network, bypassing the Censor's restrictions.</p>
+                        <ul>
+                            <li><strong>Objectives:</strong></li>
+                            <ul>
+                                <li>Implement multi-layer encryption for outgoing traffic.</li>
+                                <li>Create a circuit through a network of Tor-like server nodes.</li>
+                                <li>Send a packet to the first node to go through the circuit.</li>
+                            </ul>
+                        </ul>
+                        <p><strong>Bonus Points (The Shadow Operator):</strong></p>
+                        <ul>
+                            <li>Implement a dynamic circuit building algorithm.</li>
+                            <li>Implement a method to handle directory services.</li>
+                        </ul>
+                        <p>Detailed lab instructions can be found <a
+                                href="./Project4-P2.ipynb" target="_blank">here</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-part">
+                    <h4 class="btn-link" data-toggle="collapse" data-target="#part4-3">Part 3: Building a Tor-like Server (The
+                        Advocate's Node)</h4>
+                    <div id="part4-3" class="collapse">
+                        <p>The Advocate sets up and maintains a Tor-like server node, contributing to the anonymity network and
+                            facilitating secure communication.</p>
+                        <ul>
+                            <li><strong>Objectives:</strong></li>
+                            <ul>
+                                <li>Implement a server that can receive and forward traffic.</li>
+                                <li>Implement a mechanism to decrypt each layer of the message.</li>
+                                <li>Forward the decrypted message to the next node in the circuit.</li>
+                                <li>Implement a mechanism to handle responses and forward them back along the circuit.</li>
+                            </ul>
+                        </ul>
+                        <p><strong>Bonus Points:</strong></p>
+                        <ul>
+                            <li>Implement a method to handle directory services in a private mode</li>
+                        </ul>
+                        <p>Detailed lab instructions can be found <a
+                                href="./Project4-P3.ipynb" target="_blank">here</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="go-back">Go Back</div>
+            </div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
