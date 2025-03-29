@@ -1,6 +1,15 @@
-- key: student8
+- key: student11
+  name: Likith Rahul Krishnamurthy   
+  title: Masters Student
+- key: student10
+  name: Riya Aggarwal  
+  title: Masters Student
+- key: student9
   name: Rohit Nagubandi  
   title: Masters Student
+- key: student8
+  name: Peter Dobbins 
+  title: Undergraduate Student
 - key: student7
   name: Dominick Rangel 
   title: Undergraduate Student
