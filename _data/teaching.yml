@@ -1,3 +1,7 @@
+- key: teaching7
+  date: April 2025
+  class: '<a href="teaching/cse156-spring25" target="_blank">CSE 156: Network Programming</a>'
+  position: 'Instructor'
 - key: teaching6
   date: January 2025
   class: '<a href="teaching/cse153-winter25" target="_blank">CSE 153: Network Security and Privacy</a>'
