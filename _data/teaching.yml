@@ -1,14 +1,14 @@
 - key: teaching7
-  date: April 2025
+  date: Spring 2025
   class: '<a href="teaching/cse156-spring25" target="_blank">CSE 156: Network Programming</a>'
   position: 'Instructor'
 - key: teaching6
-  date: January 2025
+  date: Winter 2025
   class: '<a href="teaching/cse153-winter25" target="_blank">CSE 153: Network Security and Privacy</a>'
   position: 'Instructor'
 - key: teaching5
-  date: September 2024
-  class: '<a href="teaching/cse253-fall24" target="_blank">CSE 253: Network Security</a>'
+  date: Fall 2024, Fall 2025
+  class: '<a href="teaching/cse253-fall25" target="_blank">CSE 253: Network Security</a>'
   position: 'Instructor'
 - key: teaching4
   date: March 2023
