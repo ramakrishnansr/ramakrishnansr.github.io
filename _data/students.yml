@@ -1,32 +1,29 @@
+- key: student12
+  name: Ramon Torres
+  title: PhD Student
 - key: student11
-  name: Likith Rahul Krishnamurthy   
-  title: Masters Student
+  name: Sabrina Reis 
+  title: PhD Student
 - key: student10
-  name: Riya Aggarwal  
-  title: Masters Student
+  name: Mohamed Dawoud
+  title: PhD Student
 - key: student9
+  name: Linden Chen
+  title: PhD Student
+- key: student8
   name: Rohit Nagubandi  
   title: Masters Student
-- key: student8
-  name: Peter Dobbins 
-  title: Undergraduate Student
-- key: student7
-  name: Dominick Rangel 
-  title: Undergraduate Student
-- key: student6
-  name: Leonardo Gallego
+- key: student5
+  name: Michael Kamensky 
   title: Undergraduate Student
 - key: student5
-  name: Prasiddh Pooskur
+  name: Peter Dobbins 
   title: Undergraduate Student
 - key: student4
-  name: Ryan Sangha
+  name: Dominick Rangel 
   title: Undergraduate Student
 - key: student3
   name: Felicity Shih
-  title: Undergraduate Student
-- key: student2
-  name: Brian Huang
   title: Undergraduate Student
 - key: student1
   name: Sriya Katreddi

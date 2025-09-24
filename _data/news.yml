@@ -1,3 +1,15 @@
+- key: news50
+  date: 01 June 2025
+  description: 'Extremely happy to welcome four new PhD students to RANDLAb: Linden Chen, Mohamed Moustafa Dawoud, Sabrina Reis, and Ramon Torres!'
+  home: 'true'
+- key: news49
+  date: 01 June 2025
+  description: 'My undergraduate students Sriya Katreddi and Prassidh Pooskur win the <a href="https://engineering.ucsc.edu/news/2025-deans-awards/" target="_blank">Deans Award</a> for their outstanding research with RANDLAb.'
+  home: 'true'
+- key: news48
+  date: 01 February 2025
+  description: 'My Masters student Rohit Nagubandi has been awarded the <a href="https://seekcommons.org/fellows.html" target="_blank">SEEKCommons award</a> to work with the Tor Project on improving sustainability in the Tor Network.'
+  home: 'true'
 - key: news47
   date: 13 August 2024
   description: 'Our <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/ablove" target="_blank">paper on the effect of US Sanctions on Cuban Internet</a> won the USENIX Security 2024 Distinguished Paper Award!'
@@ -5,12 +17,10 @@
 - key: news46
   date: 15 July 2024
   description: 'Our <a href="assets/russia-ukraine-invasion.pdf">paper</a> on the network changes following the Russia-Ukraine conflict won the <a href="https://foci.community/awards.html">FOCI 2024 Best Practical Award</a>'
-  home: 'true'
 - key: news45
   date: 01 July 2024
   description: 'I am extremely excited to be joining the UC Santa Cruz CSE department as an Assistant Professor!'
   attachments: '<img src="images/ucsc.jpeg" alt="UCSC" style="width:60%; margin-left: 20%; margin-right: 20%; "/>' 
-  home: 'true'
 - key: news44
   date: 06 June 2024
   description: 'I defended my PhD! Extremely grateful to my advisor Prof. Roya Ensafi and all my collaborators, mentors, and friends for their support through this journey. Go Blue!'

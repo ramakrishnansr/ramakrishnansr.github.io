@@ -21,4 +21,6 @@ author = {Tsai, Elisa and Sundara Raman, Ram and Prakash, Atul and Ensafi, Roya}
 booktitle = {NDSS},<br>
 year = {2024}
 }"
+slides: https://www.ndss-symposium.org/wp-content/uploads/2024-409-slides.pdf
+talk: https://youtu.be/uGBxcb2w1ZE?si=95gQFOFocu7B6oYI
 ---

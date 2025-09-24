@@ -24,5 +24,6 @@ author = {Ablove, Anna and Chandrashekaran, Shreyas and Le, Hieu and Sundara Ram
 booktitle = {USENIX Security Symposium},<br>
 year = {2024}
 }"
+talk: https://youtu.be/LsCtJx5T1nw
 tag: 🏅 Distinguished Paper Award
 ---
