@@ -1,14 +1,14 @@
 - key: teaching8
-  date: Fall 2025
-  class: '<a href="teaching/cmpm118-fall25" target="_blank">CMPM 118-06: Collaborative Research Experiences in Engineering</a>'
+  date: Fall 2025, Winter 2026
+  class: '<a href="teaching/cmpm118-fall25" target="_blank">CMPM/EXPL 118-06: Collaborative Research Experiences in Engineering</a>'
   position: 'Instructor'
 - key: teaching7
   date: Spring 2025
   class: '<a href="teaching/cse156-spring25" target="_blank">CSE 156: Network Programming</a>'
   position: 'Instructor'
 - key: teaching6
-  date: Winter 2025
-  class: '<a href="teaching/cse153-winter25" target="_blank">CSE 153: Network Security and Privacy</a>'
+  date: Winter 2025, Winter 2026
+  class: '<a href="teaching/cse153-winter26" target="_blank">CSE 153: Network Security and Privacy</a>'
   position: 'Instructor'
 - key: teaching5
   date: Fall 2024, Fall 2025

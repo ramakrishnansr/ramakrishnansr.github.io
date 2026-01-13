@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Security Class Project</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #0a0a0a;
+            color: #33ff33;
+            background-image: url('https://www.transparenttextures.com/patterns/60-lines.png');
+            /* Ensure the background covers the whole body */
+            background-size: cover; /* or contain, depending on desired effect */
+            background-repeat: repeat; /* or no-repeat, repeat-x, repeat-y */
+            min-height: 100vh; /* Ensure body is at least viewport height */
+            margin: 0; /* Remove default body margins */
+        }        /* Matrix rain effect */
+        .matrix {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Behind the content */
+            pointer-events: none; /* Prevent interaction */
+        }
+        .column {
+            float: left;
+            height: 100%;
+        }
+		.container{
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+        }
+        .choose-destiny {
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            color: #ff4444;
+        }
+        .project-title {
+            font-size: 1.5rem;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+            background-color: #222;
+            color: #39ff14;
+            cursor: pointer;
+            border: 2px solid #444;
+        }
+        
+        .project-section {
+            margin: 50px 0;
+            display: none;
+        }
+        .project-intro {
+            background-color: #111;
+            padding: 20px;
+            color: #33ff33;
+        }
+        .project-part h4 {
+            cursor: pointer;
+            background-color: #222;
+            padding: 15px;
+            margin: 0;
+            color: #39ff14;
+            border-bottom: 1px solid #444;
+        }
+        .project-part .collapse p{
+            background-color: #333;
+            padding: 15px;
+            color: #bbb;
+            font-family: 'Courier New', monospace;
+        }
+		.project-part .collapse li{
+            background-color: #333;
+            padding: 15px;
+            color: #bbb;
+            font-family: 'Courier New', monospace;
+        }
+		.project-part .collapse ul{
+            background-color: #333;
+            padding: 15px;
+            color: #bbb;
+            font-family: 'Courier New', monospace;
+        }
+        .btn-link {
+            color: #39ff14;
+        }
+        .go-back {
+            text-align: center;
+            margin-top: 20px;
+            cursor: pointer;
+            color: #ff4444;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="choose-destiny">Choose your destiny:</div>
+        <div class="project-title" data-target="#project1">Lab 1: Hacking Your Neighbour</div>
+        <div class="project-title2" data-target="#project2">Lab 2: Wait for it!</div>
+        <div class="project-title2" data-target="#project3">Lab 3: Wait for it!</div>
+        <div class="project-title2" data-target="#project4">Lab 4: Wait for it!</div>
+        
+        <div id="project1" class="project-section">
+            <div class="project-intro">
+                <p>Welcome to Lab 1 of your Network Security class at UCSC! This lab is designed to immerse you in the practical aspects of network security by exploring and implementing various attacks over Layer 2 and Layer 3 protocols. This lab will guide you through the world of network vulnerabilities and the techniques used by attackers to exploit these weaknesses.</p>
+                <p>In this lab, you will take on the role of a network attacker, learning and implementing different types of cyberattacks using Python. You will gain hands-on experience in executing Man-in-the-Middle (MiTM) attacks, evasion techniques to bypass security measures, and Denial-of-Service (DoS) attacks to disrupt network services. By understanding and applying these attack methodologies, you will also learn the importance of securing networks against such threats.</p>
+                <p>Through a series of exercises and projects, you will develop a deeper understanding of how these attacks work, how to detect them, and most importantly, how to defend against them. By the end of this lab, you will have gained valuable skills that will not only enhance your understanding of network security but also prepare you to design and implement robust security measures in real-world scenarios.</p>
+				
+				<h3>The Rules:</h3>
+				<ul>
+				<li>Do not talk about the hacking club. (No Copying! I've read all the code for this attacks that are on the Internet, i'll know!)</li>
+				<li>Get into your team (max 3), each of you will have a specific role:
+				<ul>
+				<li>The spy: He'll be implementing a MiTM hacking software that intercepts and potentially modifies communication between two parties on a network. Essential tool for eavesdropping and intelligence, it will provide the team with internal information of our targets</li>
+				<li>The Infiltrator: This operative specializes in the art of digital camouflage. Their expertise lies in manipulating network identifiers to mask their true origin and presence. Proficient in techniques such as IP spoofing, MAC address spoofing, and other evasion tactics, they navigate the digital landscape undetected, leaving no trace of their intrusion. They excel at bypassing basic security measures and creating decoys to divert attention from other operations. The Infiltrator ensures that the team's actions remain shrouded in secrecy, allowing for covert reconnaissance and exfiltration of sensitive data.</li>
+				<li>The Disruptor:  This individual commands the power to disrupt and overwhelm network infrastructure. A master of denial-of-service attacks, they wield digital storms like SYN floods, UDP floods, and other disruptive techniques to cripple target systems. The Disruptor's role is to create diversions, disable critical services, or simply bring down the enemy's network, creating opportunities for the other team members to operate unimpeded. They understand the intricacies of network protocols and can orchestrate powerful attacks that leave their targets reeling.</li>
+        </ul>
+		<li> If you are missing a member for any reason, do the tasks in order. Each member is responsible for a task but EVERY member should help the others</li>
+            <ul>
+                <li> Remember, this is a GROUP project. Responsibilities are just meant for us to know if there's a group member missing</li>
+            </ul>
+        <!--TODO: Be more specific in that this is a group project. IPS/IDS slides - other defense and ideas for RAM. Links with official documentation in tools.
+        Part 3 Lab 2. Samples for the defenses (More for us)-->
+		<li> For simplicity, try to pick classmates that have the same PC architecture (Intel or Mac). You'll have to deal with virtual machines later and this will be very helpful!</li>
+		<li> There are mandatory implementations. Non mandatory could give you extra point based on it's difficulty. <strong>(Max 2 bonus implementations per group)</strong></li>
+        <li> you can open Jupyter Notebooks using VS Code or <a href="https://jupyter.org/install">Jupyter</a> </li>
+		<li> You will be delivering: </li>
+		<ul>
+			<li> The code </li>
+			<li> A short video demonstrating your attack working</li>
+		</ul>
+    </li>
+</ul>
+				
+                <p>Let's dive into the world of network hacking and discover the tactics used to "hack your neighbour"!</p>
+            </div>
+            <div class="project-part">
+                <h4 class="btn-link" data-toggle="collapse" data-target="#part1-1">Part 1: The Spy's Arsenal (Man-in-the-Middle Attacks)</h4>
+                <div id="part1-1" class="collapse">
+                    <p>The Spy operates in the shadows, intercepting and manipulating communications without leaving a trace. Tonight, you'll learn to become the invisible intermediary, controlling the flow of information between unsuspecting targets.</p>
+				<ul>
+					<li>
+                        <a href="./Project1-P1.ipynb"><strong>ARP Poison Routing (APR):</strong> (Mandatory - Jupyter Notebook available)</a> This is your bread and butter, initiates. Redirect traffic by poisoning the ARP cache, placing yourself squarely between the victim and their gateway.
+					</li>
+					<li>
+						<strong>DHCP Spoofing:</strong> (Difficulty: 8) Take control of the network's address allocation. By impersonating the DHCP server, you can assign malicious IP addresses, DNS servers, and gateways to unsuspecting clients, effectively routing all their traffic through you.
+					</li>
+					<li>
+						<strong>ICMP Redirect:</strong> (Difficulty: 8) A more subtle approach. Use ICMP redirect messages to convince a host that a different router is a better path to a specific destination, allowing you to intercept traffic without directly poisoning the ARP cache.
+					</li>
+				</ul>
+                </div>
+            </div>
+            <div class="project-part">
+                <h4 class="btn-link" data-toggle="collapse" data-target="#part1-2">Part 2: The Infiltrator's Gambit (Evasion Attacks)</h4>
+                <div id="part1-2" class="collapse">
+                    <p>The Infiltrator moves unseen, a whisper in the digital wind. This part of the lab focuses on disguising your presence, making it nearly impossible to trace your actions back to their source. You must create a proxy tool to perform the attacks. This tools should act as a proxy, so you will send the requests to this tool and this will forward them doing the necessary changes</p>
+					<ul>
+					<li><a href="./Project1-P2.ipynb"><strong>IP Spoofing (Mandatory, Jupyter Notebook provided):</strong></a> (Difficulty: 4) Forge the source IP address of your packets, making it appear as if they originated from a different machine. This can be used to bypass basic access controls or launch attacks that are difficult to trace.</li>
+					<li><strong>MAC Spoofing:</strong> (Difficulty: 4) Change your network interface's MAC address, allowing you to impersonate other devices on the local network. This is often used in conjunction with IP spoofing to further mask your identity.</li>
+				</ul>
+                </div>
+            </div>
+            <div class="project-part">
+                <h4 class="btn-link" data-toggle="collapse" data-target="#part1-3">Part 3: The Disruptor's fury (Denial Of Service)</h4>
+                <div id="part1-3" class="collapse">
+				<p>The Disruptor unleashes chaos, overwhelming target systems with a torrent of digital attacks. Tonight, you'll learn to disrupt and disable networks, creating opportunities for other operations. He will always be backed up by hundreds of minions (Threads) to perform his actions (Yes, use MULTI-THREADING)</p>
+				<ul>
+			<li><a href="./Project1-P3.ipynb"><strong>OPT-ACK:</strong> (Mandatory - Jupyter Notebook available)</a> This is your disruptor's first strike. Master this technique to disrupt TCP connections and deny service to targeted applications.</li>
+			<li><strong>SYN Flood (or other flooding attacks):</strong> (Difficulty: 7) Overwhelm the target server with SYN packets, exhausting its resources and preventing legitimate connections. This is a classic DoS technique that can cripple even well-defended systems.</li>
+			<li><strong>Smurf Attack:</strong> (Difficulty: 6) Amplify a ping flood by sending ICMP echo requests to a broadcast address with a spoofed source IP address. This causes a large number of hosts to respond to the target, overwhelming it with traffic.</li>
+			<li><strong>CAM Table Overflow:</strong> (Difficulty: 7) Flood a switch's Content Addressable Memory (CAM) table with fake MAC addresses, causing it to act as a hub and broadcast all traffic, making it vulnerable to sniffing attacks or simply denying the service.</li>
+			<li><strong>DHCP Starvation:</strong> (Difficulty: 7) Exhaust the DHCP server's address pool by requesting a large number of IP addresses with spoofed MAC addresses, preventing legitimate clients from obtaining an IP address.</li>
+		</ul>
+                </div>
+            </div>
+            <div class="go-back">Go Back</div>
+        </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.project-title').click(function () {
+                const clickedTitle = $(this);
+                const targetSection = $($(this).data('target'));
+
+                $('.project-title').not(clickedTitle).hide();
+                $('.project-title2').not(clickedTitle).hide();
+                $('.choose-destiny').hide();
+                $('.project-section').hide();//hide every section before showing the target
+                targetSection.show();
+                targetSection.find('.go-back').show();
+            });
+
+            $('.go-back').click(function() {
+                $('.project-section').hide();//hide every section before showing the titles
+                $('.project-title').show();
+                $('.project-title2').show();
+                $('.choose-destiny').show();
+                $(this).hide();
+            });
+        });
+    </script>
