@@ -105,7 +105,7 @@
     <div class="container">
         <div class="choose-destiny">Choose your destiny:</div>
         <div class="project-title" data-target="#project1">Lab 1: Hacking Your Neighbour</div>
-        <div class="project-title2" data-target="#project2">Lab 2: Wait for it!</div>
+        <div class="project-title" data-target="#project2">Lab 2: My Neighbor Totoro... is a Hacker!</div>
         <div class="project-title2" data-target="#project3">Lab 3: Wait for it!</div>
         <div class="project-title2" data-target="#project4">Lab 4: Wait for it!</div>
         
@@ -120,7 +120,7 @@
 				<li>Do not talk about the hacking club. (No Copying! I've read all the code for this attacks that are on the Internet, i'll know!)</li>
 				<li>Get into your team (max 3), each of you will have a specific role:
 				<ul>
-				<li>The spy: The spy will be implementing a MiTM hacking software that intercepts and potentially modifies communication between two parties on a network. Essential tool for eavesdropping and intelligence, it will provide the team with internal information of our targets</li>
+				<li>The spy: He'll be implementing a MiTM hacking software that intercepts and potentially modifies communication between two parties on a network. Essential tool for eavesdropping and intelligence, it will provide the team with internal information of our targets</li>
 				<li>The Infiltrator: This operative specializes in the art of digital camouflage. Their expertise lies in manipulating network identifiers to mask their true origin and presence. Proficient in techniques such as IP spoofing, MAC address spoofing, and other evasion tactics, they navigate the digital landscape undetected, leaving no trace of their intrusion. They excel at bypassing basic security measures and creating decoys to divert attention from other operations. The Infiltrator ensures that the team's actions remain shrouded in secrecy, allowing for covert reconnaissance and exfiltration of sensitive data.</li>
 				<li>The Disruptor:  This individual commands the power to disrupt and overwhelm network infrastructure. A master of denial-of-service attacks, they wield digital storms like SYN floods, UDP floods, and other disruptive techniques to cripple target systems. The Disruptor's role is to create diversions, disable critical services, or simply bring down the enemy's network, creating opportunities for the other team members to operate unimpeded. They understand the intricacies of network protocols and can orchestrate powerful attacks that leave their targets reeling.</li>
         </ul>
@@ -149,7 +149,7 @@
                     <p>The Spy operates in the shadows, intercepting and manipulating communications without leaving a trace. Tonight, you'll learn to become the invisible intermediary, controlling the flow of information between unsuspecting targets.</p>
 				<ul>
 					<li>
-                        <a href="./Project1-P1.ipynb" download><strong>ARP Poison Routing (APR):</strong> (Mandatory - Jupyter Notebook available)</a> This is your bread and butter, initiates. Redirect traffic by poisoning the ARP cache, placing yourself squarely between the victim and their gateway.
+                        <a href="./Project1-P1.ipynb"><strong>ARP Poison Routing (APR):</strong> (Mandatory - Jupyter Notebook available)</a> This is your bread and butter, initiates. Redirect traffic by poisoning the ARP cache, placing yourself squarely between the victim and their gateway.
 					</li>
 					<li>
 						<strong>DHCP Spoofing:</strong> (Difficulty: 8) Take control of the network's address allocation. By impersonating the DHCP server, you can assign malicious IP addresses, DNS servers, and gateways to unsuspecting clients, effectively routing all their traffic through you.
@@ -165,7 +165,7 @@
                 <div id="part1-2" class="collapse">
                     <p>The Infiltrator moves unseen, a whisper in the digital wind. This part of the lab focuses on disguising your presence, making it nearly impossible to trace your actions back to their source. You must create a proxy tool to perform the attacks. This tools should act as a proxy, so you will send the requests to this tool and this will forward them doing the necessary changes</p>
 					<ul>
-					<li><a href="./Project1-P2.ipynb" download><strong>IP Spoofing (Mandatory, Jupyter Notebook provided):</strong></a> (Difficulty: 4) Forge the source IP address of your packets, making it appear as if they originated from a different machine. This can be used to bypass basic access controls or launch attacks that are difficult to trace.</li>
+					<li><a href="./Project1-P2.ipynb"><strong>IP Spoofing (Mandatory, Jupyter Notebook provided):</strong></a> (Difficulty: 4) Forge the source IP address of your packets, making it appear as if they originated from a different machine. This can be used to bypass basic access controls or launch attacks that are difficult to trace.</li>
 					<li><strong>MAC Spoofing:</strong> (Difficulty: 4) Change your network interface's MAC address, allowing you to impersonate other devices on the local network. This is often used in conjunction with IP spoofing to further mask your identity.</li>
 				</ul>
                 </div>
@@ -173,9 +173,9 @@
             <div class="project-part">
                 <h4 class="btn-link" data-toggle="collapse" data-target="#part1-3">Part 3: The Disruptor's fury (Denial Of Service)</h4>
                 <div id="part1-3" class="collapse">
-				<p>The Disruptor unleashes chaos, overwhelming target systems with a torrent of digital attacks. Tonight, you'll learn to disrupt and disable networks, creating opportunities for other operations. They will always be backed up by hundreds of minions (Threads) to perform his actions (Yes, use MULTI-THREADING)</p>
+				<p>The Disruptor unleashes chaos, overwhelming target systems with a torrent of digital attacks. Tonight, you'll learn to disrupt and disable networks, creating opportunities for other operations. He will always be backed up by hundreds of minions (Threads) to perform his actions (Yes, use MULTI-THREADING)</p>
 				<ul>
-			<li><a href="./Project1-P3.ipynb" download><strong>OPT-ACK:</strong> (Mandatory - Jupyter Notebook available)</a> This is your disruptor's first strike. Master this technique to disrupt TCP connections and deny service to targeted applications.</li>
+			<li><a href="./Project1-P3.ipynb"><strong>-ACK-Flooding:</strong> (Mandatory - Jupyter Notebook available)</a> This is your disruptor's first strike. Master this technique to disrupt TCP connections and deny service to targeted applications.</li>
 			<li><strong>SYN Flood (or other flooding attacks):</strong> (Difficulty: 7) Overwhelm the target server with SYN packets, exhausting its resources and preventing legitimate connections. This is a classic DoS technique that can cripple even well-defended systems.</li>
 			<li><strong>Smurf Attack:</strong> (Difficulty: 6) Amplify a ping flood by sending ICMP echo requests to a broadcast address with a spoofed source IP address. This causes a large number of hosts to respond to the target, overwhelming it with traffic.</li>
 			<li><strong>CAM Table Overflow:</strong> (Difficulty: 7) Flood a switch's Content Addressable Memory (CAM) table with fake MAC addresses, causing it to act as a hub and broadcast all traffic, making it vulnerable to sniffing attacks or simply denying the service.</li>
@@ -185,7 +185,95 @@
             </div>
             <div class="go-back">Go Back</div>
         </div>
+        <div id="project2" class="project-section">
+            <div class="project-intro">
+                
+<p>Welcome back, initiates. Last time, you infiltrated networks, exploiting vulnerabilities and sowing digital chaos. Tonight, the tables turn. You'll transition from attacker to scanner to defender, learning the crucial skills necessary to scan and protect your systems and networks from the very techniques you mastered in Lab 1. This isn't just about patching holes; it's about building a robust, multi-layered defense – a digital fortress that can withstand even the most determined assaults.</p>
 
+<p>This lab emphasizes a team-based approach to security. You'll collaborate, each taking on a specialized scanning and defensive role, mirroring the complex dynamics of real-world security teams. You'll learn to anticipate threats, implement preventative measures, detect intrusions, and respond effectively to security incidents. Remember the lessons you learned as attackers – understanding how an attack works is the first step to defending against it.</p>
+
+<p>This lab also encompasses a <strong style="color:red">CTF (capture the flag)</strong>, where you're trying to get a secret clue about an attacker machine, located at cse153.ramakrishnansr.com (which the attacker has compromised and taken over a port). You'll need to work together to capture the flag, and turn over the secret to the authorities (the CSE 153 teaching team) so that they can apprehend the attacker.</p>
+
+<h3>The Rules:</h3>
+<ul>
+    <li>Do not talk about the hacking club. (No Copying! I've read all the code for this attacks that are on the Internet, i'll know!)</li>
+    <li>Do NOT scan the server more than 20 times a day for the CTF. We have set up rate limits and your IP will be blocked and reported. A brute force scanning approach will NOT work, and is not an ethical security behavior. </li>
+
+    <li>Get into your team (max 3), each of you will have a specific role:
+        <ul>
+            <li>The DNS Guardian: This role focuses on the overall security posture of the DNS environment, and monitors UDP flows. They are also a DNS wizard and can do DNS scans for finding attackers.</li>
+            <li>The TCP Gatekeeper: This individual is responsible for securing the TCP layer and controlling network traffic. The Gatekeeper configures firewalls, intrusion detection/prevention systems (IDS/IPS), and other network security devices. They are also masters at developing TCP-based scanners (there are even rumors they are the inspiration for NMap).</li>
+            <li>The Application Bodyguard: Experts at everything on the application layer. They are wizards at sending and reading HTTP requests, and are response for overall monitoring of the application system.</li>
+        </ul>
+    </li>
+    <li>If you are missing a member for any reason, do the tasks in order (it's okay to do half the CTF, just give us an idea of your progress). Each member is responsible for a task but EVERY member should help the others.</li>
+    <li>For simplicity, try to pick classmates that have the same PC architecture (Intel or Mac). You'll have to deal with virtual machines and this will be very helpful!</li>
+    <li>There are mandatory implementations. Non-mandatory implementations could give you extra points based on their difficulty. (Max 2 bonus implementations per group). </li>
+    <li>You will be delivering:
+        <ul>
+            <li>The scanning code, CTF responses from the attacker machine, and the instructions and config files you use for defenses. The last could be a PDF or MD. For each defense, you have to pick one tool (e.g., Suricata). For non-mandatory/bonus ones say why you picked that tool (Especially if you are using a different tool than the suggested ones). Explain a use case of this tool and give your current configuration for that use case. You should answer all the Prometheus lab guide questions.</li>
+            <li>A short video demonstrating your defenses in action (e.g., showing how your tools perform the scanning and defenses).</li>
+        </ul>
+    </li>
+</ul>
+
+<p>Let's build those digital walls and show those neighbors and attackers who's boss!</p>                
+            </div>
+            <div class="project-part">
+                <h4 class="btn-link" data-toggle="collapse" data-target="#part2-1">Part 1: The DNS Guardian's Vigil</h4>
+                <div id="part2-1" class="collapse">
+                    <p>The DNS Guardian establishes the foundation of the defensive strategy on DNS. Their vigilance ensures a strong baseline security posture.</p>
+				<ul>
+
+					<li><strong>DNS Scanner (<span style="color:red">CTF</span>) (Mandatory, <a href="./Project2-P1.ipynb">starter Jupyter notebook available</a>):</strong> Do you know what a CTF is? You have to capture (get or read in some sense) a hidden flag somewhere. Most of the time (and this is one of this times) it's not that easy, after you solve a clue, you'll get clues for the next one, and the next one and so on... So, your first clue is: Create a DNS request-response tool using SCAPY that can send DNS requests to <strong style="color:red;">cse153.ramakrishnansr.com</strong>. If you send the right (two) DNS queries, you will get both the IP address of the server the TCP Gatekeeper will use and a clue about which specific non-standard ports they need to scan. Hint: the <strong style="color:red;">T</strong>ext you find in DNS will be e<strong style="color:red;">X</strong>tremely useful in revealing the <strong style="color:red;">T</strong>ruth.</li>
+					<li><strong>Log Analysis (Mandatory, see tools section: Prometheus):</strong> Configure logging and analysis tools to detect patterns indicative of DoS attacks (e.g., high volumes of UDP or TCP packets on specific ports, this is very common with DNS because there is no handshale). This involves analyzing system logs, network device logs, and potentially using dedicated network monitoring tools. To test Prometheus, send traffic from the DNS scanner or ACK flooding (project 1) to the victim machine at a really high rate.</li>
+				</ul>
+				<p><strong>Bonus Points (The Guardian):</strong> Set up 2 local DNS server (e.g., using dnsmasq) that serves a single domain. This adds a layer of control over DNS resolution and can be used to detect DNS-based attacks or malicious DNS queries. (Both DNS servers could be equal)</p>
+                </div>
+            </div>
+            <div class="project-part">
+                <h4 class="btn-link" data-toggle="collapse" data-target="#part2-2">Part 2: The TCP Gatekeeper's Fortress</h4>
+                <div id="part2-2" class="collapse">
+                    <p>The Gatekeeper controls the flow of TCP traffic in and out of the network, acting as the first line of defense against external threats. But a strong defender is a strong counter-attacker, and the TCP Gatekeeper needs to find what port the attacker is using at <strong style="color:red;">cse153.ramakrishnansr.com</strong>.</p>
+			<ul>
+                
+                <li><strong>SYN Scanner (<span style="color:red">CTF</span>) (Mandatory, <a href="./Project2-P2.ipynb">starter Jupyter notebook available</a>):</strong> Now that you have the clue of which ports to scan from the DNS Gatekeeper, implement a TCP SYN scanner (similar to NMap) that will send a SYN packet to each port in the desired range, looking for SYN-ACK packets that indicates an open port. You need to communicate the open port to the Application Bodyguard so that they can finish the CTF. 
+				<li><strong>Port Scanning Detection/Prevention (Mandatory, see tools section: Suricata (You can use Snort too)):</strong> Configure firewalls and IDS/IPS to detect and block port scanning activity. For testing, use the port scanning tool you developed in the CTF and try to port scan your NIDS instance.</li>
+			</ul>
+			<p><strong>Bonus Points (The Gatekeeper):</strong> Implement measures to prevent and detect various DoS attacks (SYN floods, UDP floods, Smurf attacks) using your defense system (Suricata). This includes configuring firewalls for rate limiting, SYN cookies, and other mitigation techniques, as well as configuring IDS/IPS rules to detect DoS attack patterns.</li>
+                </div>
+            </div>
+            <div class="project-part">
+                <h4 class="btn-link" data-toggle="collapse" data-target="#part2-3">Part 3: The Application Bodyguard's Protection</h4>
+                <div id="part2-3" class="collapse">
+                    <p>The Bodyguard focuses on securing individual hosts and applications, defending against web application attacks. They are the last line of defense, protecting critical assets even if the network perimeter is breached.</p>
+		<ul>
+            <li><strong>HTTP Scanner (<span style="color:red">CTF</span>) (Mandatory, <a href="./Project2-P3.ipynb">starter Jupyter notebook available</a>):</strong>Now that you know the open port from the SYN scanner, use Scapy to send a HTTP get request to the open port at <strong style="color:red;">cse153.ramakrishnansr.com's</strong> IP address. The response you get will give clues about how to modify your request so that ultimately, you can capture the flag!. 
+		</ul>
+        <p><strong>Bonus Points (The Bodyguard):</strong>Application Monitoring:</strong>Set up a Prometheus instance (see tools section) to monitor the traffic to a web service protected by the Bodyguard's configurations. This allows for real-time monitoring of traffic patterns and can help detect anomalies or attacks targeting the web application. Explain what you see.
+               </p></div>
+            </div>
+			<div class="project-part">
+                <h4 class="btn-link" data-toggle="collapse" data-target="#part2-4">Some tools you can use (For All Roles):</h4>
+                <div id="part2-4" class="collapse">
+			<h4></h4>
+		<ul>
+			<li><strong>Snort/Suricata (NIDS/NIPS) <a href="./Project2-Suricata.md">(Mandatory  - Lab available)</a></strong></li>
+			<li><strong>Prometheus (Monitoring) <a href="./Project2-Prometheus.md">(Mandatory - Lab available)</a></strong></li>
+            <li>Rate Limiting tools (e.g., <code>iptables</code>, <code>nftables</code>, web server modules) (You can use whatever tool you want, but if you are brave, go to <a href="https://github.com/jzdziarski/mod_evasive">mod_evasive</a>)</li>
+			<li>Arpwatch (APR detection tool)</li>
+			<li>OSSEC (HIDS)</li>
+			<li>Wazuh (EDR)</li>
+			<li>ModSecurity (WAF)</li>
+			<li>OpenDLP/MyDLP (DLP)</li>
+			<li>ClamAV (Antivirus)</li>
+			<li>Nessus Essentials/OpenVAS (Vulnerability Scanners)</li>
+			<li>ELK stack/Graylog (Log Management)</li>
+		</ul>
+		</div>
+		</div>
+            <div class="go-back">Go Back</div>
+        </div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
