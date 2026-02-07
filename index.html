@@ -67,19 +67,20 @@ layout: home
   <h1 class="text-center "><a href="/randlab" class="fg-theme-3">My Research Group</a></h1>
   <br/>
   <div class="container">
-  <p class="fg-theme-2" style="font-size: 18px;">I lead the <a href="https://randlab.engineering.ucsc.edu">Research on Attacks on Networks and Defenses Lab (RANDLab)</a> at UCSC. Current members of our group include:</p>
-  <div class="container">
-    {% for student in site.data.students %}
-      {% if student.key != "student1" %}
-        <span class="fg-theme-2 ram-subtitle" style="font-size: 18px;">{{ student.name }} ({{ student.title }}), </span>
-      {% else %}
-        <span class="fg-theme-2 ram-subtitle" style="font-size: 18px;">{{ student.name }} ({{ student.title }}) </span>
-      {% endif %}
-    {% endfor %}
-  </div>
-  <br/>
-  <p class="fg-theme-2" style="font-size: 18px;">Meet our full team <a href="https://randlab.engineering.ucsc.edu/team">here</a>. We are always interested in working with new students and collaborators. Go <a href="/prospective_students">here</a> for more information.</p>
-</div>
+  <p class="fg-theme-2" style="font-size: 18px;">
+I lead the <a href="https://randlab.engineering.ucsc.edu">Research on Attacks on Networks and Data Lab (RANDLab)</a> at UCSC. Current graduate student members of our group include: 
+{% for student in site.data.students %}
+  {% if student.key != "student1" %}
+    <span class="fg-theme-2 ram-subtitle" style="font-size: 18px;">{{ student.name }} ({{ student.title }}), </span>
+  {% else %}
+    <span class="fg-theme-2 ram-subtitle" style="font-size: 18px;">{{ student.name }} ({{ student.title }})</span>
+  {% endif %}
+{% endfor %}
+</p>
+
+<p class="fg-theme-2" style="font-size: 18px;">
+Meet our full team including our undergraduate members <a href="https://randlab.engineering.ucsc.edu/team">here</a>. We are always interested in working with new students and collaborators. Go <a href="/prospective_students">here</a> for more information.
+</p>
 </div>
 <!--End Group-->
 

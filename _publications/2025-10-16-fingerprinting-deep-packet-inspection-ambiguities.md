@@ -20,4 +20,5 @@ author = {Xue, Diwen and Huremagic, Armin and Wang, Wayne and Sundara Raman, Ram
 booktitle = {ACM SIGSAC Conference on Computer and Communications Security (CCS)},<br>
 year = {2025}
 }"
+tag: 🏅 IRTF Applied Networking Research Prize 2023 
 ---

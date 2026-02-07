@@ -1,6 +1,10 @@
 - key: news50
+  date: 16 January 2026
+  description: 'Diwen Xue has been awarded the IRTF Applied Networking Research Prize for our <a href="assets/fingerprinting_dpis.pdf">CCS 2025 paper on Fingerprinting DPI Devices</a<.'
+  home: 'true'
+- key: news50
   date: 01 June 2025
-  description: 'Extremely happy to welcome four new PhD students to RANDLAb: Linden Chen, Mohamed Moustafa Dawoud, Sabrina Reis, and Ramon Torres!'
+  description: 'Extremely happy to welcome new PhD students to RANDLAb: Linden Chen, Mohamed Moustafa Dawoud, and Ramon Torres!'
   home: 'true'
 - key: news49
   date: 01 June 2025
