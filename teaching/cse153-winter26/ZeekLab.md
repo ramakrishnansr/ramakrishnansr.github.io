@@ -71,17 +71,8 @@ This guide provides instructions for installing and configuring Zeek on an Ubunt
     ```
 
 **4. Configure Zeek**
-
-*   Create a configuration directory:
-    ```bash
-    sudo mkdir -p /usr/local/etc/zeek/ 
-    ```
-*   Copy the default configuration file:
-    ```bash
-    sudo cp local.conf /usr/local/etc/zeek/ 
-    ```
-*   **Edit `local.conf`:**
-    *   Ensure that the `http` and `ftp` sections in the `local.conf` file are uncommented. 
+*   **Edit `local.zeek` at `/usr/local/zeek/share/zeek/site/local.zeek` or `/opt/zeek/share/zeek/site/local.zeek`:**
+    *   Ensure that the `http` and `ftp` sections in the `local.zeek` file are uncommented. 
     *   You may need to adjust logging paths or other parameters based on your specific needs.
 
 **5. Start Zeek**
