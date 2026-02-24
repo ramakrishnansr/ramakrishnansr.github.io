@@ -107,7 +107,7 @@
         <div class="project-title" data-target="#project1">Lab 1: Hacking Your Neighbour</div>
         <div class="project-title" data-target="#project2">Lab 2: My Neighbor Totoro... is a Hacker!</div>
         <div class="project-title" data-target="#project3">Lab 3: Ghost in the Machine: Exploring Digital Privacy</div>
-        <div class="project-title2" data-target="#project4">Lab 4: Wait for it!</div>
+        <div class="project-title" data-target="#project4">Lab 4: The Digital Arms Race: Censorship vs. Circumvention</div>
         
         <div id="project1" class="project-section">
             <div class="project-intro">
@@ -149,7 +149,7 @@
                     <p>The Spy operates in the shadows, intercepting and manipulating communications without leaving a trace. Tonight, you'll learn to become the invisible intermediary, controlling the flow of information between unsuspecting targets.</p>
 				<ul>
 					<li>
-                        <a href="./Project1-P1.ipynb" download><strong>ARP Poison Routing (APR):</strong> (Mandatory - Jupyter Notebook available)</a> This is your bread and butter, initiates. Redirect traffic by poisoning the ARP cache, placing yourself squarely between the victim and their gateway.
+                        <a href="./Project1-P1.ipynb"><strong>ARP Poison Routing (APR):</strong> (Mandatory - Jupyter Notebook available)</a> This is your bread and butter, initiates. Redirect traffic by poisoning the ARP cache, placing yourself squarely between the victim and their gateway.
 					</li>
 					<li>
 						<strong>DHCP Spoofing:</strong> (Difficulty: 8) Take control of the network's address allocation. By impersonating the DHCP server, you can assign malicious IP addresses, DNS servers, and gateways to unsuspecting clients, effectively routing all their traffic through you.
@@ -165,7 +165,7 @@
                 <div id="part1-2" class="collapse">
                     <p>The Infiltrator moves unseen, a whisper in the digital wind. This part of the lab focuses on disguising your presence, making it nearly impossible to trace your actions back to their source. You must create a proxy tool to perform the attacks. This tools should act as a proxy, so you will send the requests to this tool and this will forward them doing the necessary changes</p>
 					<ul>
-					<li><a href="./Project1-P2.ipynb" download><strong>IP Spoofing (Mandatory, Jupyter Notebook provided):</strong></a> (Difficulty: 4) Forge the source IP address of your packets, making it appear as if they originated from a different machine. This can be used to bypass basic access controls or launch attacks that are difficult to trace.</li>
+					<li><a href="./Project1-P2.ipynb"><strong>IP Spoofing (Mandatory, Jupyter Notebook provided):</strong></a> (Difficulty: 4) Forge the source IP address of your packets, making it appear as if they originated from a different machine. This can be used to bypass basic access controls or launch attacks that are difficult to trace.</li>
 					<li><strong>MAC Spoofing:</strong> (Difficulty: 4) Change your network interface's MAC address, allowing you to impersonate other devices on the local network. This is often used in conjunction with IP spoofing to further mask your identity.</li>
 				</ul>
                 </div>
@@ -175,7 +175,7 @@
                 <div id="part1-3" class="collapse">
 				<p>The Disruptor unleashes chaos, overwhelming target systems with a torrent of digital attacks. Tonight, you'll learn to disrupt and disable networks, creating opportunities for other operations. He will always be backed up by hundreds of minions (Threads) to perform his actions (Yes, use MULTI-THREADING)</p>
 				<ul>
-			<li><a href="./Project1-P3.ipynb" download><strong>-ACK-Flooding:</strong> (Mandatory - Jupyter Notebook available)</a> This is your disruptor's first strike. Master this technique to disrupt TCP connections and deny service to targeted applications.</li>
+			<li><a href="./Project1-P3.ipynb"><strong>-ACK-Flooding:</strong> (Mandatory - Jupyter Notebook available)</a> This is your disruptor's first strike. Master this technique to disrupt TCP connections and deny service to targeted applications.</li>
 			<li><strong>SYN Flood (or other flooding attacks):</strong> (Difficulty: 7) Overwhelm the target server with SYN packets, exhausting its resources and preventing legitimate connections. This is a classic DoS technique that can cripple even well-defended systems.</li>
 			<li><strong>Smurf Attack:</strong> (Difficulty: 6) Amplify a ping flood by sending ICMP echo requests to a broadcast address with a spoofed source IP address. This causes a large number of hosts to respond to the target, overwhelming it with traffic.</li>
 			<li><strong>CAM Table Overflow:</strong> (Difficulty: 7) Flood a switch's Content Addressable Memory (CAM) table with fake MAC addresses, causing it to act as a hub and broadcast all traffic, making it vulnerable to sniffing attacks or simply denying the service.</li>
@@ -258,8 +258,8 @@
                 <div id="part2-4" class="collapse">
 			<h4></h4>
 		<ul>
-			<li><strong>Snort/Suricata (NIDS/NIPS) <a href="./Project2-Suricata.md" download>(Mandatory  - Lab available)</a></strong></li>
-			<li><strong>Prometheus (Monitoring) <a href="./Project2-Prometheus.md" download>(Mandatory - Lab available)</a></strong></li>
+			<li><strong>Snort/Suricata (NIDS/NIPS) <a href="./Project2-Suricata.md">(Mandatory  - Lab available)</a></strong></li>
+			<li><strong>Prometheus (Monitoring) <a href="./Project2-Prometheus.md">(Mandatory - Lab available)</a></strong></li>
             <li>Rate Limiting tools (e.g., <code>iptables</code>, <code>nftables</code>, web server modules) (You can use whatever tool you want, but if you are brave, go to <a href="https://github.com/jzdziarski/mod_evasive">mod_evasive</a>)</li>
 			<li>Arpwatch (APR detection tool)</li>
 			<li>OSSEC (HIDS)</li>
@@ -315,10 +315,10 @@
                     <ul>
                         <li><strong>Browser Fingerprinting:</strong> Analyze pcaps with http queries and tell what browser is generating it. This is called browser fingerprinting. To do this, you must analyze how different browsers query the same webpage and compare the uniqueness of the fingerprint with others. We provide some pcaps taken from different browsers. Obviously saying "because the User-Agent header says so" will have no value. Try to figure out other differences, use pcaps of your own browser (or tools) if needed (Mandatory - <a href="./browser-pcaps.zip">Pcaps available</a>)</li>
                         <li><strong>Device Fingerprinting:</strong> Analyze a device fingerprinting tool that collects information about the user's device based on pcap captures. You certainly can spot the differences between OS's by looking at the network stack, and even between different versions of the OS. Analyze the collected data to identify unique patterns that can be used to track the device across different networks. (Mandatory -  <a href="./browser-pcaps.zip">Pcaps available, same as the last ones</a>). </li>
-                        <li><strong>DNS and OpenVPN traffic analysis:</strong> Analyze the DNS queries and OpenVPN traffic to identify patterns that can be used for fingerprinting. This could involve looking at the DNS queries made by different devices or analyzing the OpenVPN handshake to extract unique identifiers. (Mandatory - <a href="./Project3-PacketAnalysis.ipynb" download>Jupyter Notebook available</a>, <a href="./dns-openvpn-pcaps.zip">Pcaps available</a>)</li>
+                        <li><strong>DNS and OpenVPN traffic analysis:</strong> Analyze the DNS queries and OpenVPN traffic to identify patterns that can be used for fingerprinting. This could involve looking at the DNS queries made by different devices or analyzing the OpenVPN handshake to extract unique identifiers. (Mandatory - <a href="./Project3-PacketAnalysis.ipynb">Jupyter Notebook available</a>, <a href="./dns-openvpn-pcaps.zip">Pcaps available</a>)</li>
                     </ul>
                     <p><strong>Bonus Points (Difficulty: 5):</strong>  Generate pcaps of different versions of the same OS and identify those versions using just network traffic (e.g: ubuntu 18 vs ubuntu 24). Give 2 different OS-version analysis (4 pcaps in total)</p>
-                    <p><strong>Bonus Points (Difficulty: 10)+:</strong> There's a huge bonus in traffic analysis lab (at the end of the Python notebook).</p>
+                    <p><strong>Bonus Points (Difficulty: 10)+:</strong> There's a huge bonus in traffic analysis lab (at the end of the Python notebook). You need to create more traffic on your own.</p>
                 </div>
             </div>
             <div class="project-part">
@@ -326,13 +326,122 @@
                 <div id="part3-3" class="collapse">
                     <p>The Cookie Master understands the hidden world of web tracking, controlling the flow of information between users and websites.</p>
                     <ul>
-                        <li><strong>Coding extensions for privacy:</strong> Develop a browser extension that provides advanced cookie management features, such as automatic cookie deletion, whitelisting, and the ability to view and modify cookie content in real-time. This could also include features to prevent other tracking techniques like local storage or canvas fingerprinting. (<a href="./ChromeExtensionACM.zip">Base code available</a>, tested under windows but should work with every OS)</li>
+                        <li><strong>Coding extensions for privacy:</strong> Develop a browser extension that provides advanced cookie management features. The functional requirements should include: Cookie deletion and the ability to view and modify cookie content in real-time. (<a href="./ChromeExtensionACM.zip">Base code available</a>, tested under Chrome/Windows but should work with every OS). This could also include features to prevent other tracking techniques like local storage, domain filtering, or canvas fingerprinting.</li>
                     </ul>
                     <p><strong>Bonus Points (Difficulty: 10):</strong> Work with the Spy and using an ARP spoofing attack, fetch the cookies from the traffic of a victim, save them on a file and make your browser extension replace your actual cookies with your victim cookies.</p>
                 </div>
             </div>
-            <div class="go-back">Go Back</div>
-        </div>
+            </div>
+            <div id="project4" class="project-section">
+                <div class="project-intro">
+                    <p>Welcome back. As you approach the culmination of your network security training, this final lab delves into
+                        the dynamic struggle between censorship and circumvention. You will explore the technical underpinnings of
+                        both, gain practical experience in building and breaking digital barriers, and examine the ethical
+                        implications of these technologies.</p>
+                    <h3>The Rules:</h3>
+                    <ul>
+                        <li>Do not talk about the hacking club. (No Copying! There's nothing on the internet for this)</li>
+                        <li>Get into your team (max 3), each of you will have a specific role:
+                            <ul>
+                                <li>The Censor (Censorship System Architect): This role is responsible for designing and
+                                    implementing a
+                                    censorship system capable of blocking access to specific content or services.</li>
+                                <li>The Shadow Operator (Tor-like Client Developer): This role focuses on building a client
+                                    application that can securely communicate through a multi-hop anonymity network, bypassing censorship.</li>
+                                <li>The Advocate (Tor-like Server Operator): This role is responsible for setting up and maintaining
+                                    a Tor-like server node, forwarding traffic and decrypting messages within the anonymity network.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>If you are missing a member for any reason, do tasks 2, 3 and 1 in this order. Tasks 2 and 3 should be
+                            build in coordination of 2 members</li>
+                        <li>Max 2 bonus implementations per group</li>
+                        <li>You will be delivering:
+                            <ul>
+                                <li>Description of your group!</li>
+                                <li>The code</li>
+                                <li>A short video demonstrating your defenses in action (e.g., showing how your tools detect or
+                                    prevent an attack).</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-part">
+                    <h4 class="btn-link" data-toggle="collapse" data-target="#part4-1">Part 1: Building a Censorship System (The
+                        Censor's Fortress)</h4>
+                    <div id="part4-1" class="collapse">
+                        <p>The Censor designs and implements a system to block access to specific content or services. This involves
+                            understanding different censorship techniques and implementing them effectively.</p>
+                        <ul>
+                            <li><strong>Objectives:</strong></li>
+                            <ul>
+                                <li>Implement a system to block access to specific websites or IP addresses.</li>
+                                <li>Implement a system to filter content based on keywords or patterns.</li>
+                                <li>Explore and implement techniques to block or disrupt VPN and proxy traffic.</li>
+                                <li>Design a logging and monitoring system to track censorship activity.</li>
+                            </ul>
+                        </ul>
+                        <ul>
+                            <li><strong>Recommended technology:</strong></li>
+                            <ul>
+                                <li>Open-source firewalls: Zeek/Suricata</li>
+                                <li>Custom scripts to monitor traffic</li>
+                                <li>Anything else that you think will work.</li>
+                            </ul>
+                        </ul>
+                        <p>Detailed lab instructions can be found <a
+                                href="./P4P1.md" target="_blank">here</a>.</p>
+                    </div>
+                </div>
+                <div class="project-part">
+                    <h4 class="btn-link" data-toggle="collapse" data-target="#part4-2">Part 2: Building a Tor-like Client (The Shadow Operator's Tool)</h4>
+                    <div id="part4-2" class="collapse">
+                        <p>The Shadow Operator develops a client application that can securely communicate through a multi-hop
+                            anonymity network, bypassing the Censor's restrictions.</p>
+                        <ul>
+                            <li><strong>Objectives:</strong></li>
+                            <ul>
+                                <li>Implement multi-layer encryption for outgoing traffic.</li>
+                                <li>Create a circuit through a network of Tor-like server nodes.</li>
+                                <li>Send a packet to the first node to go through the circuit.</li>
+                            </ul>
+                        </ul>
+                        <p><strong>Bonus Points (The Shadow Operator):</strong></p>
+                        <ul>
+                            <li>Implement a dynamic circuit building algorithm.</li>
+                            <li>Implement a method to handle directory services.</li>
+                        </ul>
+                        <p>Detailed lab instructions can be found <a
+                                href="./P4P2.ipynb" target="_blank">here</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-part">
+                    <h4 class="btn-link" data-toggle="collapse" data-target="#part4-3">Part 3: Building a Tor-like Server (The
+                        Advocate's Node)</h4>
+                    <div id="part4-3" class="collapse">
+                        <p>The Advocate sets up and maintains a Tor-like server node, contributing to the anonymity network and
+                            facilitating secure communication.</p>
+                        <ul>
+                            <li><strong>Objectives:</strong></li>
+                            <ul>
+                                <li>Implement a server that can receive and forward traffic.</li>
+                                <li>Implement a mechanism to decrypt each layer of the message.</li>
+                                <li>Forward the decrypted message to the next node in the circuit.</li>
+                                <li>Implement a mechanism to handle responses and forward them back along the circuit.</li>
+                            </ul>
+                        </ul>
+                        <p><strong>Bonus Points:</strong></p>
+                        <ul>
+                            <li>Implement a method to handle directory services in a private mode</li>
+                        </ul>
+                        <p>Detailed lab instructions can be found <a
+                                href="./P4P3.ipynb" target="_blank">here</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="go-back">Go Back</div>
+            </div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -361,3 +470,4 @@
             });
         });
     </script>
+    </div>
