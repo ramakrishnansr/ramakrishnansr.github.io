@@ -21,4 +21,5 @@ booktitle = {Workshop on Measurements, Attacks, and Defenses for the Web (MADWeb
 year = {2026},<br>
 doi = {10.14722/madweb.2026.23030}
 }"
+tag: 🏅 Distinguished Paper Award
 ---

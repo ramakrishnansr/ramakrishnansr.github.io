@@ -1,23 +1,27 @@
-- key: news50
+- key: news53
+  date: 27 February 2026
+  description: 'Our paper on understanding malicious and benign use of new top-level domain generations won the Best Paper award at MADWeb 2026!'
+  home: 'true'
+- key: news52
+  date: 23 February 2026
+  description: 'Read the new <a href="https://randlab.engineering.ucsc.edu/blogs/ai-generated-nsfw-services-are-entering-mainstream-marketplaces/">blogpost</a> from my student Mohamed about AI generated NSFW services being available in NSFW marketplaces.'
+  home: 'true'
+- key: news51
   date: 16 January 2026
-  description: 'Diwen Xue has been awarded the IRTF Applied Networking Research Prize for our <a href="assets/fingerprinting_dpis.pdf">CCS 2025 paper on Fingerprinting DPI Devices</a<.'
+  description: 'Diwen Xue has been awarded the IRTF Applied Networking Research Prize for our <a href="assets/fingerprinting_dpis.pdf">CCS 2025 paper on Fingerprinting DPI Devices</a>.'
   home: 'true'
 - key: news50
   date: 01 June 2025
   description: 'Extremely happy to welcome new PhD students to RANDLAb: Linden Chen, Mohamed Moustafa Dawoud, and Ramon Torres!'
-  home: 'true'
 - key: news49
   date: 01 June 2025
   description: 'My undergraduate students Sriya Katreddi and Prassidh Pooskur win the <a href="https://engineering.ucsc.edu/news/2025-deans-awards/" target="_blank">Deans Award</a> for their outstanding research with RANDLAb.'
-  home: 'true'
 - key: news48
   date: 01 February 2025
   description: 'My Masters student Rohit Nagubandi has been awarded the <a href="https://seekcommons.org/fellows.html" target="_blank">SEEKCommons award</a> to work with the Tor Project on improving sustainability in the Tor Network.'
-  home: 'true'
 - key: news47
   date: 13 August 2024
   description: 'Our <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/ablove" target="_blank">paper on the effect of US Sanctions on Cuban Internet</a> won the USENIX Security 2024 Distinguished Paper Award!'
-  home: 'true'
 - key: news46
   date: 15 July 2024
   description: 'Our <a href="assets/russia-ukraine-invasion.pdf">paper</a> on the network changes following the Russia-Ukraine conflict won the <a href="https://foci.community/awards.html">FOCI 2024 Best Practical Award</a>'

@@ -11,9 +11,12 @@
 
 # Masters Students
 - key: student100
-  name: Rohit Nagubandi
+  name: Mahyar Vahabi
   title: Masters Student
-- key: student1
+- key: student101
+  name: Pakhi Sinha
+  title: Masters Student
+- key: student102
   name: Kevin Tai
   title: Masters Student
 
