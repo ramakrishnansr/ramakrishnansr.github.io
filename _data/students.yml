@@ -8,17 +8,19 @@
 - key: student12
   name: Ramon Torres
   title: PhD Student
-
+- key: student13
+  name: Kevin Wang
+  title: Researcher
 # Masters Students
-- key: student100
-  name: Mahyar Vahabi
-  title: Masters Student
-- key: student101
-  name: Pakhi Sinha
-  title: Masters Student
-- key: student102
-  name: Kevin Tai
-  title: Masters Student
+# - key: student100
+#   name: Mahyar Vahabi
+#   title: Masters Student
+# - key: student101
+#   name: Pakhi Sinha
+#   title: Masters Student
+# - key: student102
+#   name: Kevin Tai
+#   title: Masters Student
 
 # # Undergraduate Students
 # - key: student1001

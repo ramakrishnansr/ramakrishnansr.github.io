@@ -1,3 +1,6 @@
+- key: award16
+  date: 10 July 2026
+  award: 'FOCI 2026 Best Practical Award'
 - key: award15
   date: 27 February 2026
   award: '<a href="https://www.linkedin.com/feed/update/urn:li:activity:7433413847878922240/" target="_blank">MADWeb 2026 Distinguished Paper Award</a>'
@@ -17,7 +20,6 @@
 - key: award11
   date: 17 March 2023
   award: '<a href="https://cse.engin.umich.edu/stories/ram-sundara-raman-earns-rackham-predoctoral-fellowship">Rackham Predoctoral Fellowship 2023</a>'
-  display: 'true'  
 - key: award10
   date: 16 January 2023
   award: '<a href="https://culture.engin.umich.edu/2023-nominees-recipients/">North Campus Deans’ MLK Spirit Awards 2023</a>'

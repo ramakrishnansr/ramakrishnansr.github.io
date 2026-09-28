@@ -1,3 +1,8 @@
+- key: talk10                                                                                                                                                                 
+  date: September 2026
+  topic: Tech & Democracy Panel
+  venue: 'Hispanic Federation'
+  display: 'true'
 - key: talk9                                                                                                                                                                 
   date: October 2023
   topic: Advancing the Art of Internet Censorship Detection
@@ -17,7 +22,6 @@
   topic: '<a href="https://www.rightscon.org/program/" target="_blank">Exploring Internet censorship with the Censored Planet Dashboard</a>'
   venue: '<a href="https://www.rightscon.org/program/">RightsCon 2022</a>'
   link: 'https://youtu.be/j1sLWAm0nMA'
-  display: 'true'
 - key: talk4                                                                                                                                                                     
   date: 25 March 2022
   topic: '<a href="https://midas.umich.edu/2022-d4pg/research-talks/" target="_blank">Censored Planet: An Internet-wide, Longitudinal Censorship Observatory</a>'
